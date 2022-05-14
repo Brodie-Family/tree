@@ -45,8 +45,8 @@ roots:
 # spouse:
 #   name: David Kulp
 # children:
-#   - {name: Lily Kulp}
-#   - {name: Bean Kulp}
+#   - {name: Lily Kulp, birth: 2003}
+#   - {name: Bean Kulp, birth: 2005}
 #   "
             children:
               - {name: Bella Greenbacher, birth: 2002}

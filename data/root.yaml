@@ -6,7 +6,34 @@ roots:
       - name: Goda Katznelson
         birth: 1875
         death: 1968
-        children: []
+        children:
+          - name: Reva Kagan
+            birth: 1911
+            death: 2000
+            children:
+              - name: Nathan Kagan
+                birth: 1947
+                spouse: {name: Anna, birth: 1954}
+                children:
+                  - name: Inna Kagan
+                    birth: 1978
+                    spouse: {name: Don Pankuch, birth: 1970}
+
+                    children:
+                      - {name: Sasha Pankuch, birth: 2007}
+                      - {name: Ari Pankuch, birth: 2009}
+                  - name: Isaac Kagan
+                    birth: 1982
+                    spouse: {name: Shari Barcebal, birth: 1985}
+
+                    children:
+                      - {name: Abigail Kagan, birth: 2021}
+                  - name: Rachel Kagan
+                    birth: 1982
+                    spouse: {name: Darren Morrisey, birth: 1990}
+
+                    children:
+                      - {name: Riva Morrisey, birth: 2020}
       - name: Bessie Katznelson
         birth: 1887
         death: 1968
@@ -17,6 +44,55 @@ roots:
         birth: 1893
         death: 1991
         spouse: {name: Louis Sherman, birth: 1898, death:1976}
-        children: []
+        children:
+          - name: Vernon Sherman
+            birth: 1923
+            death: 1994
+            spouse: {name: Rochelle Sherman, death: 1987}
+            note: "Figure out how to add Marshe and kid Jennifer"
+            children:
+              - name: Andy Sherman
+                birth: 1953
+                spouse: {name: Joanne Palmer, birth: 1954}
+                children:
+                  - name: Shira
+                    birth: 1980
+                    death: 2000
+                  - name: Miriam
+                    birth: 1983
+                    spouse: {name: David}
+              - name: Gary Sherman
+                birth: 1949
+                spouse: {name: Jean, birth: 1947, status: divorced}
+                children:
+                  - name: Isiah Sherman
+                    birth: 1981
+                    spouse: {name: Jen Miracle}
+                  - name: Matthew Sherman
+                    birth: 1983
+                    spouse: {name: Shona Ramchandani}
+          - name: Norton (Corky) Sherman
+            birth: 1928
+            death: 1963
+            spouse: {name: Beryl Sherman}
+            children:
+            - name: Sherry Sherman
+              birth: 1953
+              spouse: {name: Gary Cunial, birth: 1937}
+              children:
+                - name: Alyssa
+                  birth: 1986
+                  spouse: {name: Andrew Perew, birth: 1953}
+            - name: Sandy Sherman
+              birth: 1957
+              spouse: {name: Allison Noel, birth: 1937}
+            - name: Ricky Sherman
+              birth: 1957
+              death: 2005
+              spouse: {name: Diana}
+              children:
+                - {name: Ryan Sherman, birth: 1993}
+                - {name: Kelsey Sherman, birth: 1994}
+
       - name: Esther Katznelson
         notes: "Married at 13, won't include children"

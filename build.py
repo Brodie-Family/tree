@@ -3,6 +3,8 @@ from pathlib import Path
 import graphviz
 from ruamel.yaml import YAML
 
+people_count = 0
+
 
 def titleize(string):
     return string.lower().replace(" ", "_")
@@ -31,14 +33,18 @@ def node_format(person, main=False):
         if dates
         else ""
     )
+    divorce_format = "(d)" if person.get("status") == "divorced" else ""
     port_format = "PORT='MAIN'" if main else ""
-    return f"<TABLE border='0'><TR><TD {port_format}>{person['name']}</TD></TR>{dates_format}</TABLE>"
+    return f"<TABLE border='0'><TR><TD {port_format}>{person['name']} {divorce_format}</TD></TR>{dates_format}</TABLE>"
 
 
 def add_person(dot, person):
+    global people_count
+    people_count += 1
     node_id = titleize(person["name"])
 
     if "spouse" in person:
+        people_count += 1
         spouse = person["spouse"]
         spouse_id = titleize(spouse["name"])
 
@@ -78,6 +84,7 @@ def main():
     data = load_data()
     graph = build_graph(data)
     graph.render("doctest-output/round-table.gv", view=True)
+    print(f"There are {people_count} people")
 
 
 if __name__ == "__main__":
