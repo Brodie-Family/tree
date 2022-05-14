@@ -26,12 +26,10 @@ def node_format(person, main=False):
     dates = person.get("birth")
 
     if "death" in person:
-        dates = "{person.get('birth')}-{person['death']}"
+        dates = f"{person.get('birth')}-{person['death']}"
 
     dates_format = (
-        f"<TR><TD><FONT POINT-SIZE='10.0'>{person.get('birth')}</FONT></TD></TR>"
-        if dates
-        else ""
+        f"<TR><TD><FONT POINT-SIZE='10.0'>{dates}</FONT></TD></TR>" if dates else ""
     )
     divorce_format = "(d)" if person.get("status") == "divorced" else ""
     port_format = "PORT='MAIN'" if main else ""
