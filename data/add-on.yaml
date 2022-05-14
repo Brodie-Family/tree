@@ -1,0 +1,11 @@
+roots:
+  - name: Isaac Brody
+    birth: 1877
+    note: "Ben Brody is the broth, connect it somehow"
+    children:
+      - name: Nanette Brody Packer
+        birth: 1917
+        children:
+          - name: Arlene Brennan
+            nee: Arlene Packer
+            spouse: {name: Michael Brennan, birth: 1937}

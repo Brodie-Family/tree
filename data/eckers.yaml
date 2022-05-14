@@ -1,0 +1,75 @@
+roots:
+  - name: Esther Brody
+    nee: Esther Ecker
+    birth: 1919
+    death: 1989
+    parent: benjamin_brody_marries_bessie_katznelson
+    spouse: {name: Bernard Ecker, birth: 1918, death: 2013}
+    children:
+      - name: Beverly Ecker
+        birth: 1942
+        spouse: {name: Myron Shapiro, birth: 1941}
+      - name: Marilee Cole
+        nee: Marilee Ecker
+        birth: 1944
+        spouse: {name: Matthew Cole, birth: 1944}
+        children:
+          - name: Barrie Cole
+            birth: 1968
+            spouse: {name: Dan Whitaker, status: divorced}
+            children:
+              - {name: Ruben Whitaker, birth: 2002}
+              - {name: Sita Whitaker, birth: 2004}
+          - name: Wendy Cole
+            birth: 1970
+            spouse: {name: Damon Gorton, status: divorced}
+            note: "Want to have David Tockman 1968, spouse"
+            children:
+              - {name: Orla Cole-Gorton, birth: 1999}
+              - {name: August Cole-Gorton, birth: 2004}
+          - name: Dara Cole
+            birth: 1974
+            children:
+              - {name: Xena Cole-Nelson, birth: 2007}
+              - {name: Rumi Cole-Deanes, birth: 2015}
+      - name: Suzanne Greenwald
+        nee: Suzanne Eckers
+        birth: 1949
+        spouse: {name: Louis Greenwald, birth: 1944}
+        children:
+          - name: Alisa Greenbacher
+            nee: Alisa Greenwald
+            birth: 1971
+            spouse: { name: Darius Greenbacher, status: divorced}
+            note: "Figure out how to handle David
+# spouse:
+#   name: David Kulp
+# children:
+#   - {name: Lily Kulp, birth: 2003}
+#   - {name: Bean Kulp, birth: 2005}
+#   "
+            children:
+              - {name: Bella Greenbacher, birth: 2002}
+              - {name: Annika Greenbacher, birth: 2007}
+          - name: Jerome Greenwald
+            birth: 1974
+            spouse: { name: Beth Gravilla, birth: 1979}
+            children:
+              - {name: Elston Greenwald, birth: 2014}
+              - {name: June Greenwald, birth: 2017}
+      - name: Diann Markovic
+        birth: 1950
+        spouse: {name: Wally Markovic, birth: 1948}
+        note: "How do we handle foster child"
+        children:
+          - {name: Ken Markovic, birth: 1980}
+          - {name: Lauren Markovic, birth: 1982}
+      - name: Herbert Ecker
+        birth: 1955
+        death: 2002
+      - name: Amy Ecker
+        birth: 1968
+        spouse: {name: Clinton Pross, birth: 1965}
+        children:
+          - {name: Parker Pross, birth: 1999}
+          - {name: Josephine Pross, birth: 2001}

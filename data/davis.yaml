@@ -1,0 +1,115 @@
+roots:
+  - name: Sylvia Davis
+    nee: Sylvia Brody
+    birth: 1911
+    death: 1990
+    parent: benjamin_brody_marries_bessie_katznelson
+    spouse: {name: Morris Davis, birth: 1910, death: 2005}
+    children:
+      - name: Charlotte Seloff
+        nee: Charlotte Davis
+        birth: 1934
+        spouse: {name: Leonard Seloff, birth: 1931, death: 2012}
+        children:
+          - name: Sharon
+            nee: Sharon Seloff
+            birth: 1955
+            spouse: {name: Gadi Gal, status: divorced}
+            notes: "figure out how to get Moises Paz, current spouse with kids
+              David Paz - 1980
+              Dani Levinson 1985
+              Aliza Paz 1987
+              "
+            children:
+              - name: Raanon Gal
+                birth: 1976
+                spouse: {name: Erica Bodziner, birth: 1980}
+                children:
+                  - {name: Judah Gal, birth: 2008}
+                  - {name: Maayan Gal, birth: 2010}
+                  - {name: Leora Gal, birth: 2013}
+                  - {name: Adena Gal, birth: 2015}
+              - name: Sivan Krupnick
+                nee: Sivan Gal
+                birth: 1979
+                spouse: {name: Yehoshua Krupnick}
+                children:
+                  - {name: Moshe Tovia Krupnick, birth: 2005}
+                  - {name: Tehillah Krupnick, birth: 2007}
+                  - {name: Rena Krupnick, birth: 2009}
+                  - {name: Liba Krupnick, birth: 2016}
+                  - {name: Levi Krupnick, birth: 2020}
+              - name: Tamar Gal
+                birth: 1981
+                spouse: {name: Daniel Hyman, birth: 1978}
+                children:
+                  - {name: Meir Hyman, birth: 2010}
+                  - {name: Naftali Hyman, birth: 2012}
+                  - {name: Avigayil Hyman, birth: 2014}
+                  - {name: Shlomo Hyman, birth: 2017}
+          - name: Eileen Seloff
+            birth: 1957
+          - name: Herbert Seloff
+            birth: 1961
+            spouse: { name: Dianne Seloff, birth: 1962 }
+            children:
+              - { name: Jacob Seloff, birth: 1995 }
+              - { name: Jeremy Seloff, birth: 1997 }
+      - name: Barrie Davis
+        birth: 1937
+        spouse: {name: Alden Kirshner, birth: 1937}
+        children:
+          - name: Art Kirshner
+            birth: 1957
+            spouse: {name: Annette Stern}
+            children:
+              - name: Erica Kirshner
+                birth: 1990
+                spouse: {name: Peter Debenedictus, birth: 1990}
+                children:
+                  - {name: Maya Debenedictus, birth: 2019}
+              - name: Sara Jo Kirshner
+                spouse: {name: Stephen Helba, birth: 1986}
+                children:
+                  - {name: Tia Helba, birth: 2019}
+                  - {name: Tali Helba, birth: 2022}
+          - name: Neil Kirshner
+            birth: 1963
+            children:
+              - name: Leah Kirshner Creighton
+                nee: Leah Kirshner
+                birth: 1990
+                spouse: {name: Daniel Creighton, birth: 1990}
+                children:
+                  - {name: Brody Blum, birth: 2016}
+                  - {name: Violet Creighton, birth: 2020}
+          - name: Mike Kirshner
+            spouse: {name: Bari Bettan, birth: 1968}
+            children:
+              - {name: Marin Kirshner, birth: 2000}
+              - {name: Carson Kirshner, birth: 2003}
+      - name: Ellen Dansky
+        nee: Ellen Davis
+        spouse: {name: Steve Dansky, death: 2018}
+        children:
+          - name: Liza Dansky
+            spouse: {name: Lori Star, birth: 1987}
+            children:
+              - {name: Simon Star, birth: 2018}
+              - {name: Lev Star, birth: 2018}
+          - name: Max Dansky
+      - name: Ned Davis
+        birth: 1945
+        spouse: {name: Heather Davis, status: divorced}
+        children:
+          - name: Brody Davis
+            spouse: {name: Caroline Davis, birth: 1987}
+            children:
+              - {name: Russel Davis, birth: 2017}
+              - {name: Lyle Davis, birth: 2020}
+          - name: Evan Davis
+            spouse: {name: Ben Morgan, birth: 1982}
+            children:
+              - { name: Elise Morgan, birth: 2013}
+              - { name: Graham Morgan, birth: 2015}
+              - { name: Cora Morgan, birth: 2018}
