@@ -6,7 +6,8 @@ roots:
     spouse: {name: Marsha Brody, birth: 1934}
     children:
       - name: Benjamin Brody
-        spouse: {name: Donalda, birth: 1979}
+        birth: 1957
+        spouse: {name: Donalda, status: divorced}
         children:
           - {name: Louis Brody, birth: 1979}
       - name: Steven Brody
@@ -21,7 +22,7 @@ roots:
         children:
           - {name: Yair Elovic, birth: 1993}
           - {name: Nurit Elovic, birth: 1995}
-          - {name: Shina Elovic, birth: 1997}
+          - {name: Shira Elovic, birth: 1997}
           - {name: Orli Elovic, birth: 2000}
       - name: Stuart Brody
         birth: 1965

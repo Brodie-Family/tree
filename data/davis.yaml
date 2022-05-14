@@ -7,10 +7,12 @@ roots:
     spouse: {name: Morris Davis, birth: 1910, death: 2005}
     children:
       - name: Charlotte Seloff
+        nee: Charlotte Davis
         birth: 1934
         spouse: {name: Leonard Seloff, birth: 1931, death: 2012}
         children:
-          - name: Sharon Davis
+          - name: Sharon
+            nee: Sharon Seloff
             birth: 1955
             spouse: {name: Gadi Gal, status: divorced}
             children:

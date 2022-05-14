@@ -12,7 +12,11 @@ def load_data():
     yaml = YAML(typ="safe")
     roots = []
     for path in Path("data").glob("*.yaml"):
-        roots.extend(yaml.load(open(path))["roots"])
+        try:
+            roots.extend(yaml.load(open(path))["roots"])
+        except:
+            print("Ran into issue parsing", path)
+            raise
     return roots
 
 
