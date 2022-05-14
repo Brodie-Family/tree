@@ -1,0 +1,23 @@
+roots:
+  - name: Carolyn
+    birth: 1939
+    spouse: {name: Larry Levine, birth: 1936}
+    children:
+      - name: Janet Levine
+        birth: 1963
+        children:
+         - {name: Sammy Levine, birth: 1990}
+         - {name: Marissa Levine}
+         - {name: Koven Levine}
+         - {name: Tsipora Levine, birth: 1994}
+      - name: Mark
+        birth: 1966
+  - name: Bernie
+    birth: 1946
+    spouse: {name: Terry Katz, birth: 1936}
+    children:
+      - {name: Jodie}
+      - {name: Louisa Elke Glynn}
+      - {name: Howard}
+      - {name: Tali, birth: 1987}
+      - {name: Noah, birth: 1990}

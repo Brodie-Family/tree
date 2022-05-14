@@ -1,0 +1,64 @@
+roots:
+  - name: Sylvia Davis
+    nee: Sylvia Brody
+    birth: 1911
+    death: 1990
+    parent: benjamin_brody_marries_bessie_katznelson
+    spouse: {name: Morris Davis, birth: 1910, death: 2005}
+    children:
+      - name: Charlotte Seloff
+        birth: 1934
+        spouse: {name: Leonard Seloff, birth: 1931, death: 2012}
+        children:
+          - name: Sharon Davis
+            birth: 1955
+            spouse: {name: Gadi Gal, status: divorced}
+            children:
+              - name: Raanon Gal
+                spouse: {name: Erica Bodziner, birth: 1980}
+                children:
+                  - {name: Judah Gal, birth: 2008}
+                  - {name: Maayah Gal, birth: 2010}
+                  - {name: Leora Gal, birth: 2013}
+                  - {name: Adena Gal, birth: 2015}
+              - name: Sivan Gal
+                spouse: {name: Yehoshua Krupnick}
+                children:
+                  - {name: Moshe Tovia, birth: 2008}
+                  - {name: Tehillah Krupnick, birth: 2010}
+                  - {name: Rena Krupnick, birth: 2009}
+                  - {name: Liba Krupnick, birth: 2016}
+                  - {name: Levi Krupnick, birth: 2020}
+              - name: Tamar Gal
+                spouse: {name: Daniel Hyman, birth: 1978}
+                children:
+                  - {name: Meir Hyman, birth: 2010}
+                  - {name: Naftali Hyman, birth: 2012}
+                  - {name: Avigayil Hyman, birth: 2014}
+                  - {name: Shlomo Hyman, birth: 2017}
+      - name: Barrie Davis
+        birth: 1937
+        spouse: {name: Alden, birth: 1937}
+        children:
+          - name: Art
+            birth: 1957
+            spouse: {name: Annette Stern}
+            children:
+              - name: Erica
+                birth: 1990
+                spouse: {name: Peter Benedictos}
+                children:
+                  - {name: Maya Benedictos, birth: 2019}
+              - name: Sara Jo
+                spouse: {name: StephenHelba}
+                children:
+                  - {name: Tia Helba, birth: 2019}
+                  - {name: Tali Helba, birth: 2022}
+          - name: Neil
+            birth: 1963
+            spouse: {name: Annette Stern}
+          - name: Mike
+            spouse: {name: Bari Bettan, birth: 1968}
+            children:
+              - {name: Maria, birth: 2000}
+              - {name: Carson, birth: 2003}

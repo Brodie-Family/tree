@@ -1,0 +1,4 @@
+roots:
+  - name: Benjamin Brody
+    birth: 1883
+    spouse: {name: Bessie Katznelson, birth: 1886}

@@ -1,0 +1,31 @@
+roots:
+  - name: Merton Brody
+    birth: 1927
+    death: 2010
+    parent: benjamin_brody_marries_bessie_katznelson
+    spouse: {name: Marsha Brody, birth: 1934}
+    children:
+      - name: Benjamin Brody
+        spouse: {name: Donalda, birth: 1979}
+        children:
+          - {name: Louis Brody, birth: 1979}
+      - name: Steven Brody
+        birth: 1959
+        spouse: {name: Nina Taylor, birth: 1966}
+        children:
+          - {name: Jack Brody, birth: 2009}
+      - name: Anne Elovic
+        nee: Anne Brody
+        birth: 1962
+        spouse: {name: David Elovic, birth: 1963}
+        children:
+          - {name: Yair Elovic, birth: 1993}
+          - {name: Nurit Elovic, birth: 1995}
+          - {name: Shina Elovic, birth: 1997}
+          - {name: Orli Elovic, birth: 2000}
+      - name: Stuart Brody
+        birth: 1965
+        spouse: {name: Amanda Norcross, birth: 1972}
+        children:
+          - {name: Jon Brody, birth: 2006}
+          - {name: Rose Brody, birth: 2008}
