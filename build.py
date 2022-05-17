@@ -27,6 +27,7 @@ def build_graph(data):
         node_attr={"shape": "plaintext"},
         comment="Brody Family Tree",
     )
+    dot.attr(nodesep="0.02")
 
     for person in data:
         add_person(dot, person)

@@ -3,7 +3,7 @@ roots:
     nee: Evelyn Brody
     birth: 1914
     death: 1995
-    parent: bessie_katznelson_marries_benjamin_brody
+    parent: bessie_katznelson_marries_benjamin_brody:s
     spouse: {name: Leo Rosenblum, birth: 1906, death: 1985}
     children:
       - name: Benita Kaimowitz

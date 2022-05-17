@@ -9,6 +9,7 @@ class PersonRender:
         below=None,
         birth=None,
         children=None,
+        collapse_children=True,
         death=None,
         is_main=True,
         nee=None,
@@ -23,6 +24,7 @@ class PersonRender:
         self.below = below
         self.birth = birth
         self.children = children or []
+        self.collapse_children = collapse_children
         self.death = death
         self.is_main = is_main
         self.note = note
@@ -33,10 +35,14 @@ class PersonRender:
 
     @property
     def can_collapse_children(self):
-        return self.children and not any(c.get("children") for c in self.children)
+        return (
+            self.children
+            and self.collapse_children
+            and not any(c.get("children") for c in self.children)
+        )
 
     @property
-    def downward_link_id(self):
+    def link_id(self):
         return (
             f"{self.node_id}_marries_{self.spouse.node_id}"
             if self.spouse
@@ -44,8 +50,12 @@ class PersonRender:
         )
 
     @property
+    def downward_link_id(self):
+        return f"{self.link_id}:s"
+
+    @property
     def upward_link_id(self):
-        return f"{self.downward_link_id}:main:n" if self.spouse else self.node_id
+        return f"{self.link_id}:main:n" if self.spouse else self.node_id
 
     @property
     def is_divorced(self):
@@ -68,12 +78,12 @@ class PersonRender:
             dot.edge(self.parent, self.upward_link_id)
 
         if self.below:
-            dot.edge(self.below, self.downward_link_id, style="invis")
+            dot.edge(self.below, self.upward_link_id, style="invis")
 
         if self.sibling:
             dot.edge(
                 self.sibling,
-                self.downward_link_id,
+                self.link_id,
                 rank="same",
                 style="dotted",
                 constraint="false",
@@ -81,15 +91,15 @@ class PersonRender:
             )
 
         if self.spouse:
-            dot.node(self.downward_link_id, self.render_marriage())
+            dot.node(self.link_id, self.render_marriage())
 
         else:
-            dot.node(self.downward_link_id, f"<{self.render_individual()}>")
+            dot.node(self.link_id, f"<{self.render_individual()}>")
 
     def attach_collapsed_children(self, dot):
-        children_id = f"{self.downward_link_id}_children"
+        children_id = f"{self.link_id}_children"
         dot.node(children_id, self.render_children())
-        dot.edge(self.downward_link_id, children_id)
+        dot.edge(self.link_id, children_id)
 
     def render_marriage(self):
         return f"""<
