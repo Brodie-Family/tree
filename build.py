@@ -1,25 +1,12 @@
-from pathlib import Path
-
 import graphviz
-from ruamel.yaml import YAML
+
+from data import load_data
 
 people_count = 0
 
 
 def titleize(string):
     return string.lower().replace(" ", "_")
-
-
-def load_data():
-    yaml = YAML(typ="safe")
-    roots = []
-    for path in Path("data").glob("*.yaml"):
-        try:
-            roots.extend(yaml.load(open(path))["roots"])
-        except:
-            print("Ran into issue parsing", path)
-            raise
-    return roots
 
 
 def node_format(person, main=False):
@@ -69,7 +56,9 @@ def add_person(dot, person):
 
 def build_graph(data):
     dot = graphviz.Digraph(
-        "structs", node_attr={"shape": "record"}, comment="Brody Family Tree"
+        "structs",
+        node_attr={"shape": "record"},
+        comment="Brody Family Tree",
     )
 
     for person in data:
@@ -81,7 +70,7 @@ def build_graph(data):
 def main():
     data = load_data()
     graph = build_graph(data)
-    graph.render("doctest-output/round-table.gv", view=True)
+    graph.render("doctest-output/tree.gv", view=True)
     print(f"There are {people_count} people")
 
 
