@@ -8,12 +8,15 @@ people_count = 0
 
 def add_person(dot, person):
     global people_count
-    people_count += 1
     person = PersonRender(**person)
     person.attach(dot)
-    for child in person.children:
-        child_id = add_person(dot, child)
-        dot.edge(person.downward_link_id, child_id)
+    people_count += person.person_count
+    if person.can_collapse_children:
+        person.attach_collapsed_children(dot)
+    else:
+        for child in person.children:
+            child_id = add_person(dot, child)
+            dot.edge(person.downward_link_id, child_id)
 
     return person.downward_link_id
 
