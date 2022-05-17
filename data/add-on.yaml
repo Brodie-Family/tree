@@ -2,6 +2,8 @@ roots:
   - name: Isaac Brody
     birth: 1877
     note: "Ben Brody is the broth, connect it somehow"
+    sibling: bessie_katznelson_marries_benjamin_brody:spouse
+    below: solomon_katznelson
     children:
       - name: Nanette Brody Packer
         birth: 1917

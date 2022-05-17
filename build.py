@@ -18,13 +18,13 @@ def add_person(dot, person):
             child_id = add_person(dot, child)
             dot.edge(person.downward_link_id, child_id)
 
-    return person.downward_link_id
+    return person.upward_link_id
 
 
 def build_graph(data):
     dot = graphviz.Digraph(
         "structs",
-        node_attr={"shape": "record"},
+        node_attr={"shape": "plaintext"},
         comment="Brody Family Tree",
     )
 

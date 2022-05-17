@@ -6,6 +6,7 @@ class PersonRender:
     def __init__(
         self,
         name,
+        below=None,
         birth=None,
         children=None,
         death=None,
@@ -13,17 +14,20 @@ class PersonRender:
         nee=None,
         note=None,
         parent=None,
+        sibling=None,
         spouse=None,
         status=None,
     ):
         self.name = name
 
+        self.below = below
         self.birth = birth
         self.children = children or []
         self.death = death
         self.is_main = is_main
         self.note = note
         self.parent = parent
+        self.sibling = sibling
         self.spouse = PersonRender(**spouse, is_main=False) if spouse else None
         self.status = status
 
@@ -38,6 +42,10 @@ class PersonRender:
             if self.spouse
             else self.node_id
         )
+
+    @property
+    def upward_link_id(self):
+        return f"{self.downward_link_id}:main:n" if self.spouse else self.node_id
 
     @property
     def is_divorced(self):
@@ -57,7 +65,20 @@ class PersonRender:
 
     def attach(self, dot):
         if self.parent:
-            dot.edge(self.parent, self.downward_link_id)
+            dot.edge(self.parent, self.upward_link_id)
+
+        if self.below:
+            dot.edge(self.below, self.downward_link_id, style="invis")
+
+        if self.sibling:
+            dot.edge(
+                self.sibling,
+                self.downward_link_id,
+                rank="same",
+                style="dotted",
+                constraint="false",
+                dir="none",
+            )
 
         if self.spouse:
             dot.node(self.downward_link_id, self.render_marriage())
@@ -71,7 +92,14 @@ class PersonRender:
         dot.edge(self.downward_link_id, children_id)
 
     def render_marriage(self):
-        return f"<<TABLE border='0'><TR><TD>{self.render_individual()}</TD><TD>{self.spouse.render_individual()}</TD></TR></TABLE>>"
+        return f"""<
+          <TABLE BORDER='0' CELLBORDER='0'>
+            <TR>
+                <TD>{self.render_individual()}</TD>
+                <TD>{self.spouse.render_individual()}</TD>
+            </TR>
+          </TABLE>
+        >"""
 
     def render_individual(self):
         dates = (
@@ -82,8 +110,8 @@ class PersonRender:
             f"<TR><TD><FONT POINT-SIZE='10.0'>{dates}</FONT></TD></TR>" if dates else ""
         )
         divorce_format = "(d)" if self.is_divorced else ""
-        port_format = "PORT='MAIN'" if self.is_main else ""
-        return f"<TABLE border='0'><TR><TD {port_format}>{self.name} {divorce_format}</TD></TR>{dates_format}</TABLE>"
+        port_format = "PORT='main'" if self.is_main else "PORT='spouse'"
+        return f"<TABLE CELLBORDER='0'><TR><TD {port_format}>{self.name} {divorce_format}</TD></TR>{dates_format}</TABLE>"
 
     def render_children(self):
         people_the_children = [PersonRender(**child) for child in self.children]
