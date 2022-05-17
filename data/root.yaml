@@ -12,7 +12,7 @@ roots:
         nee: Lena Katznelson
         birth: 1893
         death: 1991
-        spouse: {name: Louis Sherman, birth: 1898, death:1976}
+        spouse: {name: Louis Sherman, birth: 1898, death: 1976}
         children:
           - name: Vernon Sherman
             birth: 1923
@@ -64,4 +64,4 @@ roots:
                 - {name: Kelsey Sherman, birth: 1994}
 
       - name: Esther Katznelson
-        notes: "Married at 13, won't include children"
+        note: "Married at 13, won't include children"

@@ -9,7 +9,7 @@ roots:
       - name: Benita Kaimowitz
         nee: Benita Rosenblum
         birth: 1935
-        notes: "Figure out Gabe"
+        note: "Figure out Gabe"
         # spouse Gabe Kaimowitz
         spouse: {name: Ed Vandenberg, birth: 1924, death: 2020}
         children:
