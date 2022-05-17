@@ -3,7 +3,7 @@ roots:
     nee: Sylvia Brody
     birth: 1911
     death: 1990
-    parent: benjamin_brody_marries_bessie_katznelson
+    parent: bessie_katznelson_marries_benjamin_brody
     spouse: {name: Morris Davis, birth: 1910, death: 2005}
     children:
       - name: Charlotte Seloff

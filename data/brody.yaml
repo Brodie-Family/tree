@@ -2,7 +2,7 @@ roots:
   - name: Merton Brody
     birth: 1927
     death: 2010
-    parent: benjamin_brody_marries_bessie_katznelson
+    parent: bessie_katznelson_marries_benjamin_brody
     spouse: {name: Marsha Brody, birth: 1934}
     children:
       - name: Benjamin Brody

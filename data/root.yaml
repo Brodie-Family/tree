@@ -3,37 +3,6 @@ roots:
     birth: 1862
     death: 1928
     children:
-      - name: Goda Katznelson
-        birth: 1875
-        death: 1968
-        children:
-          - name: Reva Kagan
-            birth: 1911
-            death: 2000
-            children:
-              - name: Nathan Kagan
-                birth: 1947
-                spouse: {name: Anna, birth: 1954}
-                children:
-                  - name: Inna Kagan
-                    birth: 1978
-                    spouse: {name: Don Pankuch, birth: 1970}
-
-                    children:
-                      - {name: Sasha Pankuch, birth: 2007}
-                      - {name: Ari Pankuch, birth: 2009}
-                  - name: Isaac Kagan
-                    birth: 1982
-                    spouse: {name: Shari Barcebal, birth: 1985}
-
-                    children:
-                      - {name: Abigail Kagan, birth: 2021}
-                  - name: Rachel Kagan
-                    birth: 1982
-                    spouse: {name: Darren Morrisey, birth: 1990}
-
-                    children:
-                      - {name: Riva Morrisey, birth: 2020}
       - name: Bessie Katznelson
         birth: 1887
         death: 1968

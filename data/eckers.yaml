@@ -3,7 +3,7 @@ roots:
     nee: Esther Ecker
     birth: 1919
     death: 1989
-    parent: benjamin_brody_marries_bessie_katznelson
+    parent: bessie_katznelson_marries_benjamin_brody
     spouse: {name: Bernard Ecker, birth: 1918, death: 2013}
     children:
       - name: Beverly Ecker
