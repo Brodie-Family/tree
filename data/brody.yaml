@@ -2,31 +2,37 @@ roots:
   - name: Merton Brody
     birth: 1927
     death: 2010
-    parent: bessie_katznelson_marries_benjamin_brody:s
-    spouse: {name: Marsha Brody, birth: 1934}
-    children:
-      - name: Benjamin Brody
-        birth: 1957
-        spouse: {name: Donalda, status: divorced}
+    parent: bessie_katznelson:primary:s
+    partnerships:
+      - spouse: {name: Marsha Brody, birth: 1934}
         children:
-          - {name: Louis Brody, birth: 1979}
-      - name: Steven Brody
-        birth: 1959
-        spouse: {name: Nina Taylor, birth: 1966}
-        children:
-          - {name: Jack Brody, birth: 2009}
-      - name: Anne Elovic
-        nee: Anne Brody
-        birth: 1962
-        spouse: {name: David Elovic, birth: 1963}
-        children:
-          - {name: Yair Elovic, birth: 1993}
-          - {name: Nurit Elovic, birth: 1995}
-          - {name: Shira Elovic, birth: 1997}
-          - {name: Orli Elovic, birth: 2000}
-      - name: Stuart Brody
-        birth: 1965
-        spouse: {name: Amanda Norcross, birth: 1972}
-        children:
-          - {name: Jon Brody, birth: 2006}
-          - {name: Rose Brody, birth: 2008}
+          - name: Benjamin Brody
+            birth: 1957
+            partnerships:
+              - spouse: {name: Donalda}
+                status: divorced
+                children:
+                  - {name: Louis Brody, birth: 1979}
+          - name: Steven Brody
+            birth: 1959
+            partnerships:
+              - spouse: {name: Nina Taylor, birth: 1966}
+                children:
+                  - {name: Jack Brody, birth: 2009}
+          - name: Anne Elovic
+            nee: Anne Brody
+            birth: 1962
+            partnerships:
+              - spouse: {name: David Elovic, birth: 1963}
+                children:
+                  - {name: Yair Elovic, birth: 1993}
+                  - {name: Nurit Elovic, birth: 1995}
+                  - {name: Shira Elovic, birth: 1997}
+                  - {name: Orli Elovic, birth: 2000}
+          - name: Stuart Brody
+            birth: 1965
+            partnerships:
+              - spouse: {name: Amanda Norcross, birth: 1972}
+                children:
+                  - {name: Jon Brody, birth: 2006}
+                  - {name: Rose Brody, birth: 2008}

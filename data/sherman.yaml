@@ -2,50 +2,64 @@ roots:
   - name: Vernon Sherman
     birth: 1923
     death: 1994
-    spouse: {name: Rochelle Sherman, death: 1987}
-    parent: lena_sherman_marries_louis_sherman:s
-    note: "Figure out how to add Marshe and kid Jennifer"
-    children:
-      - name: Andy Sherman
-        birth: 1953
-        spouse: {name: Joanne Palmer, birth: 1954}
+    parent: lena_sherman:primary:s
+    partnerships:
+      - spouse: {name: Rochelle Sherman, death: 1987}
         children:
-          - name: Shira
-            birth: 1980
-            death: 2000
-          - name: Miriam
-            birth: 1983
-            spouse: {name: David}
-      - name: Gary Sherman
-        birth: 1949
-        spouse: {name: Jean, birth: 1947, status: divorced}
+          - name: Andy Sherman
+            birth: 1953
+            partnerships:
+              - spouse: {name: Joanne Palmer, birth: 1954}
+                children:
+                  - name: Shira
+                    birth: 1980
+                    death: 2000
+                  - name: Miriam
+                    birth: 1983
+                    partnerships:
+                      - spouse: {name: David}
+          - name: Gary Sherman
+            birth: 1949
+            partnerships:
+              - spouse: {name: Jean, birth: 1947}
+                status: divorced
+                children:
+                  - name: Isiah Sherman
+                    birth: 1981
+                    partnerships:
+                      - spouse: {name: Jen Miracle}
+                  - name: Matthew Sherman
+                    birth: 1983
+                    partnerships:
+                      - spouse: {name: Shona Ramchandani}
+      - spouse: {name: Marshe}
         children:
-          - name: Isiah Sherman
-            birth: 1981
-            spouse: {name: Jen Miracle}
-          - name: Matthew Sherman
-            birth: 1983
-            spouse: {name: Shona Ramchandani}
+          - {name: Jennifer}
   - name: Norton (Corky) Sherman
     birth: 1928
     death: 1963
-    spouse: {name: Beryl Sherman}
-    parent: lena_sherman_marries_louis_sherman:s
-    children:
-    - name: Sherry Sherman
-      birth: 1953
-      spouse: {name: Gary Cunial, birth: 1937}
-      children:
-        - name: Alyssa
-          birth: 1986
-          spouse: {name: Andrew Perew, birth: 1953}
-    - name: Sandy Sherman
-      birth: 1957
-      spouse: {name: Allison Noel, birth: 1937}
-    - name: Ricky Sherman
-      birth: 1957
-      death: 2005
-      spouse: {name: Diana}
-      children:
-        - {name: Ryan Sherman, birth: 1993}
-        - {name: Kelsey Sherman, birth: 1994}
+    parent: lena_sherman:primary:s
+    partnerships:
+      - spouse: {name: Beryl Sherman}
+        children:
+          - name: Sherry Sherman
+            birth: 1953
+            partnerships:
+              - spouse: {name: Gary Cunial, birth: 1937}
+                children:
+                  - name: Alyssa
+                    birth: 1986
+                    partnerships:
+                      - spouse: {name: Andrew Perew, birth: 1953}
+          - name: Sandy Sherman
+            birth: 1957
+            partnerships:
+              - spouse: {name: Allison Noel, birth: 1937}
+          - name: Ricky Sherman
+            birth: 1957
+            death: 2005
+            partnerships:
+              - spouse: {name: Diana}
+                children:
+                  - {name: Ryan Sherman, birth: 1993}
+                  - {name: Kelsey Sherman, birth: 1994}

@@ -1,2 +1,5 @@
-doctest-output/
 tags
+
+# exported gv files
+export
+image
