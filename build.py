@@ -11,12 +11,14 @@ def add_person(dot, person):
     person = PersonRender(**person)
     person.attach(dot)
     people_count += person.person_count
-    if person.can_collapse_children:
-        person.attach_collapsed_children(dot)
-    else:
-        for child in person.children:
+
+    for partnership in person.partnerships:
+        #     # if partnership.can_collapse_children:
+        #     #     person.attach_collapsed_children(dot)
+        #     # else:
+        for child in partnership.children:
             child_id = add_person(dot, child)
-            dot.edge(person.downward_link_id, child_id)
+            dot.edge(partnership.node_id, child_id)
 
     return person.upward_link_id
 

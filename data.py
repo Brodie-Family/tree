@@ -4,7 +4,8 @@ from ruamel.yaml import YAML
 
 
 def yaml_filepaths():
-    for path in Path("data").glob("*.yaml"):
+    # for path in Path("data").glob("*.yaml"):
+    for path in Path("data").glob("*ers.yaml"):
         yield path
 
 
