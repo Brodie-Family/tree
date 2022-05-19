@@ -8,15 +8,25 @@ people_count = 0
 
 def add_person(dot, person):
     global people_count
-    person = PersonRender(**person)
+    try:
+        person = PersonRender(**person)
+    except:
+        print("failed on", person)
+        raise
     person.attach(dot)
     people_count += person.person_count
-    if person.can_collapse_children:
-        person.attach_collapsed_children(dot)
-    else:
-        for child in person.children:
-            child_id = add_person(dot, child)
-            dot.edge(person.downward_link_id, child_id)
+
+    for partnership in person.partnerships:
+        if partnership.can_collapse_children:
+            try:
+                partnership.attach_collapsed_children(dot)
+            except:
+                print("failed on", partnership)
+                raise
+        else:
+            for child in partnership.children:
+                child_id = add_person(dot, child)
+                dot.edge(f"{partnership.joiner_id}:s", child_id, tailclip="false")
 
     return person.upward_link_id
 
@@ -38,7 +48,8 @@ def build_graph(data):
 def main():
     data = load_data()
     graph = build_graph(data)
-    graph.render("doctest-output/tree.gv", view=True)
+    graph.render("export", view=True, format="pdf")
+    graph.render("image", format="png")
     print(f"There are {people_count} people")
 
 

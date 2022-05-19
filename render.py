@@ -2,64 +2,212 @@ def titleize(string):
     return string.lower().replace(" ", "_")
 
 
-class PersonRender:
+def individual_data(person, prefix=""):
+    if not person:
+        return {}
+    dates = (
+        (person.birth or None)
+        if not person.death
+        else f"{person.birth or ''}-{person.death}"
+    )
+    return {
+        f"{prefix}dates": dates,
+        f"{prefix}id": person.node_id,
+        f"{prefix}name": person.name,
+        f"{prefix}dates_html": f"<FONT POINT-SIZE='10.0'>{dates}</FONT>"
+        if dates
+        else "",
+    }
+
+
+def render_individual(person, embedded=False):
+    data = individual_data(person)
+    inner = """
+      <TABLE BORDER='0'>
+        <TR><TD ALIGN='left' port='primary'>{dates_html}</TD></TR>
+        <TR><TD BORDER='1' PORT='main'>{name}</TD></TR>
+      </TABLE>""".format(
+        **data
+    )
+    return inner if embedded else f"<{inner}>"
+
+
+def render_partnership(person, primary_partner, secondary_partner=None):
+    data = {
+        **individual_data(person),
+        **individual_data(primary_partner, "primary_"),
+        **individual_data(secondary_partner, "secondary_"),
+        "spacer": "____",
+    }
+    if secondary_partner:
+        content = """
+            <TABLE BORDER='0' CELLBORDER='0'>
+                <TR>
+                    <TD ALIGN='left'>{secondary_dates_html}</TD>
+                    <TD></TD>
+                    <TD ALIGN='left'>{dates_html}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+                    <TD></TD>
+                    <TD ALIGN='left'>{primary_dates_html}</TD>
+                </TR>
+                <TR>
+                    <TD PORT='secondary' BORDER='1'>{secondary_name}</TD>
+                    <TD PORT='secondary_joiner'>___<FONT POINT-SIZE='10.0'>div.</FONT>___</TD>
+                    <TD BORDER='1' PORT='main'>{name}</TD>
+                    <TD PORT='primary_joiner'>{spacer}</TD>
+                    <TD BORDER='1' PORT='primary'>{primary_name}</TD>
+                </TR>
+            </TABLE>
+        """.format(
+            **data,
+            primary_joiner=primary_partner.node_id,
+            secondary_joiner=secondary_partner.node_id,
+        )
+    elif primary_partner:
+        content = """
+            <TABLE BORDER='0' CELLBORDER='0'>
+                <TR>
+                    <TD ALIGN='left'>{dates_html}</TD>
+                    <TD></TD>
+                    <TD ALIGN='left'>{dates_html}</TD>
+                </TR>
+                <TR>
+                    <TD BORDER='1' PORT='main'>{name}</TD>
+                    <TD PORT='primary_joiner'>{spacer}</TD>
+                    <TD BORDER='1' PORT='primary'>{primary_name}</TD>
+                </TR>
+            </TABLE>
+        """.format(
+            **data, primary_joiner=primary_partner.node_id
+        )
+    else:
+        content = render_individual(person, embedded=True)
+    return f"<{content}>"
+
+
+class PartnershipRender:
+    TYPES = ["primary", "secondary"]
+
     def __init__(
         self,
-        name,
-        below=None,
-        birth=None,
+        attached_id,
         children=None,
-        collapse_children=True,
-        death=None,
-        is_main=True,
-        nee=None,
-        note=None,
-        parent=None,
-        sibling=None,
         spouse=None,
+        collapse_children=True,
+        partnership_type="primary",
         status=None,
     ):
-        self.name = name
-
-        self.below = below
-        self.birth = birth
+        self.attached_id = attached_id
         self.children = children or []
         self.collapse_children = collapse_children
-        self.death = death
-        self.is_main = is_main
-        self.note = note
-        self.parent = parent
-        self.sibling = sibling
+        self.partnership_type = partnership_type
         self.spouse = PersonRender(**spouse, is_main=False) if spouse else None
         self.status = status
+
+    def __str__(self):
+        return f"PartnershipRender(spouse={self.spouse_name}, children={len(self.children)}, collapse={self.collapse_children})"
+
+    @property
+    def spouse_name(self):
+        return self.spouse and self.spouse.node_id
+
+    @property
+    def node_id(self):
+        return self.spouse_name or self.attached_id
+
+    @property
+    def joiner_id(self):
+        return (
+            f"{self.attached_id}:{self.partnership_type}_joiner"
+            if self.spouse
+            else self.attached_id
+        )
 
     @property
     def can_collapse_children(self):
         return (
             self.children
             and self.collapse_children
-            and not any(c.get("children") for c in self.children)
+            and not any(c.get("partnerships") for c in self.children)
         )
-
-    @property
-    def link_id(self):
-        return (
-            f"{self.node_id}_marries_{self.spouse.node_id}"
-            if self.spouse
-            else self.node_id
-        )
-
-    @property
-    def downward_link_id(self):
-        return f"{self.link_id}:s"
-
-    @property
-    def upward_link_id(self):
-        return f"{self.link_id}:main:n" if self.spouse else self.node_id
 
     @property
     def is_divorced(self):
         return self.status == "divorced"
+
+    def render_children(self):
+        people_the_children = [PersonRender(**child) for child in self.children]
+        row_the_children = "\n".join(
+            [
+                f"<TR><TD>{render_individual(p, embedded=True)}</TD></TR>"
+                for p in people_the_children
+            ]
+        )
+
+        return f"<<TABLE border='1' cellborder='0'>{row_the_children}</TABLE>>"
+
+    def attach(self, dot):
+        if not self.spouse:
+            # If nobody as spouse, just use the original person
+            return self.attached_id
+
+        spouse_id = self.spouse.attach(dot)
+        dot.node(self.node_id, "", shape="insulator")
+        dot.edge(self.attached_id, self.node_id, dir="none")
+        dot.edge(self.node_id, spouse_id, dir="none")
+
+    def attach_collapsed_children(self, dot):
+        children_id = f"{self.node_id}_children"
+        dot.node(children_id, self.render_children())
+        dot.edge(self.joiner_id, children_id)
+
+
+class PersonRender:
+    def __init__(
+        self,
+        name,
+        below=None,
+        birth=None,
+        death=None,
+        is_main=True,
+        nee=None,
+        note=None,
+        parent=None,
+        partnerships=None,
+        sibling=None,
+    ):
+        self.name = name
+
+        self.below = below
+        self.birth = birth
+        self.death = death
+        self.is_main = is_main
+        self.note = note
+        self.parent = parent
+        self.sibling = sibling
+        partnership_options = PartnershipRender.TYPES[:]
+        self.partnerships = [
+            PartnershipRender(
+                self.node_id, **p, partnership_type=partnership_options.pop()
+            )
+            for p in partnerships or []
+        ]
+
+    # @property
+    # def link_id(self):
+    #     return (
+    #         # f"{self.node_id}_marries_{self.spouse.node_id}"
+    #         f"{self.node_id}_married"
+    #         if self.partnerships
+    #         else self.node_id
+    #     )
+    #
+    @property
+    def downward_link_id(self):
+        return f"{self.node_id}:s"
+
+    @property
+    def upward_link_id(self):
+        return f"{self.node_id}:main:ne"
 
     @property
     def node_id(self):
@@ -69,8 +217,8 @@ class PersonRender:
     def person_count(self):
         return (
             1
-            + ((self.spouse and 1) or 0)
-            + ((self.can_collapse_children and len(self.children)) or 0)
+            + len(self.partnerships)
+            # + ((self.can_collapse_children and len(self.children)) or 0)
         )
 
     def attach(self, dot):
@@ -80,53 +228,50 @@ class PersonRender:
         if self.below:
             dot.edge(self.below, self.upward_link_id, style="invis")
 
-        if self.sibling:
-            dot.edge(
-                self.sibling,
-                self.link_id,
-                rank="same",
-                style="dotted",
-                constraint="false",
-                dir="none",
-            )
+        with dot.subgraph(
+            name=f"{self.node_id}_wrapper",
+            # node_attr={"rank": "same"},
+        ) as subgraph:
+            subgraph.attr(rank="same")
+            # if self.sibling:
+            #     dot.edge(
+            #         self.sibling,
+            #         self.link_id,
+            #         rank="same",
+            #         style="dotted",
+            #         constraint="false",
+            #         dir="none",
+            #     )
+            me = render_individual(self)
+            if len(self.partnerships) == 0:
+                subgraph.node(self.node_id, me)
+            elif len(self.partnerships) == 1:
+                # self.partnerships[0].attach(subgraph)
+                subgraph.node(
+                    self.node_id, render_partnership(self, self.partnerships[0].spouse)
+                )
+                # subgraph.edge(f"{self.node_id}:main:e", f"{self.node_id}:primary:w")
+            elif len(self.partnerships) == 2:
+                subgraph.node(
+                    self.node_id,
+                    render_partnership(
+                        self, self.partnerships[1].spouse, self.partnerships[0].spouse
+                    ),
+                )
+                # subgraph.edge(
+                #     f"{self.node_id}:main",
+                #     f"{self.node_id}:secondary",
+                #     dir="none",
+                #     constraint="false",
+                # )
+                # subgraph.edge(
+                #     f"{self.node_id}:main",
+                #     f"{self.node_id}:primary",
+                #     headport="e",
+                #     tailport="n",
+                #     dir="none",
+                #     constraint="false",
+                #     style="dotted",
+                # )
 
-        if self.spouse:
-            dot.node(self.link_id, self.render_marriage())
-
-        else:
-            dot.node(self.link_id, f"<{self.render_individual()}>")
-
-    def attach_collapsed_children(self, dot):
-        children_id = f"{self.link_id}_children"
-        dot.node(children_id, self.render_children())
-        dot.edge(self.link_id, children_id)
-
-    def render_marriage(self):
-        return f"""<
-          <TABLE BORDER='0' CELLBORDER='0'>
-            <TR>
-                <TD>{self.render_individual()}</TD>
-                <TD>{self.spouse.render_individual()}</TD>
-            </TR>
-          </TABLE>
-        >"""
-
-    def render_individual(self):
-        dates = (
-            (self.birth or "") if not self.death else f"{self.birth or ''}-{self.death}"
-        )
-
-        dates_format = (
-            f"<TR><TD><FONT POINT-SIZE='10.0'>{dates}</FONT></TD></TR>" if dates else ""
-        )
-        divorce_format = "(d)" if self.is_divorced else ""
-        port_format = "PORT='main'" if self.is_main else "PORT='spouse'"
-        return f"<TABLE CELLBORDER='0'><TR><TD {port_format}>{self.name} {divorce_format}</TD></TR>{dates_format}</TABLE>"
-
-    def render_children(self):
-        people_the_children = [PersonRender(**child) for child in self.children]
-        row_the_children = "\n".join(
-            [f"<TR><TD>{p.render_individual()}</TD></TR>" for p in people_the_children]
-        )
-
-        return f"<<TABLE border='0'>{row_the_children}</TABLE>>"
+            return self.node_id

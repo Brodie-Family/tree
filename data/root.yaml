@@ -2,16 +2,22 @@ roots:
   - name: Solomon Katznelson
     birth: 1862
     death: 1928
-    collapse_children: false
-    children:
-      - name: Bessie Katznelson
-        birth: 1887
-        death: 1968
-        spouse: {name: Benjamin Brody, birth: 1883}
-      - name: Lena Sherman
-        nee: Lena Katznelson
-        birth: 1893
-        death: 1991
-        spouse: {name: Louis Sherman, birth: 1898, death: 1976}
-      - name: Esther Katznelson
-        note: "Married at 13, won't include children"
+    partnerships:
+      - spouse: {name: Bella Weinstein}
+        status: divorced
+        collapse_children: false
+        children:
+          - name: Bessie Katznelson
+            birth: 1887
+            death: 1968
+            partnerships:
+              - spouse: {name: Benjamin Brody, birth: 1883}
+          - name: Lena Sherman
+            nee: Lena Katznelson
+            birth: 1893
+            death: 1991
+            partnerships:
+              - spouse: {name: Louis Sherman, birth: 1898, death: 1976}
+          - name: Esther Katznelson
+            note: "Married at 13, won't include children"
+      - spouse: {name: Goda Katznelson, birth: 1875, death: 1968}

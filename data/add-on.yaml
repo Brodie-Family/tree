@@ -1,13 +1,15 @@
 roots:
   - name: Isaac Brody
     birth: 1877
-    note: "Ben Brody is the broth, connect it somehow"
-    sibling: bessie_katznelson_marries_benjamin_brody:spouse
+    note: "Ben Brody is the brother, connect it somehow"
     below: solomon_katznelson
-    children:
-      - name: Nanette Brody Packer
-        birth: 1917
-        children:
-          - name: Arlene Brennan
-            nee: Arlene Packer
-            spouse: {name: Michael Brennan, birth: 1937}
+    partnerships:
+      - children:
+        - name: Nanette Brody Packer
+          birth: 1917
+          partnerships:
+            - children:
+                - name: Arlene Brennan
+                  nee: Arlene Packer
+                  partnerships:
+                    - spouse: {name: Michael Brennan, birth: 1937}
