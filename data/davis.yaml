@@ -59,7 +59,7 @@ roots:
                             birth: 1987
                             partnerships:
                               - spouse: {name: Jackie Truong, birth: 1989}
-                                ## Dotted Line
+                                status: other
                   - name: Eileen Seloff
                     birth: 1957
                   - name: Herbert Seloff
@@ -140,7 +140,7 @@ roots:
                           - { name: Elise Morgan, birth: 2013}
                           - { name: Graham Morgan, birth: 2015}
                           - { name: Cora Morgan, birth: 2018}
-              - spouse: {name: Mickey Davis}
+              - spouse: {name: Mickey Davis, birth: 1968}
                 children:
                   - { name: Dylan Davis, birth: 2001}
                   - { name: Connor Davis, birth: 2003}

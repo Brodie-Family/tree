@@ -32,14 +32,27 @@ def render_individual(person, embedded=False):
     return inner if embedded else f"<{inner}>"
 
 
-def render_partnership(person, primary_partner, secondary_partner=None):
+spacers = {
+    "married": "__",
+    "divorced": "___<FONT POINT-SIZE='10.0'>div.</FONT>___",
+    "other": "_ _ _",
+}
+
+
+def render_partnership(person, primary_partnership, secondary_partnership=None):
+
     data = {
         **individual_data(person),
-        **individual_data(primary_partner, "primary_"),
-        **individual_data(secondary_partner, "secondary_"),
-        "spacer": "____",
+        **individual_data(primary_partnership.spouse, "primary_"),
+        "primary_partner_spacer": spacers.get(
+            primary_partnership.status, spacers["other"]
+        ),
     }
-    if secondary_partner:
+    if secondary_partnership:
+        data.update(**individual_data(secondary_partnership.spouse, "secondary_"))
+        data["secondary_partner_spacer"] = spacers.get(
+            secondary_partnership.status, spacers["other"]
+        )
         content = """
             <TABLE BORDER='0' CELLBORDER='0'>
                 <TR>
@@ -51,34 +64,38 @@ def render_partnership(person, primary_partner, secondary_partner=None):
                 </TR>
                 <TR>
                     <TD PORT='secondary' BORDER='1'>{secondary_name}</TD>
-                    <TD PORT='secondary_joiner'>___<FONT POINT-SIZE='10.0'>div.</FONT>___</TD>
+                    <TD PORT='secondary_joiner'>{secondary_partner_spacer}</TD>
                     <TD BORDER='1' PORT='main'>{name}</TD>
-                    <TD PORT='primary_joiner'>{spacer}</TD>
+                    <TD PORT='primary_joiner'>{primary_partner_spacer}</TD>
                     <TD BORDER='1' PORT='primary'>{primary_name}</TD>
                 </TR>
             </TABLE>
         """.format(
             **data,
-            primary_joiner=primary_partner.node_id,
-            secondary_joiner=secondary_partner.node_id,
+            primary_joiner=primary_partnership.spouse.node_id,
+            secondary_joiner=secondary_partnership.spouse.node_id,
         )
-    elif primary_partner:
-        content = """
-            <TABLE BORDER='0' CELLBORDER='0'>
-                <TR>
-                    <TD ALIGN='left'>{dates_html}</TD>
-                    <TD></TD>
-                    <TD ALIGN='left'>{dates_html}</TD>
-                </TR>
-                <TR>
-                    <TD BORDER='1' PORT='main'>{name}</TD>
-                    <TD PORT='primary_joiner'>{spacer}</TD>
-                    <TD BORDER='1' PORT='primary'>{primary_name}</TD>
-                </TR>
-            </TABLE>
-        """.format(
-            **data, primary_joiner=primary_partner.node_id
-        )
+    elif primary_partnership.spouse:
+        try:
+            content = """
+                <TABLE BORDER='0' CELLBORDER='0'>
+                    <TR>
+                        <TD ALIGN='left'>{dates_html}</TD>
+                        <TD></TD>
+                        <TD ALIGN='left'>{dates_html}</TD>
+                    </TR>
+                    <TR>
+                        <TD BORDER='1' PORT='main'>{name}</TD>
+                        <TD PORT='primary_joiner'>{primary_partner_spacer}</TD>
+                        <TD BORDER='1' PORT='primary'>{primary_name}</TD>
+                    </TR>
+                </TABLE>
+            """.format(
+                **data, primary_joiner=primary_partnership.spouse.node_id
+            )
+        except:
+            print(data)
+            raise
     else:
         content = render_individual(person, embedded=True)
     return f"<{content}>"
@@ -94,7 +111,7 @@ class PartnershipRender:
         spouse=None,
         collapse_children=True,
         partnership_type="primary",
-        status=None,
+        status="married",
     ):
         self.attached_id = attached_id
         self.children = children or []
@@ -192,15 +209,6 @@ class PersonRender:
             for p in partnerships or []
         ]
 
-    # @property
-    # def link_id(self):
-    #     return (
-    #         # f"{self.node_id}_marries_{self.spouse.node_id}"
-    #         f"{self.node_id}_married"
-    #         if self.partnerships
-    #         else self.node_id
-    #     )
-    #
     @property
     def downward_link_id(self):
         return f"{self.node_id}:s"
@@ -215,11 +223,7 @@ class PersonRender:
 
     @property
     def person_count(self):
-        return (
-            1
-            + len(self.partnerships)
-            # + ((self.can_collapse_children and len(self.children)) or 0)
-        )
+        return 1 + len(self.partnerships)
 
     def attach(self, dot):
         if self.parent:
@@ -230,7 +234,6 @@ class PersonRender:
 
         with dot.subgraph(
             name=f"{self.node_id}_wrapper",
-            # node_attr={"rank": "same"},
         ) as subgraph:
             subgraph.attr(rank="same")
             # if self.sibling:
@@ -246,32 +249,15 @@ class PersonRender:
             if len(self.partnerships) == 0:
                 subgraph.node(self.node_id, me)
             elif len(self.partnerships) == 1:
-                # self.partnerships[0].attach(subgraph)
                 subgraph.node(
-                    self.node_id, render_partnership(self, self.partnerships[0].spouse)
+                    self.node_id, render_partnership(self, self.partnerships[0])
                 )
-                # subgraph.edge(f"{self.node_id}:main:e", f"{self.node_id}:primary:w")
             elif len(self.partnerships) == 2:
                 subgraph.node(
                     self.node_id,
                     render_partnership(
-                        self, self.partnerships[1].spouse, self.partnerships[0].spouse
+                        self, self.partnerships[1], self.partnerships[0]
                     ),
                 )
-                # subgraph.edge(
-                #     f"{self.node_id}:main",
-                #     f"{self.node_id}:secondary",
-                #     dir="none",
-                #     constraint="false",
-                # )
-                # subgraph.edge(
-                #     f"{self.node_id}:main",
-                #     f"{self.node_id}:primary",
-                #     headport="e",
-                #     tailport="n",
-                #     dir="none",
-                #     constraint="false",
-                #     style="dotted",
-                # )
 
             return self.node_id

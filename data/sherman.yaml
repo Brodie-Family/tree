@@ -5,6 +5,7 @@ roots:
     parent: lena_sherman:primary:s
     partnerships:
       - spouse: {name: Rochelle Sherman, death: 1987}
+        status: divorced
         children:
           - name: Andy Sherman
             birth: 1953

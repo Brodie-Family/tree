@@ -14,3 +14,5 @@ roots:
                   nee: Arlene Packer
                   partnerships:
                     - spouse: {name: Michael Brennan, birth: 1937}
+  - {name: Lily Kulp, parent: alisa_greenbacher:primary:s, birth: 2003}
+  - {name: Bean Kulp, parent: alisa_greenbacher:primary:s, birth: 2005}

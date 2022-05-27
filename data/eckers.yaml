@@ -34,16 +34,16 @@ roots:
                           - {name: Orla Cole-Gorton, birth: 1999}
                           - {name: August Cole-Gorton, birth: 2004}
                       - spouse: {name: David Tockman, birth: 1968}
-                        # Dotted Line
+                        status: other
                   - name: Dara Cole
                     birth: 1974
                     partnerships:
                       - spouse: { name: Horace Nelson}
-                        # Dotted line only
+                        status: other
                         children:
                           - {name: Xena Cole-Nelson, birth: 2007}
                       - spouse: { name: James Deanes}
-                        # Dotted line only
+                        status: other
                         children:
                           - {name: Rumi Cole-Deanes, birth: 2015}
           - name: Suzanne Greenwald
@@ -62,10 +62,7 @@ roots:
                           - {name: Bella Greenbacher, birth: 2002}
                           - {name: Annika Greenbacher, birth: 2007}
                       - spouse: {name: David Kulp, birth: 1969}
-                        # Notes: dotted and kids to david
-                        children:
-                          - {name: Lily Kulp, birth: 2003}
-                          - {name: Bean Kulp, birth: 2005}
+                        status: other
                   - name: Jerome Greenwald
                     birth: 1974
                     partnerships:
