@@ -9,7 +9,7 @@ roots:
           - name: Benjamin Brody
             birth: 1957
             partnerships:
-              - spouse: {name: Donalda}
+              - spouse: {name: Donalda, birth: 1959}
                 status: divorced
                 children:
                   - {name: Louis Brody, birth: 1979}

@@ -1,5 +1,6 @@
 roots:
   - name: Isaac Brody
+    # Notes: Manually create brother chart
     birth: 1877
     note: "Ben Brody is the brother, connect it somehow"
     below: solomon_katznelson

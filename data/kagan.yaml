@@ -8,7 +8,7 @@ roots:
         - name: Nathan Kagan
           birth: 1947
           partnerships:
-            - spouse: {name: Anna, birth: 1954}
+            - spouse: {name: Anna Kagan, birth: 1954}
               children:
                 - name: Inna Kagan
                   birth: 1978

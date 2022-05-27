@@ -33,7 +33,7 @@ roots:
                             nee: Sivan Gal
                             birth: 1979
                             partnerships:
-                              - spouse: {name: Yehoshua Krupnick}
+                              - spouse: {name: Yehoshua Krupnick, birth: 1975}
                                 children:
                                 - {name: Moshe Tovia Krupnick, birth: 2005}
                                 - {name: Tehillah Krupnick, birth: 2007}
@@ -44,16 +44,22 @@ roots:
                             birth: 1981
                             partnerships:
                               - spouse: {name: Daniel Hyman, birth: 1978}
-                                children:
+                                children :
                                   - {name: Meir Hyman, birth: 2010}
                                   - {name: Naftali Hyman, birth: 2012}
                                   - {name: Avigayil Hyman, birth: 2014}
                                   - {name: Shlomo Hyman, birth: 2017}
-                      - spouse: {name: Moises Paz}
+                      - spouse: {name: Moises Paz, birth: 1954}
                         children:
-                          - {name: David Paz, birth: 1980}
-                          - {name: Dani Levinson, birth: 1985}
-                          - {name: Aliza Paz, birth: 1987}
+                          - name: David Paz
+                            birth: 1980
+                            partnerships:
+                              - spouse: {name: Dani Levinson, birth: 1985}
+                          - name: Aliza Paz
+                            birth: 1987
+                            partnerships:
+                              - spouse: {name: Jackie Truong, birth: 1989}
+                                ## Dotted Line
                   - name: Eileen Seloff
                     birth: 1957
                   - name: Herbert Seloff
@@ -134,3 +140,7 @@ roots:
                           - { name: Elise Morgan, birth: 2013}
                           - { name: Graham Morgan, birth: 2015}
                           - { name: Cora Morgan, birth: 2018}
+              - spouse: {name: Mickey Davis}
+                children:
+                  - { name: Dylan Davis, birth: 2001}
+                  - { name: Connor Davis, birth: 2003}

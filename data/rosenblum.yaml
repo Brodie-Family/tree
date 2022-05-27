@@ -10,16 +10,14 @@ roots:
           - name: Benita Kaimowitz
             nee: Benita Rosenblum
             birth: 1935
-            note: "Figure out Gabe"
-            # spouse Gabe Kaimowitz
             partnerships:
-              - spouse: {name: Ed Vandenberg, birth: 1924, death: 2020}
+              - spouse: {name: Gabriel Kaimowitz, birth: 1935}
+                status: divorced
                 children:
                   - name: David Kaimowitz
                     birth: 1958
                     partnerships:
                       - spouse: {name: Francisca, birth: 1952}
-                        status: divorced
                         children:
                           - name: Eliana Kaimowitz
                             birth: 1978
@@ -34,40 +32,42 @@ roots:
                     birth: 1961
                     partnerships:
                       - spouse: {name: Mario de la Huerga, birth: 1959}
-                        status: divorced
                         children:
-                          - {name: Ruben de la Huerga, birth: 1993}
+                          - {name: Rubi Kaimowitz, birth: 1993}
                           - {name: Raquel de la Huerga, birth: 1999}
+              - spouse: {name: Ed Vandenberg, birth: 1924, death: 2020}
           - name: Carolyn Levine
             nee: Carolyn Rosenblun
             birth: 1939
             partnerships:
               - spouse: {name: Larry Levine, birth: 1936}
                 children:
-                  - name: Janet Levine
+                  - name: Janet Levine March
                     birth: 1963
                     death: 1996
                     partnerships:
                      - children:
-                       - {name: Sammy March, birth: 1990}
-                       - {name: Marissa Koven, birth: 1993}
-                       - {name: Tsipora March, birth: 1994}
+                       - name: Samson March
+                         birth: 1990
+                         partnerships:
+                           - spouse: {name: Marissa Koven, birth: 1993}
+                       - {name: Tzipora March, birth: 1994}
                   - {name: Mark Levine, birth: 1966}
           - name: Bernie Rosenblum
             birth: 1946
             partnerships:
-              - spouse: {name: Terry Katz, birth: 1947}
+              - spouse: {name: Terry Rosenblum, birth: 1947}
                 children:
                   - name: Jodie
                     birth: 1984
                     partnerships:
-                      - spouse: {name: Dylan Glynn}
+                      - spouse: {name: Dylan Glynn, birth: 1979}
                         children:
                           - {name: Louisa Elke Glynn, birth: 2018}
           - name: Howard Rosenblum
             birth: 1954
             partnerships:
-              - spouse: {name: Kathy Rosenblum, birth: 1952}
+              - spouse: {name: Cathy Rosenblum, birth: 1952}
                 children:
                   - name: Tali Rosenblum
                     birth: 1987
