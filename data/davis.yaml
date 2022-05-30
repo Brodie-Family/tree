@@ -111,20 +111,23 @@ roots:
                           - {name: Carson Kirshner, birth: 2003}
           - name: Ellen Dansky
             nee: Ellen Davis
+            birth: 1952
             partnerships:
-              - spouse: {name: Steve Dansky, death: 2018}
+              - spouse: {name: Steve Dansky, birth: 1948, death: 2018}
                 children:
                   - name: Liza Dansky
+                    birth: 1989
                     partnerships:
                       - spouse: {name: Lori Star, birth: 1987}
                         children:
                           - {name: Simon Star, birth: 2018}
                           - {name: Lev Star, birth: 2018}
-                  - name: Max Dansky
+                  - name: Maxx Dansky
+                    birth: 1987
           - name: Ned Davis
             birth: 1945
             partnerships:
-              - spouse: {name: Heather Davis}
+              - spouse: {name: Heather Davis, birth: 1952}
                 status: divorced
                 children:
                   - name: Brody Davis
