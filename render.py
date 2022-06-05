@@ -82,7 +82,7 @@ def render_partnership(person, primary_partnership, secondary_partnership=None):
                     <TR>
                         <TD ALIGN='left'>{dates_html}</TD>
                         <TD></TD>
-                        <TD ALIGN='left'>{dates_html}</TD>
+                        <TD ALIGN='left'>{primary_dates_html}</TD>
                     </TR>
                     <TR>
                         <TD BORDER='1' PORT='main'>{name}</TD>
