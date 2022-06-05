@@ -2,6 +2,7 @@ roots:
   - name: Isaac Brody
     # Notes: Manually create brother chart
     birth: 1877
+    death: 1955
     note: "Ben Brody is the brother, connect it somehow"
     below: solomon_katznelson
     partnerships:
@@ -12,6 +13,7 @@ roots:
             - children:
                 - name: Arlene Brennan
                   nee: Arlene Packer
+                  birth: 1949
                   partnerships:
                     - spouse: {name: Michael Brennan, birth: 1937}
   - {name: Lily Kulp, parent: alisa_greenbacher:primary:s, birth: 2003}
