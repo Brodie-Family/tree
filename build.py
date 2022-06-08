@@ -38,6 +38,7 @@ def build_graph(data):
         comment="Brody Family Tree",
     )
     dot.attr(nodesep="0.02")
+    dot.graph_attr["dpi"] = "300"
 
     for person in data:
         add_person(dot, person)
