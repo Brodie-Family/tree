@@ -3,7 +3,7 @@ roots:
     birth: 1862
     death: 1928
     partnerships:
-      - spouse: {name: Bella Weinstein}
+      - spouse: {name: Bella Weinstein Katznelson Hackner, birth: 1866, death: 1929}
         status: divorced
         collapse_children: false
         children:
@@ -11,7 +11,7 @@ roots:
             birth: 1887
             death: 1968
             partnerships:
-              - spouse: {name: Benjamin Brody, birth: 1883}
+              - spouse: {name: Benjamin Brody, birth: 1883, death: 1931}
           - name: Lena Sherman
             nee: Lena Katznelson
             birth: 1893
@@ -19,5 +19,7 @@ roots:
             partnerships:
               - spouse: {name: Louis Sherman, birth: 1898, death: 1976}
           - name: Esther Katznelson
+            birth: 1897
+            death: 1977
             note: "Married at 13, won't include children"
       - spouse: {name: Goda Katznelson, birth: 1875, death: 1968}

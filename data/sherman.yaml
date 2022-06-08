@@ -18,7 +18,7 @@ roots:
                   - name: Miriam
                     birth: 1983
                     partnerships:
-                      - spouse: {name: David}
+                      - spouse: {name: David Vaisberg, birth: 1983}
           - name: Gary Sherman
             birth: 1949
             partnerships:
@@ -33,7 +33,7 @@ roots:
                     birth: 1983
                     partnerships:
                       - spouse: {name: Shona Ramchandani}
-      - spouse: {name: Marsha}
+      - spouse: {name: Marsha, birth: 1943}
         children:
           - {name: Jennifer}
   - name: Norton (Corky) Sherman
@@ -41,7 +41,7 @@ roots:
     death: 1963
     parent: lena_sherman:primary:s
     partnerships:
-      - spouse: {name: Beryl Sherman}
+      - spouse: {name: Beryl Sherman, birth: 1928, death: 2004}
         children:
           - name: Sherry Sherman
             birth: 1953
@@ -55,12 +55,13 @@ roots:
           - name: Sandy Sherman
             birth: 1957
             partnerships:
-              - spouse: {name: Allison Noel, birth: 1937}
+              - spouse: {name: Allison Velazquez, birth: 1964}
           - name: Ricky Sherman
             birth: 1957
             death: 2005
             partnerships:
               - spouse: {name: Diana}
+                status: divorced
                 children:
                   - {name: Ryan Sherman, birth: 1993}
                   - {name: Kelsey Sherman, birth: 1994}

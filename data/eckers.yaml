@@ -20,7 +20,7 @@ roots:
                   - name: Barrie Cole
                     birth: 1968
                     partnerships:
-                      - spouse: {name: Dan Whitaker}
+                      - spouse: {name: Dan Whitaker, birth: 1967}
                         status: divorced
                         children:
                           - {name: Ruben Whitaker, birth: 2002}
@@ -28,7 +28,7 @@ roots:
                   - name: Wendy Cole
                     birth: 1970
                     partnerships:
-                      - spouse: {name: Damon Gorton}
+                      - spouse: {name: Damon Gorton, birth: 1971}
                         status: divorced
                         children:
                           - {name: Orla Cole-Gorton, birth: 1999}
@@ -38,11 +38,11 @@ roots:
                   - name: Dara Cole
                     birth: 1974
                     partnerships:
-                      - spouse: { name: Horace Nelson}
+                      - spouse: { name: Horace Nelson, birth: 1975}
                         status: other
                         children:
                           - {name: Xena Cole-Nelson, birth: 2007}
-                      - spouse: { name: James Deanes}
+                      - spouse: { name: James Deanes, birth: 1968}
                         status: other
                         children:
                           - {name: Rumi Cole-Deanes, birth: 2015}
@@ -56,7 +56,7 @@ roots:
                     nee: Alisa Greenwald
                     birth: 1971
                     partnerships:
-                      - spouse: { name: Darius Greenbacher}
+                      - spouse: { name: Darius Greenbacher, birth: 1970}
                         status: divorced
                         children:
                           - {name: Bella Greenbacher, birth: 2002}
