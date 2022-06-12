@@ -1,0 +1,2174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+  <svg width="10000pt" height="5000pt"
+  viewBox="0.00 0.00 8223.00 1048.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="graph0" class="graph">
+  <title>structs</title>
+  <polygon fill="white" stroke="transparent" points="-4,4 -4,-1044 8219,-1044 8219,4 -4,4"/>
+
+  <g id="node1" class="node">
+    <title>bessie_katznelson</title>
+    <text text-anchor="start" x="3212" y="-934" font-family="Times,serif" font-size="10.00">1887&#45;1968</text>
+    <text text-anchor="start" x="3340" y="-934" font-family="Times,serif" font-size="10.00">1883&#45;1931</text>
+    <polygon fill="none" stroke="black" points="3210,-906 3210,-927 3316,-927 3316,-906 3210,-906"/>
+    <text text-anchor="start" x="3213" y="-912.8" font-family="Times,serif" font-size="14.00">Bessie Katznelson</text>
+    <text text-anchor="start" x="3320" y="-912.8" font-family="Times,serif" font-size="14.00">__</text>
+    <polygon fill="none" stroke="black" points="3338,-906 3338,-927 3435,-927 3435,-906 3338,-906"/>
+    <text text-anchor="start" x="3341" y="-912.8" font-family="Times,serif" font-size="14.00">Benjamin Brody</text>
+  </g>
+
+
+  <g id="node2" class="node">
+  <title>evelyn_rosenblum</title>
+  <text text-anchor="start" x="889" y="-846" font-family="Times,serif" font-size="10.00">1914&#45;1995</text>
+  <text text-anchor="start" x="1022" y="-846" font-family="Times,serif" font-size="10.00">1906&#45;1985</text>
+  <polygon fill="none" stroke="black" points="887,-818 887,-839 998,-839 998,-818 887,-818"/>
+  <text text-anchor="start" x="890" y="-824.8" font-family="Times,serif" font-size="14.00">Evelyn Rosenblum</text>
+  <text text-anchor="start" x="1002" y="-824.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="1020,-818 1020,-839 1114,-839 1114,-818 1020,-818"/>
+  <text text-anchor="start" x="1023" y="-824.8" font-family="Times,serif" font-size="14.00">Leo Rosenblum</text>
+  </g>
+
+
+  <g id="edge1" class="edge">
+  <title>bessie_katznelson:s&#45;&gt;evelyn_rosenblum:ne</title>
+  <path fill="none" stroke="black" d="M3387,-905C3387,-861.12 1851.86,-865.22 1808,-864 1631.33,-859.09 1143.88,-963.35 1005.47,-846.85"/>
+  <polygon fill="black" stroke="black" points="1007.74,-844.18 998,-840 1003.01,-849.34 1007.74,-844.18"/>
+  </g>
+
+
+  <g id="node37" class="node">
+  <title>merton_brody</title>
+  <text text-anchor="start" x="1821" y="-846" font-family="Times,serif" font-size="10.00">1927&#45;2010</text>
+  <text text-anchor="start" x="1928" y="-846" font-family="Times,serif" font-size="10.00">1934</text>
+  <polygon fill="none" stroke="black" points="1819,-818 1819,-839 1904,-839 1904,-818 1819,-818"/>
+  <text text-anchor="start" x="1822" y="-824.8" font-family="Times,serif" font-size="14.00">Merton Brody</text>
+  <text text-anchor="start" x="1908" y="-824.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="1926,-818 1926,-839 2011,-839 2011,-818 1926,-818"/>
+  <text text-anchor="start" x="1929" y="-824.8" font-family="Times,serif" font-size="14.00">Marsha Brody</text>
+  </g>
+
+
+  <g id="edge35" class="edge">
+  <title>bessie_katznelson:s&#45;&gt;merton_brody:ne</title>
+  <path fill="none" stroke="black" d="M3387,-905C3387,-825.03 2047.27,-893.87 1912.98,-844.94"/>
+  <polygon fill="black" stroke="black" points="1914.45,-841.75 1904,-840 1911.08,-847.89 1914.45,-841.75"/>
+  </g>
+
+
+  <g id="node46" class="node">
+  <title>esther_brody</title>
+  <text text-anchor="start" x="3310" y="-846" font-family="Times,serif" font-size="10.00">1919&#45;1989</text>
+  <text text-anchor="start" x="3411" y="-846" font-family="Times,serif" font-size="10.00">1918&#45;2013</text>
+  <polygon fill="none" stroke="black" points="3308,-818 3308,-839 3387,-839 3387,-818 3308,-818"/>
+  <text text-anchor="start" x="3311" y="-824.8" font-family="Times,serif" font-size="14.00">Esther Brody</text>
+  <text text-anchor="start" x="3391" y="-824.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="3409,-818 3409,-839 3494,-839 3494,-818 3409,-818"/>
+  <text text-anchor="start" x="3412" y="-824.8" font-family="Times,serif" font-size="14.00">Bernard Ecker</text>
+  </g>
+
+
+  <g id="edge44" class="edge">
+  <title>bessie_katznelson:s&#45;&gt;esther_brody:ne</title>
+  <path fill="none" stroke="black" d="M3387,-905C3387,-879.95 3402.36,-864.83 3393.12,-847.93"/>
+  <polygon fill="black" stroke="black" points="3395.88,-845.78 3387,-840 3390.34,-850.05 3395.88,-845.78"/>
+  </g>
+
+
+  <g id="node81" class="node">
+  <title>sylvia_davis</title>
+  <text text-anchor="start" x="5028" y="-846" font-family="Times,serif" font-size="10.00">1911&#45;1990</text>
+  <text text-anchor="start" x="5126" y="-846" font-family="Times,serif" font-size="10.00">1910&#45;2005</text>
+  <polygon fill="none" stroke="black" points="5026,-818 5026,-839 5102,-839 5102,-818 5026,-818"/>
+  <text text-anchor="start" x="5029" y="-824.8" font-family="Times,serif" font-size="14.00">Sylvia Davis</text>
+  <text text-anchor="start" x="5106" y="-824.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="5124,-818 5124,-839 5203,-839 5203,-818 5124,-818"/>
+  <text text-anchor="start" x="5127" y="-824.8" font-family="Times,serif" font-size="14.00">Morris Davis</text>
+  </g>
+
+
+  <g id="edge80" class="edge">
+  <title>bessie_katznelson:s&#45;&gt;sylvia_davis:ne</title>
+  <path fill="none" stroke="black" d="M3387,-905C3387,-814.68 4986.39,-897.65 5097.77,-849.34"/>
+  <polygon fill="black" stroke="black" points="5101.06,-850.55 5102,-840 5094.68,-847.66 5101.06,-850.55"/>
+  </g>
+
+
+  <g id="node3" class="node">
+  <title>benita_kaimowitz</title>
+  <text text-anchor="start" x="290" y="-756" font-family="Times,serif" font-size="10.00">1935</text>
+  <text text-anchor="start" x="468" y="-755.8" font-family="Times,serif" font-size="10.00">1935</text>
+  <text text-anchor="start" x="490" y="-755.8" font-family="Times,serif" font-size="14.00">      </text>
+  <text text-anchor="start" x="596" y="-756" font-family="Times,serif" font-size="10.00">1924&#45;2020</text>
+  <polygon fill="none" stroke="black" points="288,-726 288,-747 400,-747 400,-726 288,-726"/>
+  <text text-anchor="start" x="291" y="-732.8" font-family="Times,serif" font-size="14.00">Gabriel Kaimowitz</text>
+  <text text-anchor="start" x="404" y="-733.8" font-family="Times,serif" font-size="14.00">___</text>
+  <text text-anchor="start" x="425" y="-733.8" font-family="Times,serif" font-size="10.00">div.</text>
+  <text text-anchor="start" x="441" y="-733.8" font-family="Times,serif" font-size="14.00">___</text>
+  <polygon fill="none" stroke="black" points="466,-726 466,-747 572,-747 572,-726 466,-726"/>
+  <text text-anchor="start" x="469" y="-732.8" font-family="Times,serif" font-size="14.00">Benita Kaimowitz</text>
+  <text text-anchor="start" x="576" y="-732.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="594,-726 594,-747 683,-747 683,-726 594,-726"/>
+  <text text-anchor="start" x="597" y="-732.8" font-family="Times,serif" font-size="14.00">Ed Vandenberg</text>
+  </g>
+
+
+  <g id="edge8" class="edge">
+  <title>evelyn_rosenblum:s&#45;&gt;benita_kaimowitz:ne</title>
+  <path fill="none" stroke="black" d="M1025,-811C1094.62,-741.38 671.67,-814.97 579.83,-754.3"/>
+  <polygon fill="black" stroke="black" points="581.98,-751.54 572,-748 577.6,-757 581.98,-751.54"/>
+  </g>
+
+
+  <g id="node10" class="node">
+  <title>carolyn_levine</title>
+  <text text-anchor="start" x="706" y="-756" font-family="Times,serif" font-size="10.00">1939</text>
+  <text text-anchor="start" x="819" y="-756" font-family="Times,serif" font-size="10.00">1936</text>
+  <polygon fill="none" stroke="black" points="704,-728 704,-749 795,-749 795,-728 704,-728"/>
+  <text text-anchor="start" x="707" y="-734.8" font-family="Times,serif" font-size="14.00">Carolyn Levine</text>
+  <text text-anchor="start" x="799" y="-734.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="817,-728 817,-749 895,-749 895,-728 817,-728"/>
+  <text text-anchor="start" x="820" y="-734.8" font-family="Times,serif" font-size="14.00">Larry Levine</text>
+  </g>
+
+
+  <g id="edge13" class="edge">
+  <title>evelyn_rosenblum:s&#45;&gt;carolyn_levine:ne</title>
+  <path fill="none" stroke="black" d="M1025,-811C1097.3,-738.7 884.72,-819.08 802.95,-756.92"/>
+  <polygon fill="black" stroke="black" points="804.84,-753.93 795,-750 800.24,-759.21 804.84,-753.93"/>
+  </g>
+
+
+  <g id="node15" class="node">
+  <title>bernie_rosenblum</title>
+  <text text-anchor="start" x="918" y="-756" font-family="Times,serif" font-size="10.00">1946</text>
+  <text text-anchor="start" x="1049" y="-756" font-family="Times,serif" font-size="10.00">1947</text>
+  <polygon fill="none" stroke="black" points="916,-728 916,-749 1025,-749 1025,-728 916,-728"/>
+  <text text-anchor="start" x="919" y="-734.8" font-family="Times,serif" font-size="14.00">Bernie Rosenblum</text>
+  <text text-anchor="start" x="1029" y="-734.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="1047,-728 1047,-749 1149,-749 1149,-728 1047,-728"/>
+  <text text-anchor="start" x="1050" y="-734.8" font-family="Times,serif" font-size="14.00">Terry Rosenblum</text>
+  </g>
+
+
+  <g id="edge16" class="edge">
+  <title>evelyn_rosenblum:s&#45;&gt;bernie_rosenblum:ne</title>
+  <path fill="none" stroke="black" d="M1025,-811C1041.62,-794.38 1043.83,-775.13 1031.62,-757.81"/>
+  <polygon fill="black" stroke="black" points="1034.14,-755.36 1025,-750 1028.8,-759.89 1034.14,-755.36"/>
+  </g>
+
+
+  <g id="node18" class="node">
+  <title>howard_rosenblum</title>
+  <text text-anchor="start" x="1172" y="-756" font-family="Times,serif" font-size="10.00">1954</text>
+  <text text-anchor="start" x="1310" y="-756" font-family="Times,serif" font-size="10.00">1952</text>
+  <polygon fill="none" stroke="black" points="1170,-728 1170,-749 1286,-749 1286,-728 1170,-728"/>
+  <text text-anchor="start" x="1173" y="-734.8" font-family="Times,serif" font-size="14.00">Howard Rosenblum</text>
+  <text text-anchor="start" x="1290" y="-734.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="1308,-728 1308,-749 1413,-749 1413,-728 1308,-728"/>
+  <text text-anchor="start" x="1311" y="-734.8" font-family="Times,serif" font-size="14.00">Cathy Rosenblum</text>
+  </g>
+
+
+  <g id="edge20" class="edge">
+  <title>evelyn_rosenblum:s&#45;&gt;howard_rosenblum:ne</title>
+  <path fill="none" stroke="black" d="M1025,-811C1106.6,-729.4 1354.09,-827.71 1292.9,-757.35"/>
+  <polygon fill="black" stroke="black" points="1295.4,-754.89 1286,-750 1290.3,-759.68 1295.4,-754.89"/>
+  </g>
+
+
+  <g id="node4" class="node">
+  <title>david_kaimowitz</title>
+  <text text-anchor="start" x="147" y="-591" font-family="Times,serif" font-size="10.00">1958</text>
+  <text text-anchor="start" x="273" y="-591" font-family="Times,serif" font-size="10.00">1952</text>
+  <polygon fill="none" stroke="black" points="145,-563 145,-584 249,-584 249,-563 145,-563"/>
+  <text text-anchor="start" x="148" y="-569.8" font-family="Times,serif" font-size="14.00">David Kaimowitz</text>
+  <text text-anchor="start" x="253" y="-569.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="271,-563 271,-584 329,-584 329,-563 271,-563"/>
+  <text text-anchor="start" x="274" y="-569.8" font-family="Times,serif" font-size="14.00">Francisca</text>
+  </g>
+
+
+  <g id="edge5" class="edge">
+  <title>benita_kaimowitz:s&#45;&gt;david_kaimowitz:ne</title>
+  <path fill="none" stroke="black" d="M433,-725C433,-681.04 378.79,-709.52 343,-684 296.49,-650.84 292.27,-630.4 256.14,-592.32"/>
+  <polygon fill="black" stroke="black" points="258.49,-589.72 249,-585 253.47,-594.6 258.49,-589.72"/>
+  </g>
+
+
+  <g id="node8" class="node">
+  <title>beth_kaimowitz</title>
+  <text text-anchor="start" x="353" y="-591" font-family="Times,serif" font-size="10.00">1961</text>
+  <text text-anchor="start" x="472" y="-591" font-family="Times,serif" font-size="10.00">1959</text>
+  <polygon fill="none" stroke="black" points="351,-563 351,-584 448,-584 448,-563 351,-563"/>
+  <text text-anchor="start" x="354" y="-569.8" font-family="Times,serif" font-size="14.00">Beth Kaimowitz</text>
+  <text text-anchor="start" x="452" y="-569.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="470,-563 470,-584 584,-584 584,-563 470,-563"/>
+  <text text-anchor="start" x="473" y="-569.8" font-family="Times,serif" font-size="14.00">Mario de la Huerga</text>
+  </g>
+
+
+  <g id="edge7" class="edge">
+  <title>benita_kaimowitz:s&#45;&gt;beth_kaimowitz:ne</title>
+  <path fill="none" stroke="black" d="M433,-725C433,-666.09 485.51,-633.24 454.74,-592.67"/>
+  <polygon fill="black" stroke="black" points="457.23,-590.2 448,-585 451.97,-594.82 457.23,-590.2"/>
+  </g>
+
+
+  <g id="node5" class="node">
+  <title>eliana_kaimowitz</title>
+  <text text-anchor="start" x="12" y="-375" font-family="Times,serif" font-size="10.00">1978</text>
+  <text text-anchor="start" x="140" y="-375" font-family="Times,serif" font-size="10.00">1979</text>
+  <polygon fill="none" stroke="black" points="10,-347 10,-368 116,-368 116,-347 10,-347"/>
+  <text text-anchor="start" x="13" y="-353.8" font-family="Times,serif" font-size="14.00">Eliana Kaimowitz</text>
+  <text text-anchor="start" x="120" y="-353.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="138,-347 138,-368 212,-368 212,-347 138,-347"/>
+  <text text-anchor="start" x="141" y="-353.8" font-family="Times,serif" font-size="14.00">Gabe Tames</text>
+  </g>
+
+
+  <g id="edge3" class="edge">
+  <title>david_kaimowitz:s&#45;&gt;eliana_kaimowitz:ne</title>
+  <path fill="none" stroke="black" d="M262,-556C334.08,-483.92 200.01,-446.11 123.65,-376.31"/>
+  <polygon fill="black" stroke="black" points="125.65,-373.38 116,-369 120.81,-378.44 125.65,-373.38"/>
+  </g>
+
+
+  <g id="node7" class="node">
+  <title>tania_kaimowitz</title>
+  <text text-anchor="start" x="236" y="-375" font-family="Times,serif" font-size="10.00">1983</text>
+  <polygon fill="none" stroke="black" points="234,-347 234,-368 335,-368 335,-347 234,-347"/>
+  <text text-anchor="start" x="237" y="-353.8" font-family="Times,serif" font-size="14.00">Tania Kaimowitz</text>
+  </g>
+
+
+  <g id="edge4" class="edge">
+  <title>david_kaimowitz:s&#45;&gt;tania_kaimowitz:ne</title>
+  <path fill="none" stroke="black" d="M262,-556C323.01,-494.99 393.73,-436.27 342.82,-375.43"/>
+  <polygon fill="black" stroke="black" points="345.34,-373 336,-368 340.18,-377.73 345.34,-373"/>
+  </g>
+
+
+  <g id="node6" class="node">
+  <title>gabe_tames_children</title>
+  <text text-anchor="start" x="91" y="-159" font-family="Times,serif" font-size="10.00">2005</text>
+  <polygon fill="none" stroke="black" points="89,-131 89,-152 183,-152 183,-131 89,-131"/>
+  <text text-anchor="start" x="92" y="-137.8" font-family="Times,serif" font-size="14.00">Emanuel Tames</text>
+  <text text-anchor="start" x="91" y="-111" font-family="Times,serif" font-size="10.00">2010</text>
+  <polygon fill="none" stroke="black" points="89,-83 89,-104 183,-104 183,-83 89,-83"/>
+  <text text-anchor="start" x="105.5" y="-89.8" font-family="Times,serif" font-size="14.00">Eva Tames</text>
+  <polygon fill="none" stroke="black" points="82,-76 82,-176 190,-176 190,-76 82,-76"/>
+  </g>
+
+
+  <g id="edge2" class="edge">
+  <title>eliana_kaimowitz:secondary_joiner&#45;&gt;gabe_tames_children</title>
+  <path fill="none" stroke="black" d="M136,-340C174.08,-301.92 168.83,-238.23 157.23,-190.39"/>
+  <polygon fill="black" stroke="black" points="160.55,-189.25 154.67,-180.44 153.77,-191 160.55,-189.25"/>
+  </g>
+
+
+  <g id="node9" class="node">
+  <title>mario_de_la_huerga_children</title>
+  <text text-anchor="start" x="435" y="-399" font-family="Times,serif" font-size="10.00">1993</text>
+  <polygon fill="none" stroke="black" points="433,-371 433,-392 551,-392 551,-371 433,-371"/>
+  <text text-anchor="start" x="446.5" y="-377.8" font-family="Times,serif" font-size="14.00">Rubi Kaimowitz</text>
+  <text text-anchor="start" x="435" y="-351" font-family="Times,serif" font-size="10.00">1999</text>
+  <polygon fill="none" stroke="black" points="433,-323 433,-344 551,-344 551,-323 433,-323"/>
+  <text text-anchor="start" x="436" y="-329.8" font-family="Times,serif" font-size="14.00">Raquel de la Huerga</text>
+  <polygon fill="none" stroke="black" points="426,-316 426,-416 558,-416 558,-316 426,-316"/>
+  </g>
+
+
+  <g id="edge6" class="edge">
+  <title>beth_kaimowitz:secondary_joiner&#45;&gt;mario_de_la_huerga_children</title>
+  <path fill="none" stroke="black" d="M492,-556C524.01,-523.99 521.52,-471.61 512.42,-430.09"/>
+  <polygon fill="black" stroke="black" points="515.82,-429.26 510.12,-420.33 509.01,-430.87 515.82,-429.26"/>
+  </g>
+
+
+  <g id="node11" class="node">
+  <title>janet_levine_march</title>
+  <text text-anchor="start" x="683" y="-591" font-family="Times,serif" font-size="10.00">1963&#45;1996</text>
+  <polygon fill="none" stroke="black" points="681,-563 681,-584 796,-584 796,-563 681,-563"/>
+  <text text-anchor="start" x="684" y="-569.8" font-family="Times,serif" font-size="14.00">Janet Levine March</text>
+  </g>
+
+
+  <g id="edge11" class="edge">
+  <title>carolyn_levine:s&#45;&gt;janet_levine_march:ne</title>
+  <path fill="none" stroke="black" d="M824,-721C836.55,-708.45 813.43,-701.18 809,-684 804.18,-665.29 810.53,-616.15 802.18,-592.88"/>
+  <polygon fill="black" stroke="black" points="805.06,-590.88 797,-584 799.01,-594.4 805.06,-590.88"/>
+  </g>
+
+
+  <g id="node14" class="node">
+  <title>mark_levine</title>
+  <text text-anchor="start" x="819" y="-591" font-family="Times,serif" font-size="10.00">1966</text>
+  <polygon fill="none" stroke="black" points="817,-563 817,-584 895,-584 895,-563 817,-563"/>
+  <text text-anchor="start" x="820" y="-569.8" font-family="Times,serif" font-size="14.00">Mark Levine</text>
+  </g>
+
+
+  <g id="edge12" class="edge">
+  <title>carolyn_levine:s&#45;&gt;mark_levine:ne</title>
+  <path fill="none" stroke="black" d="M824,-721C870.07,-674.93 937.11,-636.85 902.71,-591.62"/>
+  <polygon fill="black" stroke="black" points="905.23,-589.19 896,-584 899.98,-593.82 905.23,-589.19"/>
+  </g>
+
+
+  <g id="node12" class="node">
+  <title>samson_march</title>
+  <text text-anchor="start" x="636" y="-375" font-family="Times,serif" font-size="10.00">1990</text>
+  <text text-anchor="start" x="748" y="-375" font-family="Times,serif" font-size="10.00">1993</text>
+  <polygon fill="none" stroke="black" points="634,-347 634,-368 724,-368 724,-347 634,-347"/>
+  <text text-anchor="start" x="637" y="-353.8" font-family="Times,serif" font-size="14.00">Samson March</text>
+  <text text-anchor="start" x="728" y="-353.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="746,-347 746,-368 836,-368 836,-347 746,-347"/>
+  <text text-anchor="start" x="749" y="-353.8" font-family="Times,serif" font-size="14.00">Marissa Koven</text>
+  </g>
+
+
+  <g id="edge9" class="edge">
+  <title>janet_levine_march:s&#45;&gt;samson_march:ne</title>
+  <path fill="none" stroke="black" d="M738,-556C738,-476.24 779.15,-431.85 731.03,-376.52"/>
+  <polygon fill="black" stroke="black" points="733.39,-373.91 724,-369 728.27,-378.69 733.39,-373.91"/>
+  </g>
+
+
+  <g id="node13" class="node">
+  <title>tzipora_march</title>
+  <text text-anchor="start" x="859" y="-375" font-family="Times,serif" font-size="10.00">1994</text>
+  <polygon fill="none" stroke="black" points="857,-347 857,-368 945,-368 945,-347 857,-347"/>
+  <text text-anchor="start" x="860" y="-353.8" font-family="Times,serif" font-size="14.00">Tzipora March</text>
+  </g>
+
+
+  <g id="edge10" class="edge">
+  <title>janet_levine_march:s&#45;&gt;tzipora_march:ne</title>
+  <path fill="none" stroke="black" d="M738,-556C738,-435.04 1017.02,-454.79 952.77,-375.46"/>
+  <polygon fill="black" stroke="black" points="955.31,-373.05 946,-368 950.13,-377.76 955.31,-373.05"/>
+  </g>
+
+
+  <g id="node16" class="node">
+  <title>jodie</title>
+  <text text-anchor="start" x="1024" y="-591" font-family="Times,serif" font-size="10.00">1984</text>
+  <text text-anchor="start" x="1081" y="-591" font-family="Times,serif" font-size="10.00">1979</text>
+  <polygon fill="none" stroke="black" points="1022,-563 1022,-584 1057,-584 1057,-563 1022,-563"/>
+  <text text-anchor="start" x="1025" y="-569.8" font-family="Times,serif" font-size="14.00">Jodie</text>
+  <text text-anchor="start" x="1061" y="-569.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="1079,-563 1079,-584 1156,-584 1156,-563 1079,-563"/>
+  <text text-anchor="start" x="1082" y="-569.8" font-family="Times,serif" font-size="14.00">Dylan Glynn</text>
+  </g>
+
+
+  <g id="edge15" class="edge">
+  <title>bernie_rosenblum:s&#45;&gt;jodie:ne</title>
+  <path fill="none" stroke="black" d="M1057,-721C1097.32,-680.68 1099.6,-633.44 1063.85,-592.33"/>
+  <polygon fill="black" stroke="black" points="1066.38,-589.92 1057,-585 1061.27,-594.7 1066.38,-589.92"/>
+  </g>
+
+
+  <g id="node17" class="node">
+  <title>dylan_glynn_children</title>
+  <text text-anchor="start" x="1062" y="-375" font-family="Times,serif" font-size="10.00">2018</text>
+  <polygon fill="none" stroke="black" points="1060,-347 1060,-368 1169,-368 1169,-347 1060,-347"/>
+  <text text-anchor="start" x="1063" y="-353.8" font-family="Times,serif" font-size="14.00">Louisa Elke Glynn</text>
+  <polygon fill="none" stroke="black" points="1052.5,-340 1052.5,-392 1175.5,-392 1175.5,-340 1052.5,-340"/>
+  </g>
+
+
+  <g id="edge14" class="edge">
+  <title>jodie:secondary_joiner&#45;&gt;dylan_glynn_children</title>
+  <path fill="none" stroke="black" d="M1114,-556C1152.75,-517.25 1140.94,-448.64 1128.05,-405.6"/>
+  <polygon fill="black" stroke="black" points="1131.38,-404.53 1125.04,-396.04 1124.7,-406.63 1131.38,-404.53"/>
+  </g>
+
+
+  <g id="node19" class="node">
+  <title>tali_rosenblum</title>
+  <text text-anchor="start" x="1192" y="-591" font-family="Times,serif" font-size="10.00">1987</text>
+  <text text-anchor="start" x="1308" y="-591" font-family="Times,serif" font-size="10.00">1978</text>
+  <polygon fill="none" stroke="black" points="1190,-563 1190,-584 1284,-584 1284,-563 1190,-563"/>
+  <text text-anchor="start" x="1193" y="-569.8" font-family="Times,serif" font-size="14.00">Tali Rosenblum</text>
+  <text text-anchor="start" x="1288" y="-569.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="1306,-563 1306,-584 1366,-584 1366,-563 1306,-563"/>
+  <text text-anchor="start" x="1309" y="-569.8" font-family="Times,serif" font-size="14.00">Josh Katz</text>
+  </g>
+
+
+  <g id="edge18" class="edge">
+  <title>howard_rosenblum:s&#45;&gt;tali_rosenblum:ne</title>
+  <path fill="none" stroke="black" d="M1316,-721C1357.51,-679.49 1331.18,-634.17 1291.09,-592.24"/>
+  <polygon fill="black" stroke="black" points="1293.5,-589.7 1284,-585 1288.49,-594.59 1293.5,-589.7"/>
+  </g>
+
+
+  <g id="node21" class="node">
+  <title>noah_rosenblum</title>
+  <text text-anchor="start" x="1389" y="-591" font-family="Times,serif" font-size="10.00">1990</text>
+  <polygon fill="none" stroke="black" points="1387,-563 1387,-584 1489,-584 1489,-563 1387,-563"/>
+  <text text-anchor="start" x="1390" y="-569.8" font-family="Times,serif" font-size="14.00">Noah Rosenblum</text>
+  </g>
+
+
+  <g id="edge19" class="edge">
+  <title>howard_rosenblum:s&#45;&gt;noah_rosenblum:ne</title>
+  <path fill="none" stroke="black" d="M1316,-721C1383.02,-653.98 1546.83,-653.53 1496.76,-591.46"/>
+  <polygon fill="black" stroke="black" points="1499.31,-589.06 1490,-584 1494.12,-593.76 1499.31,-589.06"/>
+  </g>
+
+
+  <g id="node20" class="node">
+  <title>josh_katz_children</title>
+  <text text-anchor="start" x="1267" y="-399" font-family="Times,serif" font-size="10.00">2020</text>
+  <polygon fill="none" stroke="black" points="1265,-371 1265,-392 1341,-392 1341,-371 1265,-371"/>
+  <text text-anchor="start" x="1274.5" y="-377.8" font-family="Times,serif" font-size="14.00">Kobi Katz</text>
+  <text text-anchor="start" x="1267" y="-351" font-family="Times,serif" font-size="10.00">2021</text>
+  <polygon fill="none" stroke="black" points="1265,-323 1265,-344 1341,-344 1341,-323 1265,-323"/>
+  <text text-anchor="start" x="1268" y="-329.8" font-family="Times,serif" font-size="14.00">Charlie Katz</text>
+  <polygon fill="none" stroke="black" points="1258,-316 1258,-416 1348,-416 1348,-316 1258,-316"/>
+  </g>
+
+
+  <g id="edge17" class="edge">
+  <title>tali_rosenblum:secondary_joiner&#45;&gt;josh_katz_children</title>
+  <path fill="none" stroke="black" d="M1303,-556C1335.01,-523.99 1332.52,-471.61 1323.42,-430.09"/>
+  <polygon fill="black" stroke="black" points="1326.82,-429.26 1321.12,-420.33 1320.01,-430.87 1326.82,-429.26"/>
+  </g>
+
+
+  <g id="node22" class="node">
+  <title>lena_sherman</title>
+  <text text-anchor="start" x="6844" y="-934" font-family="Times,serif" font-size="10.00">1893&#45;1991</text>
+  <text text-anchor="start" x="6952" y="-934" font-family="Times,serif" font-size="10.00">1898&#45;1976</text>
+  <polygon fill="none" stroke="black" points="6842,-906 6842,-927 6928,-927 6928,-906 6842,-906"/>
+  <text text-anchor="start" x="6845" y="-912.8" font-family="Times,serif" font-size="14.00">Lena Sherman</text>
+  <text text-anchor="start" x="6932" y="-912.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="6950,-906 6950,-927 7040,-927 7040,-906 6950,-906"/>
+  <text text-anchor="start" x="6953" y="-912.8" font-family="Times,serif" font-size="14.00">Louis Sherman</text>
+  </g>
+
+
+  <g id="node23" class="node">
+  <title>vernon_sherman</title>
+  <text text-anchor="start" x="6365" y="-846" font-family="Times,serif" font-size="10.00">&#45;1987</text>
+  <text text-anchor="start" x="6538" y="-845.8" font-family="Times,serif" font-size="10.00">1923&#45;1994</text>
+  <text text-anchor="start" x="6584" y="-845.8" font-family="Times,serif" font-size="14.00">      </text>
+  <text text-anchor="start" x="6658" y="-846" font-family="Times,serif" font-size="10.00">1943</text>
+  <polygon fill="none" stroke="black" points="6363,-816 6363,-837 6470,-837 6470,-816 6363,-816"/>
+  <text text-anchor="start" x="6366" y="-822.8" font-family="Times,serif" font-size="14.00">Rochelle Sherman</text>
+  <text text-anchor="start" x="6474" y="-823.8" font-family="Times,serif" font-size="14.00">___</text>
+  <text text-anchor="start" x="6495" y="-823.8" font-family="Times,serif" font-size="10.00">div.</text>
+  <text text-anchor="start" x="6511" y="-823.8" font-family="Times,serif" font-size="14.00">___</text>
+  <polygon fill="none" stroke="black" points="6536,-816 6536,-837 6634,-837 6634,-816 6536,-816"/>
+  <text text-anchor="start" x="6539" y="-822.8" font-family="Times,serif" font-size="14.00">Vernon Sherman</text>
+  <text text-anchor="start" x="6638" y="-822.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="6656,-816 6656,-837 6704,-837 6704,-816 6656,-816"/>
+  <text text-anchor="start" x="6659" y="-822.8" font-family="Times,serif" font-size="14.00">Marsha</text>
+  </g>
+
+
+  <g id="edge21" class="edge">
+  <title>lena_sherman:s&#45;&gt;vernon_sherman:ne</title>
+  <path fill="none" stroke="black" d="M6995,-905C6995,-866.75 6703.07,-866.69 6642.81,-843.06"/>
+  <polygon fill="black" stroke="black" points="6644.41,-839.94 6634,-838 6640.93,-846.02 6644.41,-839.94"/>
+  </g>
+
+
+  <g id="node31" class="node">
+  <title>norton_(corky)_sherman</title>
+  <text text-anchor="start" x="6853" y="-846" font-family="Times,serif" font-size="10.00">1928&#45;1963</text>
+  <text text-anchor="start" x="7019" y="-846" font-family="Times,serif" font-size="10.00">1928&#45;2004</text>
+  <polygon fill="none" stroke="black" points="6851,-818 6851,-839 6995,-839 6995,-818 6851,-818"/>
+  <text text-anchor="start" x="6854" y="-824.8" font-family="Times,serif" font-size="14.00">Norton (Corky) Sherman</text>
+  <text text-anchor="start" x="6999" y="-824.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="7017,-818 7017,-839 7106,-839 7106,-818 7017,-818"/>
+  <text text-anchor="start" x="7020" y="-824.8" font-family="Times,serif" font-size="14.00">Beryl Sherman</text>
+  </g>
+
+
+  <g id="edge29" class="edge">
+  <title>lena_sherman:s&#45;&gt;norton_(corky)_sherman:ne</title>
+  <path fill="none" stroke="black" d="M6995,-905C6995,-879.95 7010.36,-864.83 7001.12,-847.93"/>
+  <polygon fill="black" stroke="black" points="7003.88,-845.78 6995,-840 6998.34,-850.05 7003.88,-845.78"/>
+  </g>
+
+
+  <g id="node24" class="node">
+  <title>andy_sherman</title>
+  <text text-anchor="start" x="6190" y="-756" font-family="Times,serif" font-size="10.00">1953</text>
+  <text text-anchor="start" x="6301" y="-756" font-family="Times,serif" font-size="10.00">1954</text>
+  <polygon fill="none" stroke="black" points="6188,-728 6188,-749 6277,-749 6277,-728 6188,-728"/>
+  <text text-anchor="start" x="6191" y="-734.8" font-family="Times,serif" font-size="14.00">Andy Sherman</text>
+  <text text-anchor="start" x="6281" y="-734.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="6299,-728 6299,-749 6386,-749 6386,-728 6299,-728"/>
+  <text text-anchor="start" x="6302" y="-734.8" font-family="Times,serif" font-size="14.00">Joanne Palmer</text>
+  </g>
+
+
+  <g id="edge24" class="edge">
+  <title>vernon_sherman:s&#45;&gt;andy_sherman:ne</title>
+  <path fill="none" stroke="black" d="M6503,-815C6503,-765.91 6336.15,-784.3 6285.31,-756.07"/>
+  <polygon fill="black" stroke="black" points="6287.14,-753.07 6277,-750 6283.01,-758.73 6287.14,-753.07"/>
+  </g>
+
+
+  <g id="node27" class="node">
+  <title>gary_sherman</title>
+  <text text-anchor="start" x="6416" y="-756" font-family="Times,serif" font-size="10.00">1949</text>
+  <text text-anchor="start" x="6568" y="-756" font-family="Times,serif" font-size="10.00">1947</text>
+  <polygon fill="none" stroke="black" points="6414,-728 6414,-749 6500,-749 6500,-728 6414,-728"/>
+  <text text-anchor="start" x="6417" y="-734.8" font-family="Times,serif" font-size="14.00">Gary Sherman</text>
+  <text text-anchor="start" x="6504" y="-735.8" font-family="Times,serif" font-size="14.00">___</text>
+  <text text-anchor="start" x="6525" y="-735.8" font-family="Times,serif" font-size="10.00">div.</text>
+  <text text-anchor="start" x="6541" y="-735.8" font-family="Times,serif" font-size="14.00">___</text>
+  <polygon fill="none" stroke="black" points="6566,-728 6566,-749 6597,-749 6597,-728 6566,-728"/>
+  <text text-anchor="start" x="6569" y="-734.8" font-family="Times,serif" font-size="14.00">Jean</text>
+  </g>
+
+
+  <g id="edge27" class="edge">
+  <title>vernon_sherman:s&#45;&gt;gary_sherman:ne</title>
+  <path fill="none" stroke="black" d="M6503,-815C6503,-789.92 6516.12,-774.84 6506.27,-757.94"/>
+  <polygon fill="black" stroke="black" points="6508.95,-755.68 6500,-750 6503.46,-760.02 6508.95,-755.68"/>
+  </g>
+
+
+  <g id="node30" class="node">
+  <title>marsha_children</title>
+  <polygon fill="none" stroke="black" points="6623,-733 6623,-754 6673,-754 6673,-733 6623,-733"/>
+  <text text-anchor="start" x="6626" y="-739.8" font-family="Times,serif" font-size="14.00">Jennifer</text>
+  <polygon fill="none" stroke="black" points="6616,-726.5 6616,-767.5 6680,-767.5 6680,-726.5 6616,-726.5"/>
+  </g>
+
+
+  <g id="edge28" class="edge">
+  <title>vernon_sherman:primary_joiner&#45;&gt;marsha_children</title>
+  <path fill="none" stroke="black" d="M6645,-815C6645,-804.17 6645.4,-792.37 6645.9,-781.73"/>
+  <polygon fill="black" stroke="black" points="6649.41,-781.72 6646.43,-771.55 6642.41,-781.36 6649.41,-781.72"/>
+  </g>
+
+
+  <g id="node25" class="node">
+  <title>shira</title>
+  <text text-anchor="start" x="6193" y="-591" font-family="Times,serif" font-size="10.00">1980&#45;2000</text>
+  <polygon fill="none" stroke="black" points="6191,-563 6191,-584 6241,-584 6241,-563 6191,-563"/>
+  <text text-anchor="start" x="6201.5" y="-569.8" font-family="Times,serif" font-size="14.00">Shira</text>
+  </g>
+
+
+  <g id="edge22" class="edge">
+  <title>andy_sherman:s&#45;&gt;shira:ne</title>
+  <path fill="none" stroke="black" d="M6312,-721C6333.36,-699.64 6271.1,-709.55 6255,-684 6233.07,-649.19 6267.15,-620.73 6248.38,-591.78"/>
+  <polygon fill="black" stroke="black" points="6251.05,-589.51 6242,-584 6245.63,-593.95 6251.05,-589.51"/>
+  </g>
+
+
+  <g id="node26" class="node">
+  <title>miriam</title>
+  <text text-anchor="start" x="6265" y="-591" font-family="Times,serif" font-size="10.00">1983</text>
+  <text text-anchor="start" x="6336" y="-591" font-family="Times,serif" font-size="10.00">1983</text>
+  <polygon fill="none" stroke="black" points="6263,-563 6263,-584 6312,-584 6312,-563 6263,-563"/>
+  <text text-anchor="start" x="6266" y="-569.8" font-family="Times,serif" font-size="14.00">Miriam</text>
+  <text text-anchor="start" x="6316" y="-569.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="6334,-563 6334,-584 6424,-584 6424,-563 6334,-563"/>
+  <text text-anchor="start" x="6337" y="-569.8" font-family="Times,serif" font-size="14.00">David Vaisberg</text>
+  </g>
+
+
+  <g id="edge23" class="edge">
+  <title>andy_sherman:s&#45;&gt;miriam:ne</title>
+  <path fill="none" stroke="black" d="M6312,-721C6352.32,-680.68 6354.6,-633.44 6318.85,-592.33"/>
+  <polygon fill="black" stroke="black" points="6321.38,-589.92 6312,-585 6316.27,-594.7 6321.38,-589.92"/>
+  </g>
+
+
+  <g id="node28" class="node">
+  <title>isiah_sherman</title>
+  <text text-anchor="start" x="6447" y="-591" font-family="Times,serif" font-size="10.00">1981</text>
+  <polygon fill="none" stroke="black" points="6445,-563 6445,-584 6530,-584 6530,-563 6445,-563"/>
+  <text text-anchor="start" x="6448" y="-569.8" font-family="Times,serif" font-size="14.00">Isiah Sherman</text>
+  <text text-anchor="start" x="6534" y="-569.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="6552,-563 6552,-584 6623,-584 6623,-563 6552,-563"/>
+  <text text-anchor="start" x="6555" y="-569.8" font-family="Times,serif" font-size="14.00">Jen Miracle</text>
+  </g>
+
+
+  <g id="edge25" class="edge">
+  <title>gary_sherman:s&#45;&gt;isiah_sherman:ne</title>
+  <path fill="none" stroke="black" d="M6530,-721C6570.32,-680.68 6572.6,-633.44 6536.85,-592.33"/>
+  <polygon fill="black" stroke="black" points="6539.38,-589.92 6530,-585 6534.27,-594.7 6539.38,-589.92"/>
+  </g>
+
+
+  <g id="node29" class="node">
+  <title>matthew_sherman</title>
+  <text text-anchor="start" x="6647" y="-591" font-family="Times,serif" font-size="10.00">1983</text>
+  <polygon fill="none" stroke="black" points="6645,-563 6645,-584 6753,-584 6753,-563 6645,-563"/>
+  <text text-anchor="start" x="6648" y="-569.8" font-family="Times,serif" font-size="14.00">Matthew Sherman</text>
+  <text text-anchor="start" x="6757" y="-569.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="6775,-563 6775,-584 6894,-584 6894,-563 6775,-563"/>
+  <text text-anchor="start" x="6778" y="-569.8" font-family="Times,serif" font-size="14.00">Shona Ramchandani</text>
+  </g>
+
+
+  <g id="edge26" class="edge">
+  <title>gary_sherman:s&#45;&gt;matthew_sherman:ne</title>
+  <path fill="none" stroke="black" d="M6530,-721C6563.51,-687.49 6588.78,-707.38 6630,-684 6687.7,-651.27 6790.57,-636.29 6759.73,-592.84"/>
+  <polygon fill="black" stroke="black" points="6762.17,-590.31 6753,-585 6756.86,-594.87 6762.17,-590.31"/>
+  </g>
+
+
+  <g id="node32" class="node">
+  <title>sherry_sherman</title>
+  <text text-anchor="start" x="6701" y="-756" font-family="Times,serif" font-size="10.00">1953</text>
+  <text text-anchor="start" x="6818" y="-756" font-family="Times,serif" font-size="10.00">1937</text>
+  <polygon fill="none" stroke="black" points="6699,-728 6699,-749 6794,-749 6794,-728 6699,-728"/>
+  <text text-anchor="start" x="6702" y="-734.8" font-family="Times,serif" font-size="14.00">Sherry Sherman</text>
+  <text text-anchor="start" x="6798" y="-734.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="6816,-728 6816,-749 6889,-749 6889,-728 6816,-728"/>
+  <text text-anchor="start" x="6819" y="-734.8" font-family="Times,serif" font-size="14.00">Gary Cunial</text>
+  </g>
+
+
+  <g id="edge31" class="edge">
+  <title>norton_(corky)_sherman:s&#45;&gt;sherry_sherman:ne</title>
+  <path fill="none" stroke="black" d="M7003,-811C7069.02,-744.98 6876.78,-813.27 6801.72,-756.69"/>
+  <polygon fill="black" stroke="black" points="6803.85,-753.91 6794,-750 6799.26,-759.2 6803.85,-753.91"/>
+  </g>
+
+
+  <g id="node34" class="node">
+  <title>sandy_sherman</title>
+  <text text-anchor="start" x="6912" y="-756" font-family="Times,serif" font-size="10.00">1957</text>
+  <text text-anchor="start" x="7027" y="-756" font-family="Times,serif" font-size="10.00">1964</text>
+  <polygon fill="none" stroke="black" points="6910,-728 6910,-749 7003,-749 7003,-728 6910,-728"/>
+  <text text-anchor="start" x="6913" y="-734.8" font-family="Times,serif" font-size="14.00">Sandy Sherman</text>
+  <text text-anchor="start" x="7007" y="-734.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="7025,-728 7025,-749 7130,-749 7130,-728 7025,-728"/>
+  <text text-anchor="start" x="7028" y="-734.8" font-family="Times,serif" font-size="14.00">Allison Velazquez</text>
+  </g>
+
+
+  <g id="edge32" class="edge">
+  <title>norton_(corky)_sherman:s&#45;&gt;sandy_sherman:ne</title>
+  <path fill="none" stroke="black" d="M7003,-811C7019.62,-794.38 7021.83,-775.13 7009.62,-757.81"/>
+  <polygon fill="black" stroke="black" points="7012.14,-755.36 7003,-750 7006.8,-759.89 7012.14,-755.36"/>
+  </g>
+
+
+  <g id="node35" class="node">
+  <title>ricky_sherman</title>
+  <text text-anchor="start" x="7153" y="-756" font-family="Times,serif" font-size="10.00">1957&#45;2005</text>
+  <polygon fill="none" stroke="black" points="7151,-728 7151,-749 7242,-749 7242,-728 7151,-728"/>
+  <text text-anchor="start" x="7154" y="-734.8" font-family="Times,serif" font-size="14.00">Ricky Sherman</text>
+  <text text-anchor="start" x="7246" y="-735.8" font-family="Times,serif" font-size="14.00">___</text>
+  <text text-anchor="start" x="7267" y="-735.8" font-family="Times,serif" font-size="10.00">div.</text>
+  <text text-anchor="start" x="7283" y="-735.8" font-family="Times,serif" font-size="14.00">___</text>
+  <polygon fill="none" stroke="black" points="7308,-728 7308,-749 7347,-749 7347,-728 7308,-728"/>
+  <text text-anchor="start" x="7311" y="-734.8" font-family="Times,serif" font-size="14.00">Diana</text>
+  </g>
+
+
+  <g id="edge34" class="edge">
+  <title>norton_(corky)_sherman:s&#45;&gt;ricky_sherman:ne</title>
+  <path fill="none" stroke="black" d="M7003,-811C7077.79,-736.21 7302.91,-821.12 7249.02,-757.55"/>
+  <polygon fill="black" stroke="black" points="7251.37,-754.94 7242,-750 7246.25,-759.71 7251.37,-754.94"/>
+  </g>
+
+
+  <g id="node33" class="node">
+  <title>alyssa</title>
+  <text text-anchor="start" x="6917" y="-591" font-family="Times,serif" font-size="10.00">1986</text>
+  <text text-anchor="start" x="6982" y="-591" font-family="Times,serif" font-size="10.00">1953</text>
+  <polygon fill="none" stroke="black" points="6915,-563 6915,-584 6958,-584 6958,-563 6915,-563"/>
+  <text text-anchor="start" x="6918" y="-569.8" font-family="Times,serif" font-size="14.00">Alyssa</text>
+  <text text-anchor="start" x="6962" y="-569.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="6980,-563 6980,-584 7068,-584 7068,-563 6980,-563"/>
+  <text text-anchor="start" x="6983" y="-569.8" font-family="Times,serif" font-size="14.00">Andrew Perew</text>
+  </g>
+
+
+  <g id="edge30" class="edge">
+  <title>sherry_sherman:s&#45;&gt;alyssa:ne</title>
+  <path fill="none" stroke="black" d="M6819,-721C6847.27,-692.73 6871.37,-710.85 6901,-684 6935.83,-652.44 6985.79,-625.24 6964.53,-592.88"/>
+  <polygon fill="black" stroke="black" points="6967.07,-590.47 6958,-585 6961.68,-594.93 6967.07,-590.47"/>
+  </g>
+
+
+  <g id="node36" class="node">
+  <title>diana_children</title>
+  <text text-anchor="start" x="7228" y="-615" font-family="Times,serif" font-size="10.00">1993</text>
+  <polygon fill="none" stroke="black" points="7226,-587 7226,-608 7323,-608 7323,-587 7226,-587"/>
+  <text text-anchor="start" x="7233.5" y="-593.8" font-family="Times,serif" font-size="14.00">Ryan Sherman</text>
+  <text text-anchor="start" x="7228" y="-567" font-family="Times,serif" font-size="10.00">1994</text>
+  <polygon fill="none" stroke="black" points="7226,-539 7226,-560 7323,-560 7323,-539 7226,-539"/>
+  <text text-anchor="start" x="7229" y="-545.8" font-family="Times,serif" font-size="14.00">Kelsey Sherman</text>
+  <polygon fill="none" stroke="black" points="7218.5,-532 7218.5,-632 7329.5,-632 7329.5,-532 7218.5,-532"/>
+  </g>
+
+
+  <g id="edge33" class="edge">
+  <title>ricky_sherman:secondary_joiner&#45;&gt;diana_children</title>
+  <path fill="none" stroke="black" d="M7274,-721C7293.15,-701.85 7295.39,-672.7 7291.91,-646.11"/>
+  <polygon fill="black" stroke="black" points="7295.35,-645.41 7290.33,-636.08 7288.43,-646.5 7295.35,-645.41"/>
+  </g>
+
+
+  <g id="node38" class="node">
+  <title>benjamin_brody</title>
+  <text text-anchor="start" x="1436" y="-756" font-family="Times,serif" font-size="10.00">1957</text>
+  <text text-anchor="start" x="1599" y="-756" font-family="Times,serif" font-size="10.00">1959</text>
+  <polygon fill="none" stroke="black" points="1434,-728 1434,-749 1531,-749 1531,-728 1434,-728"/>
+  <text text-anchor="start" x="1437" y="-734.8" font-family="Times,serif" font-size="14.00">Benjamin Brody</text>
+  <text text-anchor="start" x="1535" y="-735.8" font-family="Times,serif" font-size="14.00">___</text>
+  <text text-anchor="start" x="1556" y="-735.8" font-family="Times,serif" font-size="10.00">div.</text>
+  <text text-anchor="start" x="1572" y="-735.8" font-family="Times,serif" font-size="14.00">___</text>
+  <polygon fill="none" stroke="black" points="1597,-728 1597,-749 1649,-749 1649,-728 1597,-728"/>
+  <text text-anchor="start" x="1600" y="-734.8" font-family="Times,serif" font-size="14.00">Donalda</text>
+  </g>
+
+
+  <g id="edge37" class="edge">
+  <title>merton_brody:s&#45;&gt;benjamin_brody:ne</title>
+  <path fill="none" stroke="black" d="M1940,-811C2002.69,-748.31 1624.15,-810.3 1539.09,-756.37"/>
+  <polygon fill="black" stroke="black" points="1541.02,-753.43 1531,-750 1536.69,-758.93 1541.02,-753.43"/>
+  </g>
+
+
+  <g id="node40" class="node">
+  <title>steven_brody</title>
+  <text text-anchor="start" x="1672" y="-756" font-family="Times,serif" font-size="10.00">1959</text>
+  <text text-anchor="start" x="1775" y="-756" font-family="Times,serif" font-size="10.00">1966</text>
+  <polygon fill="none" stroke="black" points="1670,-728 1670,-749 1751,-749 1751,-728 1670,-728"/>
+  <text text-anchor="start" x="1673" y="-734.8" font-family="Times,serif" font-size="14.00">Steven Brody</text>
+  <text text-anchor="start" x="1755" y="-734.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="1773,-728 1773,-749 1844,-749 1844,-728 1773,-728"/>
+  <text text-anchor="start" x="1776" y="-734.8" font-family="Times,serif" font-size="14.00">Nina Taylor</text>
+  </g>
+
+
+  <g id="edge39" class="edge">
+  <title>merton_brody:s&#45;&gt;steven_brody:ne</title>
+  <path fill="none" stroke="black" d="M1940,-811C1999.98,-751.02 1827.8,-807.62 1758.87,-756.75"/>
+  <polygon fill="black" stroke="black" points="1760.87,-753.85 1751,-750 1756.31,-759.17 1760.87,-753.85"/>
+  </g>
+
+
+  <g id="node42" class="node">
+  <title>anne_elovic</title>
+  <text text-anchor="start" x="1867" y="-756" font-family="Times,serif" font-size="10.00">1962</text>
+  <text text-anchor="start" x="1964" y="-756" font-family="Times,serif" font-size="10.00">1963</text>
+  <polygon fill="none" stroke="black" points="1865,-728 1865,-749 1940,-749 1940,-728 1865,-728"/>
+  <text text-anchor="start" x="1868" y="-734.8" font-family="Times,serif" font-size="14.00">Anne Elovic</text>
+  <text text-anchor="start" x="1944" y="-734.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="1962,-728 1962,-749 2041,-749 2041,-728 1962,-728"/>
+  <text text-anchor="start" x="1965" y="-734.8" font-family="Times,serif" font-size="14.00">David Elovic</text>
+  </g>
+
+
+  <g id="edge41" class="edge">
+  <title>merton_brody:s&#45;&gt;anne_elovic:ne</title>
+  <path fill="none" stroke="black" d="M1940,-811C1956.62,-794.38 1958.83,-775.13 1946.62,-757.81"/>
+  <polygon fill="black" stroke="black" points="1949.14,-755.36 1940,-750 1943.8,-759.89 1949.14,-755.36"/>
+  </g>
+
+
+  <g id="node44" class="node">
+  <title>stuart_brody</title>
+  <text text-anchor="start" x="2064" y="-756" font-family="Times,serif" font-size="10.00">1965</text>
+  <text text-anchor="start" x="2162" y="-756" font-family="Times,serif" font-size="10.00">1972</text>
+  <polygon fill="none" stroke="black" points="2062,-728 2062,-749 2138,-749 2138,-728 2062,-728"/>
+  <text text-anchor="start" x="2065" y="-734.8" font-family="Times,serif" font-size="14.00">Stuart Brody</text>
+  <text text-anchor="start" x="2142" y="-734.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="2160,-728 2160,-749 2266,-749 2266,-728 2160,-728"/>
+  <text text-anchor="start" x="2163" y="-734.8" font-family="Times,serif" font-size="14.00">Amanda Norcross</text>
+  </g>
+
+
+  <g id="edge43" class="edge">
+  <title>merton_brody:s&#45;&gt;stuart_brody:ne</title>
+  <path fill="none" stroke="black" d="M1940,-811C2002.31,-748.69 2186.34,-809.41 2144.97,-757.67"/>
+  <polygon fill="black" stroke="black" points="2147.31,-755.05 2138,-750 2142.13,-759.76 2147.31,-755.05"/>
+  </g>
+
+
+  <g id="node39" class="node">
+  <title>donalda_children</title>
+  <text text-anchor="start" x="1531" y="-591" font-family="Times,serif" font-size="10.00">1979</text>
+  <polygon fill="none" stroke="black" points="1529,-563 1529,-584 1604,-584 1604,-563 1529,-563"/>
+  <text text-anchor="start" x="1532" y="-569.8" font-family="Times,serif" font-size="14.00">Louis Brody</text>
+  <polygon fill="none" stroke="black" points="1521.5,-556 1521.5,-608 1610.5,-608 1610.5,-556 1521.5,-556"/>
+  </g>
+
+
+  <g id="edge36" class="edge">
+  <title>benjamin_brody:secondary_joiner&#45;&gt;donalda_children</title>
+  <path fill="none" stroke="black" d="M1566,-721C1591.3,-695.7 1587.08,-652.96 1579.18,-621.73"/>
+  <polygon fill="black" stroke="black" points="1582.54,-620.75 1576.51,-612.03 1575.79,-622.6 1582.54,-620.75"/>
+  </g>
+
+
+  <g id="node41" class="node">
+  <title>nina_taylor_children</title>
+  <text text-anchor="start" x="1750" y="-591" font-family="Times,serif" font-size="10.00">2009</text>
+  <polygon fill="none" stroke="black" points="1748,-563 1748,-584 1816,-584 1816,-563 1748,-563"/>
+  <text text-anchor="start" x="1751" y="-569.8" font-family="Times,serif" font-size="14.00">Jack Brody</text>
+  <polygon fill="none" stroke="black" points="1741,-556 1741,-608 1823,-608 1823,-556 1741,-556"/>
+  </g>
+
+
+  <g id="edge38" class="edge">
+  <title>steven_brody:secondary_joiner&#45;&gt;nina_taylor_children</title>
+  <path fill="none" stroke="black" d="M1782,-721C1807.3,-695.7 1803.08,-652.96 1795.18,-621.73"/>
+  <polygon fill="black" stroke="black" points="1798.54,-620.75 1792.51,-612.03 1791.79,-622.6 1798.54,-620.75"/>
+  </g>
+
+
+  <g id="node43" class="node">
+  <title>david_elovic_children</title>
+  <text text-anchor="start" x="1896" y="-663" font-family="Times,serif" font-size="10.00">1993</text>
+  <polygon fill="none" stroke="black" points="1894,-635 1894,-656 1968,-656 1968,-635 1894,-635"/>
+  <text text-anchor="start" x="1899.5" y="-641.8" font-family="Times,serif" font-size="14.00">Yair Elovic</text>
+  <text text-anchor="start" x="1896" y="-615" font-family="Times,serif" font-size="10.00">1995</text>
+  <polygon fill="none" stroke="black" points="1894,-587 1894,-608 1968,-608 1968,-587 1894,-587"/>
+  <text text-anchor="start" x="1897" y="-593.8" font-family="Times,serif" font-size="14.00">Nurit Elovic</text>
+  <text text-anchor="start" x="1896" y="-567" font-family="Times,serif" font-size="10.00">1997</text>
+  <polygon fill="none" stroke="black" points="1894,-539 1894,-560 1968,-560 1968,-539 1894,-539"/>
+  <text text-anchor="start" x="1897" y="-545.8" font-family="Times,serif" font-size="14.00">Shira Elovic</text>
+  <text text-anchor="start" x="1896" y="-519" font-family="Times,serif" font-size="10.00">2000</text>
+  <polygon fill="none" stroke="black" points="1894,-491 1894,-512 1968,-512 1968,-491 1894,-491"/>
+  <text text-anchor="start" x="1900.5" y="-497.8" font-family="Times,serif" font-size="14.00">Orli Elovic</text>
+  <polygon fill="none" stroke="black" points="1887,-484 1887,-680 1975,-680 1975,-484 1887,-484"/>
+  </g>
+
+
+  <g id="edge40" class="edge">
+  <title>anne_elovic:secondary_joiner&#45;&gt;david_elovic_children</title>
+  <path fill="none" stroke="black" d="M1978,-721C1983.17,-715.83 1983.61,-705.97 1981.2,-693.79"/>
+  <polygon fill="black" stroke="black" points="1984.6,-692.95 1978.83,-684.06 1977.8,-694.61 1984.6,-692.95"/>
+  </g>
+
+
+  <g id="node45" class="node">
+  <title>amanda_norcross_children</title>
+  <text text-anchor="start" x="2002" y="-615" font-family="Times,serif" font-size="10.00">2006</text>
+  <polygon fill="none" stroke="black" points="2000,-587 2000,-608 2071,-608 2071,-587 2000,-587"/>
+  <text text-anchor="start" x="2007" y="-593.8" font-family="Times,serif" font-size="14.00">Jon Brody</text>
+  <text text-anchor="start" x="2002" y="-567" font-family="Times,serif" font-size="10.00">2008</text>
+  <polygon fill="none" stroke="black" points="2000,-539 2000,-560 2071,-560 2071,-539 2000,-539"/>
+  <text text-anchor="start" x="2003" y="-545.8" font-family="Times,serif" font-size="14.00">Rose Brody</text>
+  <polygon fill="none" stroke="black" points="1992.5,-532 1992.5,-632 2077.5,-632 2077.5,-532 1992.5,-532"/>
+  </g>
+
+
+  <g id="edge42" class="edge">
+  <title>stuart_brody:secondary_joiner&#45;&gt;amanda_norcross_children</title>
+  <path fill="none" stroke="black" d="M2189,-721C2222.51,-687.49 2124.72,-715.14 2089,-684 2076.78,-673.34 2066.86,-659.22 2059.02,-644.93"/>
+  <polygon fill="black" stroke="black" points="2062.12,-643.3 2054.41,-636.03 2055.9,-646.52 2062.12,-643.3"/>
+  </g>
+
+
+  <g id="node47" class="node">
+  <title>beverly_ecker</title>
+  <text text-anchor="start" x="2569" y="-756" font-family="Times,serif" font-size="10.00">1942</text>
+  <text text-anchor="start" x="2676" y="-756" font-family="Times,serif" font-size="10.00">1941</text>
+  <polygon fill="none" stroke="black" points="2567,-728 2567,-749 2652,-749 2652,-728 2567,-728"/>
+  <text text-anchor="start" x="2570" y="-734.8" font-family="Times,serif" font-size="14.00">Beverly Ecker</text>
+  <text text-anchor="start" x="2656" y="-734.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="2674,-728 2674,-749 2764,-749 2764,-728 2674,-728"/>
+  <text text-anchor="start" x="2677" y="-734.8" font-family="Times,serif" font-size="14.00">Myron Shapiro</text>
+  </g>
+
+
+  <g id="edge45" class="edge">
+  <title>esther_brody:s&#45;&gt;beverly_ecker:ne</title>
+  <path fill="none" stroke="black" d="M3426,-811C3484.97,-752.03 2763.48,-807.08 2660.38,-755.68"/>
+  <polygon fill="black" stroke="black" points="2662.24,-752.72 2652,-750 2658.31,-758.51 2662.24,-752.72"/>
+  </g>
+
+
+  <g id="node48" class="node">
+  <title>marilee_cole</title>
+  <text text-anchor="start" x="2787" y="-756" font-family="Times,serif" font-size="10.00">1944</text>
+  <text text-anchor="start" x="2888" y="-756" font-family="Times,serif" font-size="10.00">1944</text>
+  <polygon fill="none" stroke="black" points="2785,-728 2785,-749 2864,-749 2864,-728 2785,-728"/>
+  <text text-anchor="start" x="2788" y="-734.8" font-family="Times,serif" font-size="14.00">Marilee Cole</text>
+  <text text-anchor="start" x="2868" y="-734.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="2886,-728 2886,-749 2971,-749 2971,-728 2886,-728"/>
+  <text text-anchor="start" x="2889" y="-734.8" font-family="Times,serif" font-size="14.00">Matthew Cole</text>
+  </g>
+
+
+  <g id="edge53" class="edge">
+  <title>esther_brody:s&#45;&gt;marilee_cole:ne</title>
+  <path fill="none" stroke="black" d="M3426,-811C3512.49,-724.51 2982.01,-832.82 2871.99,-756.61"/>
+  <polygon fill="black" stroke="black" points="2873.94,-753.67 2864,-750 2869.48,-759.07 2873.94,-753.67"/>
+  </g>
+
+
+  <g id="node56" class="node">
+  <title>suzanne_greenwald</title>
+  <text text-anchor="start" x="3193" y="-756" font-family="Times,serif" font-size="10.00">1949</text>
+  <text text-anchor="start" x="3330" y="-756" font-family="Times,serif" font-size="10.00">1944</text>
+  <polygon fill="none" stroke="black" points="3191,-728 3191,-749 3306,-749 3306,-728 3191,-728"/>
+  <text text-anchor="start" x="3194" y="-734.8" font-family="Times,serif" font-size="14.00">Suzanne Greenwald</text>
+  <text text-anchor="start" x="3310" y="-734.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="3328,-728 3328,-749 3428,-749 3428,-728 3328,-728"/>
+  <text text-anchor="start" x="3331" y="-734.8" font-family="Times,serif" font-size="14.00">Louis Greenwald</text>
+  </g>
+
+
+  <g id="edge58" class="edge">
+  <title>esther_brody:s&#45;&gt;suzanne_greenwald:ne</title>
+  <path fill="none" stroke="black" d="M3426,-811C3465.91,-771.09 3361.38,-789.84 3313.89,-756.58"/>
+  <polygon fill="black" stroke="black" points="3315.92,-753.71 3306,-750 3311.44,-759.09 3315.92,-753.71"/>
+  </g>
+
+
+  <g id="node61" class="node">
+  <title>diann_markovic</title>
+  <text text-anchor="start" x="3451" y="-756" font-family="Times,serif" font-size="10.00">1950</text>
+  <text text-anchor="start" x="3570" y="-756" font-family="Times,serif" font-size="10.00">1948</text>
+  <polygon fill="none" stroke="black" points="3449,-728 3449,-749 3546,-749 3546,-728 3449,-728"/>
+  <text text-anchor="start" x="3452" y="-734.8" font-family="Times,serif" font-size="14.00">Diann Markovic</text>
+  <text text-anchor="start" x="3550" y="-734.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="3568,-728 3568,-749 3664,-749 3664,-728 3568,-728"/>
+  <text text-anchor="start" x="3571" y="-734.8" font-family="Times,serif" font-size="14.00">Wally Markovic</text>
+  </g>
+
+
+  <g id="edge60" class="edge">
+  <title>esther_brody:s&#45;&gt;diann_markovic:ne</title>
+  <path fill="none" stroke="black" d="M3426,-811C3465.33,-771.67 3571.81,-789.31 3552.6,-757.99"/>
+  <polygon fill="black" stroke="black" points="3555.07,-755.48 3546,-750 3549.67,-759.94 3555.07,-755.48"/>
+  </g>
+
+
+  <g id="node63" class="node">
+  <title>herbert_ecker</title>
+  <text text-anchor="start" x="3687" y="-756" font-family="Times,serif" font-size="10.00">1955&#45;2002</text>
+  <polygon fill="none" stroke="black" points="3685,-728 3685,-749 3768,-749 3768,-728 3685,-728"/>
+  <text text-anchor="start" x="3688" y="-734.8" font-family="Times,serif" font-size="14.00">Herbert Ecker</text>
+  </g>
+
+
+  <g id="edge61" class="edge">
+  <title>esther_brody:s&#45;&gt;herbert_ecker:ne</title>
+  <path fill="none" stroke="black" d="M3426,-811C3534.18,-702.82 3663.68,-883.9 3768,-772 3772.25,-767.44 3774.38,-762.58 3773.76,-757.85"/>
+  <polygon fill="black" stroke="black" points="3776.82,-756.15 3769,-749 3770.65,-759.47 3776.82,-756.15"/>
+  </g>
+
+
+  <g id="node64" class="node">
+  <title>amy_ecker</title>
+  <text text-anchor="start" x="3791" y="-756" font-family="Times,serif" font-size="10.00">1968</text>
+  <text text-anchor="start" x="3883" y="-756" font-family="Times,serif" font-size="10.00">1965</text>
+  <polygon fill="none" stroke="black" points="3789,-728 3789,-749 3859,-749 3859,-728 3789,-728"/>
+  <text text-anchor="start" x="3792" y="-734.8" font-family="Times,serif" font-size="14.00">Amy Ecker</text>
+  <text text-anchor="start" x="3863" y="-734.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="3881,-728 3881,-749 3961,-749 3961,-728 3881,-728"/>
+  <text text-anchor="start" x="3884" y="-734.8" font-family="Times,serif" font-size="14.00">Clinton Pross</text>
+  </g>
+
+
+  <g id="edge63" class="edge">
+  <title>esther_brody:s&#45;&gt;amy_ecker:ne</title>
+  <path fill="none" stroke="black" d="M3426,-811C3491.76,-745.24 3891.17,-812.41 3865.15,-758.08"/>
+  <polygon fill="black" stroke="black" points="3867.84,-755.84 3859,-750 3862.27,-760.08 3867.84,-755.84"/>
+  </g>
+
+
+  <g id="node49" class="node">
+  <title>barrie_cole</title>
+  <text text-anchor="start" x="2099" y="-591" font-family="Times,serif" font-size="10.00">1968</text>
+  <text text-anchor="start" x="2235" y="-591" font-family="Times,serif" font-size="10.00">1967</text>
+  <polygon fill="none" stroke="black" points="2097,-563 2097,-584 2167,-584 2167,-563 2097,-563"/>
+  <text text-anchor="start" x="2100" y="-569.8" font-family="Times,serif" font-size="14.00">Barrie Cole</text>
+  <text text-anchor="start" x="2171" y="-570.8" font-family="Times,serif" font-size="14.00">___</text>
+  <text text-anchor="start" x="2192" y="-570.8" font-family="Times,serif" font-size="10.00">div.</text>
+  <text text-anchor="start" x="2208" y="-570.8" font-family="Times,serif" font-size="14.00">___</text>
+  <polygon fill="none" stroke="black" points="2233,-563 2233,-584 2316,-584 2316,-563 2233,-563"/>
+  <text text-anchor="start" x="2236" y="-569.8" font-family="Times,serif" font-size="14.00">Dan Whitaker</text>
+  </g>
+
+
+  <g id="edge47" class="edge">
+  <title>marilee_cole:s&#45;&gt;barrie_cole:ne</title>
+  <path fill="none" stroke="black" d="M2903,-721C2948.19,-675.81 2389.93,-703.28 2329,-684 2251.85,-659.59 2228.56,-645.82 2174.16,-592.11"/>
+  <polygon fill="black" stroke="black" points="2176.56,-589.57 2167,-585 2171.63,-594.53 2176.56,-589.57"/>
+  </g>
+
+
+  <g id="node51" class="node">
+  <title>wendy_cole</title>
+  <text text-anchor="start" x="2339" y="-591" font-family="Times,serif" font-size="10.00">1971</text>
+  <text text-anchor="start" x="2494" y="-590.8" font-family="Times,serif" font-size="10.00">1970</text>
+  <text text-anchor="start" x="2516" y="-590.8" font-family="Times,serif" font-size="14.00">      </text>
+  <text text-anchor="start" x="2604" y="-591" font-family="Times,serif" font-size="10.00">1968</text>
+  <polygon fill="none" stroke="black" points="2337,-561 2337,-582 2426,-582 2426,-561 2337,-561"/>
+  <text text-anchor="start" x="2340" y="-567.8" font-family="Times,serif" font-size="14.00">Damon Gorton</text>
+  <text text-anchor="start" x="2430" y="-568.8" font-family="Times,serif" font-size="14.00">___</text>
+  <text text-anchor="start" x="2451" y="-568.8" font-family="Times,serif" font-size="10.00">div.</text>
+  <text text-anchor="start" x="2467" y="-568.8" font-family="Times,serif" font-size="14.00">___</text>
+  <polygon fill="none" stroke="black" points="2492,-561 2492,-582 2566,-582 2566,-561 2492,-561"/>
+  <text text-anchor="start" x="2495" y="-567.8" font-family="Times,serif" font-size="14.00">Wendy Cole</text>
+  <text text-anchor="start" x="2570" y="-567.8" font-family="Times,serif" font-size="14.00">_ _ _</text>
+  <polygon fill="none" stroke="black" points="2602,-561 2602,-582 2696,-582 2696,-561 2602,-561"/>
+  <text text-anchor="start" x="2605" y="-567.8" font-family="Times,serif" font-size="14.00">David Tockman</text>
+  </g>
+
+
+  <g id="edge49" class="edge">
+  <title>marilee_cole:s&#45;&gt;wendy_cole:ne</title>
+  <path fill="none" stroke="black" d="M2903,-721C2965.07,-658.93 2789.79,-718.32 2709,-684 2640.6,-654.94 2622.6,-639.45 2573.19,-590.18"/>
+  <polygon fill="black" stroke="black" points="2575.55,-587.59 2566,-583 2570.6,-592.54 2575.55,-587.59"/>
+  </g>
+
+
+  <g id="node53" class="node">
+  <title>dara_cole</title>
+  <text text-anchor="start" x="2719" y="-591" font-family="Times,serif" font-size="10.00">1975</text>
+  <text text-anchor="start" x="2843" y="-590.8" font-family="Times,serif" font-size="10.00">1974</text>
+  <text text-anchor="start" x="2865" y="-590.8" font-family="Times,serif" font-size="14.00">      </text>
+  <text text-anchor="start" x="2941" y="-591" font-family="Times,serif" font-size="10.00">1968</text>
+  <polygon fill="none" stroke="black" points="2717,-561 2717,-582 2805,-582 2805,-561 2717,-561"/>
+  <text text-anchor="start" x="2720" y="-567.8" font-family="Times,serif" font-size="14.00">Horace Nelson</text>
+  <text text-anchor="start" x="2809" y="-567.8" font-family="Times,serif" font-size="14.00">_ _ _</text>
+  <polygon fill="none" stroke="black" points="2841,-561 2841,-582 2903,-582 2903,-561 2841,-561"/>
+  <text text-anchor="start" x="2844" y="-567.8" font-family="Times,serif" font-size="14.00">Dara Cole</text>
+  <text text-anchor="start" x="2907" y="-567.8" font-family="Times,serif" font-size="14.00">_ _ _</text>
+  <polygon fill="none" stroke="black" points="2939,-561 2939,-582 3023,-582 3023,-561 2939,-561"/>
+  <text text-anchor="start" x="2942" y="-567.8" font-family="Times,serif" font-size="14.00">James Deanes</text>
+  </g>
+
+
+  <g id="edge52" class="edge">
+  <title>marilee_cole:s&#45;&gt;dara_cole:ne</title>
+  <path fill="none" stroke="black" d="M2903,-721C2943.91,-680.09 2946.23,-632.15 2909.95,-590.44"/>
+  <polygon fill="black" stroke="black" points="2912.38,-587.92 2903,-583 2907.27,-592.7 2912.38,-587.92"/>
+  </g>
+
+
+  <g id="node50" class="node">
+  <title>dan_whitaker_children</title>
+  <text text-anchor="start" x="2185" y="-399" font-family="Times,serif" font-size="10.00">2002</text>
+  <polygon fill="none" stroke="black" points="2183,-371 2183,-392 2279,-392 2279,-371 2183,-371"/>
+  <text text-anchor="start" x="2186" y="-377.8" font-family="Times,serif" font-size="14.00">Ruben Whitaker</text>
+  <text text-anchor="start" x="2185" y="-351" font-family="Times,serif" font-size="10.00">2004</text>
+  <polygon fill="none" stroke="black" points="2183,-323 2183,-344 2279,-344 2279,-323 2183,-323"/>
+  <text text-anchor="start" x="2193" y="-329.8" font-family="Times,serif" font-size="14.00">Sita Whitaker</text>
+  <polygon fill="none" stroke="black" points="2176,-316 2176,-416 2286,-416 2286,-316 2176,-316"/>
+  </g>
+
+
+  <g id="edge46" class="edge">
+  <title>barrie_cole:secondary_joiner&#45;&gt;dan_whitaker_children</title>
+  <path fill="none" stroke="black" d="M2231,-556C2263.01,-523.99 2260.52,-471.61 2251.42,-430.09"/>
+  <polygon fill="black" stroke="black" points="2254.82,-429.26 2249.12,-420.33 2248.01,-430.87 2254.82,-429.26"/>
+  </g>
+
+
+  <g id="node52" class="node">
+  <title>damon_gorton_children</title>
+  <text text-anchor="start" x="2402" y="-399" font-family="Times,serif" font-size="10.00">1999</text>
+  <polygon fill="none" stroke="black" points="2400,-371 2400,-392 2518,-392 2518,-371 2400,-371"/>
+  <text text-anchor="start" x="2410.5" y="-377.8" font-family="Times,serif" font-size="14.00">Orla Cole&#45;Gorton</text>
+  <text text-anchor="start" x="2402" y="-351" font-family="Times,serif" font-size="10.00">2004</text>
+  <polygon fill="none" stroke="black" points="2400,-323 2400,-344 2518,-344 2518,-323 2400,-323"/>
+  <text text-anchor="start" x="2403" y="-329.8" font-family="Times,serif" font-size="14.00">August Cole&#45;Gorton</text>
+  <polygon fill="none" stroke="black" points="2393,-316 2393,-416 2525,-416 2525,-316 2393,-316"/>
+  </g>
+
+
+  <g id="edge48" class="edge">
+  <title>wendy_cole:secondary_joiner&#45;&gt;damon_gorton_children</title>
+  <path fill="none" stroke="black" d="M2459,-560C2459,-516.82 2459,-468.2 2459,-430.56"/>
+  <polygon fill="black" stroke="black" points="2462.5,-430.25 2459,-420.25 2455.5,-430.25 2462.5,-430.25"/>
+  </g>
+
+
+  <g id="node54" class="node">
+  <title>horace_nelson_children</title>
+  <text text-anchor="start" x="2751" y="-375" font-family="Times,serif" font-size="10.00">2007</text>
+  <polygon fill="none" stroke="black" points="2749,-347 2749,-368 2856,-368 2856,-347 2749,-347"/>
+  <text text-anchor="start" x="2752" y="-353.8" font-family="Times,serif" font-size="14.00">Xena Cole&#45;Nelson</text>
+  <polygon fill="none" stroke="black" points="2741.5,-340 2741.5,-392 2862.5,-392 2862.5,-340 2741.5,-340"/>
+  </g>
+
+
+  <g id="edge50" class="edge">
+  <title>dara_cole:secondary_joiner&#45;&gt;horace_nelson_children</title>
+  <path fill="none" stroke="black" d="M2823,-560C2823,-506.7 2814.99,-445.61 2808.86,-406.69"/>
+  <polygon fill="black" stroke="black" points="2812.24,-405.64 2807.19,-396.32 2805.33,-406.75 2812.24,-405.64"/>
+  </g>
+
+
+  <g id="node55" class="node">
+  <title>james_deanes_children</title>
+  <text text-anchor="start" x="2889" y="-375" font-family="Times,serif" font-size="10.00">2015</text>
+  <polygon fill="none" stroke="black" points="2887,-347 2887,-368 2998,-368 2998,-347 2887,-347"/>
+  <text text-anchor="start" x="2890" y="-353.8" font-family="Times,serif" font-size="14.00">Rumi Cole&#45;Deanes</text>
+  <polygon fill="none" stroke="black" points="2879.5,-340 2879.5,-392 3004.5,-392 3004.5,-340 2879.5,-340"/>
+  </g>
+
+
+  <g id="edge51" class="edge">
+  <title>dara_cole:primary_joiner&#45;&gt;james_deanes_children</title>
+  <path fill="none" stroke="black" d="M2921,-560C2921,-506.7 2929.01,-445.61 2935.14,-406.69"/>
+  <polygon fill="black" stroke="black" points="2938.67,-406.75 2936.81,-396.32 2931.76,-405.64 2938.67,-406.75"/>
+  </g>
+
+
+  <g id="node57" class="node">
+  <title>alisa_greenbacher</title>
+  <text text-anchor="start" x="3047" y="-591" font-family="Times,serif" font-size="10.00">1970</text>
+  <text text-anchor="start" x="3228" y="-590.8" font-family="Times,serif" font-size="10.00">1971</text>
+  <text text-anchor="start" x="3250" y="-590.8" font-family="Times,serif" font-size="14.00">      </text>
+  <text text-anchor="start" x="3372" y="-591" font-family="Times,serif" font-size="10.00">1969</text>
+  <polygon fill="none" stroke="black" points="3045,-561 3045,-582 3160,-582 3160,-561 3045,-561"/>
+  <text text-anchor="start" x="3048" y="-567.8" font-family="Times,serif" font-size="14.00">Darius Greenbacher</text>
+  <text text-anchor="start" x="3164" y="-568.8" font-family="Times,serif" font-size="14.00">___</text>
+  <text text-anchor="start" x="3185" y="-568.8" font-family="Times,serif" font-size="10.00">div.</text>
+  <text text-anchor="start" x="3201" y="-568.8" font-family="Times,serif" font-size="14.00">___</text>
+  <polygon fill="none" stroke="black" points="3226,-561 3226,-582 3334,-582 3334,-561 3226,-561"/>
+  <text text-anchor="start" x="3229" y="-567.8" font-family="Times,serif" font-size="14.00">Alisa Greenbacher</text>
+  <text text-anchor="start" x="3338" y="-567.8" font-family="Times,serif" font-size="14.00">_ _ _</text>
+  <polygon fill="none" stroke="black" points="3370,-561 3370,-582 3440,-582 3440,-561 3370,-561"/>
+  <text text-anchor="start" x="3373" y="-567.8" font-family="Times,serif" font-size="14.00">David Kulp</text>
+  </g>
+
+
+  <g id="edge55" class="edge">
+  <title>suzanne_greenwald:s&#45;&gt;alisa_greenbacher:ne</title>
+  <path fill="none" stroke="black" d="M3334,-721C3374.91,-680.09 3377.23,-632.15 3340.95,-590.44"/>
+  <polygon fill="black" stroke="black" points="3343.38,-587.92 3334,-583 3338.27,-592.7 3343.38,-587.92"/>
+  </g>
+
+
+  <g id="node59" class="node">
+  <title>jerome_greenwald</title>
+  <text text-anchor="start" x="3463" y="-591" font-family="Times,serif" font-size="10.00">1974</text>
+  <text text-anchor="start" x="3594" y="-591" font-family="Times,serif" font-size="10.00">1979</text>
+  <polygon fill="none" stroke="black" points="3461,-563 3461,-584 3570,-584 3570,-563 3461,-563"/>
+  <text text-anchor="start" x="3464" y="-569.8" font-family="Times,serif" font-size="14.00">Jerome Greenwald</text>
+  <text text-anchor="start" x="3574" y="-569.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="3592,-563 3592,-584 3672,-584 3672,-563 3592,-563"/>
+  <text text-anchor="start" x="3595" y="-569.8" font-family="Times,serif" font-size="14.00">Beth Gravilla</text>
+  </g>
+
+
+  <g id="edge57" class="edge">
+  <title>suzanne_greenwald:s&#45;&gt;jerome_greenwald:ne</title>
+  <path fill="none" stroke="black" d="M3334,-721C3371.07,-683.93 3399.9,-708.97 3446,-684 3504.74,-652.18 3608.21,-636.56 3576.57,-592.61"/>
+  <polygon fill="black" stroke="black" points="3579.18,-590.28 3570,-585 3573.89,-594.86 3579.18,-590.28"/>
+  </g>
+
+
+  <g id="node58" class="node">
+  <title>darius_greenbacher_children</title>
+  <text text-anchor="start" x="3125" y="-399" font-family="Times,serif" font-size="10.00">2002</text>
+  <polygon fill="none" stroke="black" points="3123,-371 3123,-392 3242,-392 3242,-371 3123,-371"/>
+  <text text-anchor="start" x="3131.5" y="-377.8" font-family="Times,serif" font-size="14.00">Bella Greenbacher</text>
+  <text text-anchor="start" x="3125" y="-351" font-family="Times,serif" font-size="10.00">2007</text>
+  <polygon fill="none" stroke="black" points="3123,-323 3123,-344 3242,-344 3242,-323 3123,-323"/>
+  <text text-anchor="start" x="3126" y="-329.8" font-family="Times,serif" font-size="14.00">Annika Greenbacher</text>
+  <polygon fill="none" stroke="black" points="3115.5,-316 3115.5,-416 3248.5,-416 3248.5,-316 3115.5,-316"/>
+  </g>
+
+
+  <g id="edge54" class="edge">
+  <title>alisa_greenbacher:secondary_joiner&#45;&gt;darius_greenbacher_children</title>
+  <path fill="none" stroke="black" d="M3193,-560C3193,-516.75 3190.21,-468.13 3187.44,-430.51"/>
+  <polygon fill="black" stroke="black" points="3190.91,-429.91 3186.66,-420.2 3183.93,-430.44 3190.91,-429.91"/>
+  </g>
+
+
+  <g id="node78" class="node">
+  <title>lily_kulp</title>
+  <text text-anchor="start" x="3270" y="-375" font-family="Times,serif" font-size="10.00">2003</text>
+  <polygon fill="none" stroke="black" points="3268,-347 3268,-368 3328,-368 3328,-347 3268,-347"/>
+  <text text-anchor="start" x="3271" y="-353.8" font-family="Times,serif" font-size="14.00">Lily Kulp</text>
+  </g>
+
+
+  <g id="edge75" class="edge">
+  <title>alisa_greenbacher:s&#45;&gt;lily_kulp:ne</title>
+  <path fill="none" stroke="black" d="M3405,-560C3405,-501.33 3361.2,-499.44 3342,-444 3332.01,-415.16 3348.72,-396.63 3335.38,-375.8"/>
+  <polygon fill="black" stroke="black" points="3338.04,-373.52 3329,-368 3332.62,-377.96 3338.04,-373.52"/>
+  </g>
+
+
+  <g id="node79" class="node">
+  <title>bean_kulp</title>
+  <text text-anchor="start" x="3352" y="-375" font-family="Times,serif" font-size="10.00">2005</text>
+  <polygon fill="none" stroke="black" points="3350,-347 3350,-368 3415,-368 3415,-347 3350,-347"/>
+  <text text-anchor="start" x="3353" y="-353.8" font-family="Times,serif" font-size="14.00">Bean Kulp</text>
+  </g>
+
+
+  <g id="edge76" class="edge">
+  <title>alisa_greenbacher:s&#45;&gt;bean_kulp:ne</title>
+  <path fill="none" stroke="black" d="M3405,-560C3405,-520.6 3440.03,-416.35 3421.83,-376.63"/>
+  <polygon fill="black" stroke="black" points="3424.5,-374.33 3416,-368 3418.7,-378.25 3424.5,-374.33"/>
+  </g>
+
+
+  <g id="node60" class="node">
+  <title>beth_gravilla_children</title>
+  <text text-anchor="start" x="3443" y="-399" font-family="Times,serif" font-size="10.00">2014</text>
+  <polygon fill="none" stroke="black" points="3441,-371 3441,-392 3545,-392 3545,-371 3441,-371"/>
+  <text text-anchor="start" x="3444" y="-377.8" font-family="Times,serif" font-size="14.00">Elston Greenwald</text>
+  <text text-anchor="start" x="3443" y="-351" font-family="Times,serif" font-size="10.00">2017</text>
+  <polygon fill="none" stroke="black" points="3441,-323 3441,-344 3545,-344 3545,-323 3441,-323"/>
+  <text text-anchor="start" x="3449" y="-329.8" font-family="Times,serif" font-size="14.00">June Greenwald</text>
+  <polygon fill="none" stroke="black" points="3434,-316 3434,-416 3552,-416 3552,-316 3434,-316"/>
+  </g>
+
+
+  <g id="edge56" class="edge">
+  <title>jerome_greenwald:secondary_joiner&#45;&gt;beth_gravilla_children</title>
+  <path fill="none" stroke="black" d="M3591,-556C3610.42,-536.58 3574.28,-476.04 3540.54,-428.65"/>
+  <polygon fill="black" stroke="black" points="3543.19,-426.34 3534.5,-420.27 3537.51,-430.43 3543.19,-426.34"/>
+  </g>
+
+
+  <g id="node62" class="node">
+  <title>wally_markovic_children</title>
+  <text text-anchor="start" x="3700" y="-615" font-family="Times,serif" font-size="10.00">1980</text>
+  <polygon fill="none" stroke="black" points="3698,-587 3698,-608 3800,-608 3800,-587 3698,-587"/>
+  <text text-anchor="start" x="3709" y="-593.8" font-family="Times,serif" font-size="14.00">Ken Markovic</text>
+  <text text-anchor="start" x="3700" y="-567" font-family="Times,serif" font-size="10.00">1982</text>
+  <polygon fill="none" stroke="black" points="3698,-539 3698,-560 3800,-560 3800,-539 3698,-539"/>
+  <text text-anchor="start" x="3701" y="-545.8" font-family="Times,serif" font-size="14.00">Lauren Markovic</text>
+  <polygon fill="none" stroke="black" points="3691,-532 3691,-632 3807,-632 3807,-532 3691,-532"/>
+  </g>
+
+
+  <g id="edge59" class="edge">
+  <title>diann_markovic:secondary_joiner&#45;&gt;wally_markovic_children</title>
+  <path fill="none" stroke="black" d="M3581,-721C3613.92,-688.08 3642.3,-712.65 3679,-684 3692.78,-673.24 3704.9,-659.03 3715.03,-644.67"/>
+  <polygon fill="black" stroke="black" points="3718.04,-646.47 3720.75,-636.23 3712.24,-642.54 3718.04,-646.47"/>
+  </g>
+
+
+  <g id="node65" class="node">
+  <title>clinton_pross_children</title>
+  <text text-anchor="start" x="3856" y="-615" font-family="Times,serif" font-size="10.00">1999</text>
+  <polygon fill="none" stroke="black" points="3854,-587 3854,-608 3947,-608 3947,-587 3854,-587"/>
+  <text text-anchor="start" x="3866" y="-593.8" font-family="Times,serif" font-size="14.00">Parker Pross</text>
+  <text text-anchor="start" x="3856" y="-567" font-family="Times,serif" font-size="10.00">2001</text>
+  <polygon fill="none" stroke="black" points="3854,-539 3854,-560 3947,-560 3947,-539 3854,-539"/>
+  <text text-anchor="start" x="3857" y="-545.8" font-family="Times,serif" font-size="14.00">Josephine Pross</text>
+  <polygon fill="none" stroke="black" points="3846.5,-532 3846.5,-632 3953.5,-632 3953.5,-532 3846.5,-532"/>
+  </g>
+
+
+  <g id="edge62" class="edge">
+  <title>amy_ecker:secondary_joiner&#45;&gt;clinton_pross_children</title>
+  <path fill="none" stroke="black" d="M3900,-721C3919.15,-701.85 3921.39,-672.7 3917.91,-646.11"/>
+  <polygon fill="black" stroke="black" points="3921.35,-645.41 3916.33,-636.08 3914.43,-646.5 3921.35,-645.41"/>
+  </g>
+
+
+  <g id="node66" class="node">
+  <title>solomon_katznelson</title>
+  <text text-anchor="start" x="6955" y="-1022" font-family="Times,serif" font-size="10.00">1866&#45;1929</text>
+  <text text-anchor="start" x="7227" y="-1021.8" font-family="Times,serif" font-size="10.00">1862&#45;1928</text>
+  <text text-anchor="start" x="7273" y="-1021.8" font-family="Times,serif" font-size="14.00">      </text>
+  <text text-anchor="start" x="7370" y="-1022" font-family="Times,serif" font-size="10.00">1875&#45;1968</text>
+  <polygon fill="none" stroke="black" points="6953,-992 6953,-1013 7159,-1013 7159,-992 6953,-992"/>
+  <text text-anchor="start" x="6956" y="-998.8" font-family="Times,serif" font-size="14.00">Bella Weinstein Katznelson Hackner</text>
+  <text text-anchor="start" x="7163" y="-999.8" font-family="Times,serif" font-size="14.00">___</text>
+  <text text-anchor="start" x="7184" y="-999.8" font-family="Times,serif" font-size="10.00">div.</text>
+  <text text-anchor="start" x="7200" y="-999.8" font-family="Times,serif" font-size="14.00">___</text>
+  <polygon fill="none" stroke="black" points="7225,-992 7225,-1013 7346,-1013 7346,-992 7225,-992"/>
+  <text text-anchor="start" x="7228" y="-998.8" font-family="Times,serif" font-size="14.00">Solomon Katznelson</text>
+  <text text-anchor="start" x="7350" y="-998.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="7368,-992 7368,-1013 7468,-1013 7468,-992 7368,-992"/>
+  <text text-anchor="start" x="7371" y="-998.8" font-family="Times,serif" font-size="14.00">Goda Katznelson</text>
+  </g>
+
+
+  <g id="edge77" class="edge">
+  <title>solomon_katznelson:s&#45;&gt;bessie_katznelson:ne</title>
+  <path fill="none" stroke="black" d="M7192,-991C7192,-885.53 3546.4,-999.28 3325.32,-932.44"/>
+  <polygon fill="black" stroke="black" points="3326.53,-929.14 3316,-928 3323.52,-935.46 3326.53,-929.14"/>
+  </g>
+
+
+  <g id="edge78" class="edge">
+  <title>solomon_katznelson:s&#45;&gt;lena_sherman:ne</title>
+  <path fill="none" stroke="black" d="M7192,-991C7192,-933.87 6993.38,-966.71 6936.18,-934.08"/>
+  <polygon fill="black" stroke="black" points="6938.11,-931.16 6928,-928 6933.93,-936.78 6938.11,-931.16"/>
+  </g>
+
+
+  <g id="node67" class="node">
+  <title>reva_kagan</title>
+  <text text-anchor="start" x="7360" y="-934" font-family="Times,serif" font-size="10.00">1911&#45;2000</text>
+  <polygon fill="none" stroke="black" points="7358,-906 7358,-927 7431,-927 7431,-906 7358,-906"/>
+  <text text-anchor="start" x="7361" y="-912.8" font-family="Times,serif" font-size="14.00">Reva Kagan</text>
+  </g>
+
+
+  <g id="edge64" class="edge">
+  <title>solomon_katznelson:s&#45;&gt;reva_kagan:ne</title>
+  <path fill="none" stroke="black" d="M7418,-991C7418,-965.98 7443.54,-951.9 7437.66,-935.37"/>
+  <polygon fill="black" stroke="black" points="7440.5,-933.32 7432,-927 7434.7,-937.24 7440.5,-933.32"/>
+  </g>
+
+
+  <g id="node75" class="node">
+  <title>isaac_brody</title>
+  <text text-anchor="start" x="7666" y="-934" font-family="Times,serif" font-size="10.00">1877&#45;1955</text>
+  <polygon fill="none" stroke="black" points="7664,-906 7664,-927 7736,-927 7736,-906 7664,-906"/>
+  <text text-anchor="start" x="7667" y="-912.8" font-family="Times,serif" font-size="14.00">Isaac Brody</text>
+  </g>
+
+
+
+  <g id="node80" class="node">
+  <title>esther_katznelson</title>
+  <text text-anchor="start" x="7088" y="-934" font-family="Times,serif" font-size="10.00">1897&#45;1977</text>
+  <polygon fill="none" stroke="black" points="7086,-906 7086,-927 7192,-927 7192,-906 7086,-906"/>
+  <text text-anchor="start" x="7089" y="-912.8" font-family="Times,serif" font-size="14.00">Esther Katznelson</text>
+  </g>
+
+
+  <g id="edge79" class="edge">
+  <title>solomon_katznelson:s&#45;&gt;esther_katznelson:ne</title>
+  <path fill="none" stroke="black" d="M7192,-991C7192,-966.55 7207.59,-951.71 7199.21,-935.26"/>
+  <polygon fill="black" stroke="black" points="7201.81,-932.89 7193,-927 7196.22,-937.1 7201.81,-932.89"/>
+  </g>
+
+
+  <g id="node68" class="node">
+  <title>nathan_kagan</title>
+  <text text-anchor="start" x="7422" y="-846" font-family="Times,serif" font-size="10.00">1947</text>
+  <text text-anchor="start" x="7529" y="-846" font-family="Times,serif" font-size="10.00">1954</text>
+  <polygon fill="none" stroke="black" points="7420,-818 7420,-839 7505,-839 7505,-818 7420,-818"/>
+  <text text-anchor="start" x="7423" y="-824.8" font-family="Times,serif" font-size="14.00">Nathan Kagan</text>
+  <text text-anchor="start" x="7509" y="-824.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="7527,-818 7527,-839 7602,-839 7602,-818 7527,-818"/>
+  <text text-anchor="start" x="7530" y="-824.8" font-family="Times,serif" font-size="14.00">Anna Kagan</text>
+  </g>
+
+
+  <g id="edge71" class="edge">
+  <title>reva_kagan:s&#45;&gt;nathan_kagan:ne</title>
+  <path fill="none" stroke="black" d="M7394,-900C7394,-848.52 7520.95,-874.41 7511.11,-848.33"/>
+  <polygon fill="black" stroke="black" points="7513.73,-846 7505,-840 7508.09,-850.13 7513.73,-846"/>
+  </g>
+
+
+  <g id="node69" class="node">
+  <title>inna_kagan</title>
+  <text text-anchor="start" x="7370" y="-756" font-family="Times,serif" font-size="10.00">1978</text>
+  <text text-anchor="start" x="7462" y="-756" font-family="Times,serif" font-size="10.00">1970</text>
+  <polygon fill="none" stroke="black" points="7368,-728 7368,-749 7438,-749 7438,-728 7368,-728"/>
+  <text text-anchor="start" x="7371" y="-734.8" font-family="Times,serif" font-size="14.00">Inna Kagan</text>
+  <text text-anchor="start" x="7442" y="-734.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="7460,-728 7460,-749 7540,-749 7540,-728 7460,-728"/>
+  <text text-anchor="start" x="7463" y="-734.8" font-family="Times,serif" font-size="14.00">Don Pankuch</text>
+  </g>
+
+
+  <g id="edge66" class="edge">
+  <title>nathan_kagan:s&#45;&gt;inna_kagan:ne</title>
+  <path fill="none" stroke="black" d="M7536,-811C7569.94,-777.06 7486.35,-784.99 7445.73,-756.44"/>
+  <polygon fill="black" stroke="black" points="7447.92,-753.71 7438,-750 7443.44,-759.09 7447.92,-753.71"/>
+  </g>
+
+
+  <g id="node71" class="node">
+  <title>isaac_kagan</title>
+  <text text-anchor="start" x="7563" y="-756" font-family="Times,serif" font-size="10.00">1982</text>
+  <text text-anchor="start" x="7658" y="-756" font-family="Times,serif" font-size="10.00">1985</text>
+  <polygon fill="none" stroke="black" points="7561,-728 7561,-749 7634,-749 7634,-728 7561,-728"/>
+  <text text-anchor="start" x="7564" y="-734.8" font-family="Times,serif" font-size="14.00">Isaac Kagan</text>
+  <text text-anchor="start" x="7638" y="-734.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="7656,-728 7656,-749 7743,-749 7743,-728 7656,-728"/>
+  <text text-anchor="start" x="7659" y="-734.8" font-family="Times,serif" font-size="14.00">Shari Barcebal</text>
+  </g>
+
+
+  <g id="edge68" class="edge">
+  <title>nathan_kagan:s&#45;&gt;isaac_kagan:ne</title>
+  <path fill="none" stroke="black" d="M7536,-811C7569.3,-777.7 7654.61,-784.7 7640.33,-758.01"/>
+  <polygon fill="black" stroke="black" points="7642.94,-755.68 7634,-750 7637.45,-760.02 7642.94,-755.68"/>
+  </g>
+
+
+  <g id="node73" class="node">
+  <title>rachel_kagan</title>
+  <text text-anchor="start" x="7767" y="-756" font-family="Times,serif" font-size="10.00">1982</text>
+  <text text-anchor="start" x="7872" y="-756" font-family="Times,serif" font-size="10.00">1990</text>
+  <polygon fill="none" stroke="black" points="7765,-728 7765,-749 7848,-749 7848,-728 7765,-728"/>
+  <text text-anchor="start" x="7768" y="-734.8" font-family="Times,serif" font-size="14.00">Rachel Kagan</text>
+  <text text-anchor="start" x="7852" y="-734.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="7870,-728 7870,-749 7968,-749 7968,-728 7870,-728"/>
+  <text text-anchor="start" x="7873" y="-734.8" font-family="Times,serif" font-size="14.00">Darren Morrisey</text>
+  </g>
+
+
+  <g id="edge70" class="edge">
+  <title>nathan_kagan:s&#45;&gt;rachel_kagan:ne</title>
+  <path fill="none" stroke="black" d="M7536,-811C7582.64,-764.36 7857.67,-795.18 7853.35,-758.83"/>
+  <polygon fill="black" stroke="black" points="7856.17,-756.74 7848,-750 7850.19,-760.37 7856.17,-756.74"/>
+  </g>
+
+
+  <g id="node70" class="node">
+  <title>don_pankuch_children</title>
+  <text text-anchor="start" x="7437" y="-615" font-family="Times,serif" font-size="10.00">2007</text>
+  <polygon fill="none" stroke="black" points="7435,-587 7435,-608 7523,-608 7523,-587 7435,-587"/>
+  <text text-anchor="start" x="7438" y="-593.8" font-family="Times,serif" font-size="14.00">Sasha Pankuch</text>
+  <text text-anchor="start" x="7437" y="-567" font-family="Times,serif" font-size="10.00">2009</text>
+  <polygon fill="none" stroke="black" points="7435,-539 7435,-560 7523,-560 7523,-539 7435,-539"/>
+  <text text-anchor="start" x="7444.5" y="-545.8" font-family="Times,serif" font-size="14.00">Ari Pankuch</text>
+  <polygon fill="none" stroke="black" points="7428,-532 7428,-632 7530,-632 7530,-532 7428,-532"/>
+  </g>
+
+
+  <g id="edge65" class="edge">
+  <title>inna_kagan:secondary_joiner&#45;&gt;don_pankuch_children</title>
+  <path fill="none" stroke="black" d="M7479,-721C7498.15,-701.85 7500.39,-672.7 7496.91,-646.11"/>
+  <polygon fill="black" stroke="black" points="7500.35,-645.41 7495.33,-636.08 7493.43,-646.5 7500.35,-645.41"/>
+  </g>
+
+
+  <g id="node72" class="node">
+  <title>shari_barcebal_children</title>
+  <text text-anchor="start" x="7636" y="-591" font-family="Times,serif" font-size="10.00">2021</text>
+  <polygon fill="none" stroke="black" points="7634,-563 7634,-584 7720,-584 7720,-563 7634,-563"/>
+  <text text-anchor="start" x="7637" y="-569.8" font-family="Times,serif" font-size="14.00">Abigail Kagan</text>
+  <polygon fill="none" stroke="black" points="7627,-556 7627,-608 7727,-608 7727,-556 7627,-556"/>
+  </g>
+
+
+  <g id="edge67" class="edge">
+  <title>isaac_kagan:secondary_joiner&#45;&gt;shari_barcebal_children</title>
+  <path fill="none" stroke="black" d="M7677,-721C7702.3,-695.7 7698.08,-652.96 7690.18,-621.73"/>
+  <polygon fill="black" stroke="black" points="7693.54,-620.75 7687.51,-612.03 7686.79,-622.6 7693.54,-620.75"/>
+  </g>
+
+
+  <g id="node74" class="node">
+  <title>darren_morrisey_children</title>
+  <text text-anchor="start" x="7850" y="-591" font-family="Times,serif" font-size="10.00">2020</text>
+  <polygon fill="none" stroke="black" points="7848,-563 7848,-584 7934,-584 7934,-563 7848,-563"/>
+  <text text-anchor="start" x="7851" y="-569.8" font-family="Times,serif" font-size="14.00">Riva Morrisey</text>
+  <polygon fill="none" stroke="black" points="7841,-556 7841,-608 7941,-608 7941,-556 7841,-556"/>
+  </g>
+
+
+  <g id="edge69" class="edge">
+  <title>rachel_kagan:secondary_joiner&#45;&gt;darren_morrisey_children</title>
+  <path fill="none" stroke="black" d="M7891,-721C7916.3,-695.7 7912.08,-652.96 7904.18,-621.73"/>
+  <polygon fill="black" stroke="black" points="7907.54,-620.75 7901.51,-612.03 7900.79,-622.6 7907.54,-620.75"/>
+  </g>
+
+
+  <g id="node76" class="node">
+  <title>nanette_brody_packer</title>
+  <text text-anchor="start" x="7872" y="-846" font-family="Times,serif" font-size="10.00">1917</text>
+  <polygon fill="none" stroke="black" points="7870,-818 7870,-839 7997,-839 7997,-818 7870,-818"/>
+  <text text-anchor="start" x="7873" y="-824.8" font-family="Times,serif" font-size="14.00">Nanette Brody Packer</text>
+  </g>
+
+
+  <g id="edge74" class="edge">
+  <title>isaac_brody:s&#45;&gt;nanette_brody_packer:ne</title>
+  <path fill="none" stroke="black" d="M7700,-900C7700,-833.46 7951.96,-910.98 7997,-862 8001.22,-857.41 8003.36,-852.56 8002.74,-847.83"/>
+  <polygon fill="black" stroke="black" points="8005.81,-846.16 7998,-839 7999.65,-849.47 8005.81,-846.16"/>
+  </g>
+
+
+  <g id="node77" class="node">
+  <title>arlene_brennan</title>
+  <text text-anchor="start" x="7991" y="-756" font-family="Times,serif" font-size="10.00">1949</text>
+  <text text-anchor="start" x="8106" y="-756" font-family="Times,serif" font-size="10.00">1937</text>
+  <polygon fill="none" stroke="black" points="7989,-728 7989,-749 8082,-749 8082,-728 7989,-728"/>
+  <text text-anchor="start" x="7992" y="-734.8" font-family="Times,serif" font-size="14.00">Arlene Brennan</text>
+  <text text-anchor="start" x="8086" y="-734.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="8104,-728 8104,-749 8205,-749 8205,-728 8104,-728"/>
+  <text text-anchor="start" x="8107" y="-734.8" font-family="Times,serif" font-size="14.00">Michael Brennan</text>
+  </g>
+
+
+  <g id="edge73" class="edge">
+  <title>nanette_brody_packer:s&#45;&gt;arlene_brennan:ne</title>
+  <path fill="none" stroke="black" d="M7933,-811C7933,-743.64 8109.89,-793.89 8088.41,-757.79"/>
+  <polygon fill="black" stroke="black" points="8091.05,-755.5 8082,-750 8085.65,-759.95 8091.05,-755.5"/>
+  </g>
+
+
+  <g id="node82" class="node">
+  <title>charlotte_seloff</title>
+  <text text-anchor="start" x="4446" y="-756" font-family="Times,serif" font-size="10.00">1934</text>
+  <text text-anchor="start" x="4562" y="-756" font-family="Times,serif" font-size="10.00">1931&#45;2012</text>
+  <polygon fill="none" stroke="black" points="4444,-728 4444,-749 4538,-749 4538,-728 4444,-728"/>
+  <text text-anchor="start" x="4447" y="-734.8" font-family="Times,serif" font-size="14.00">Charlotte Seloff</text>
+  <text text-anchor="start" x="4542" y="-734.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="4560,-728 4560,-749 4648,-749 4648,-728 4560,-728"/>
+  <text text-anchor="start" x="4563" y="-734.8" font-family="Times,serif" font-size="14.00">Leonard Seloff</text>
+  </g>
+
+
+  <g id="edge93" class="edge">
+  <title>sylvia_davis:s&#45;&gt;charlotte_seloff:ne</title>
+  <path fill="none" stroke="black" d="M5139,-811C5184.51,-765.49 4633.67,-794.82 4546.55,-755.44"/>
+  <polygon fill="black" stroke="black" points="4548.32,-752.42 4538,-750 4544.56,-758.32 4548.32,-752.42"/>
+  </g>
+
+
+  <g id="node95" class="node">
+  <title>barrie_davis</title>
+  <text text-anchor="start" x="5065" y="-756" font-family="Times,serif" font-size="10.00">1937</text>
+  <text text-anchor="start" x="5163" y="-756" font-family="Times,serif" font-size="10.00">1937</text>
+  <polygon fill="none" stroke="black" points="5063,-728 5063,-749 5139,-749 5139,-728 5063,-728"/>
+  <text text-anchor="start" x="5066" y="-734.8" font-family="Times,serif" font-size="14.00">Barrie Davis</text>
+  <text text-anchor="start" x="5143" y="-734.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="5161,-728 5161,-749 5252,-749 5252,-728 5161,-728"/>
+  <text text-anchor="start" x="5164" y="-734.8" font-family="Times,serif" font-size="14.00">Alden Kirshner</text>
+  </g>
+
+
+  <g id="edge104" class="edge">
+  <title>sylvia_davis:s&#45;&gt;barrie_davis:ne</title>
+  <path fill="none" stroke="black" d="M5139,-811C5155.62,-794.38 5157.83,-775.13 5145.62,-757.81"/>
+  <polygon fill="black" stroke="black" points="5148.14,-755.36 5139,-750 5142.8,-759.89 5148.14,-755.36"/>
+  </g>
+
+
+  <g id="node106" class="node">
+  <title>ellen_dansky</title>
+  <text text-anchor="start" x="5364" y="-756" font-family="Times,serif" font-size="10.00">1952</text>
+  <text text-anchor="start" x="5466" y="-756" font-family="Times,serif" font-size="10.00">1948&#45;2018</text>
+  <polygon fill="none" stroke="black" points="5362,-728 5362,-749 5442,-749 5442,-728 5362,-728"/>
+  <text text-anchor="start" x="5365" y="-734.8" font-family="Times,serif" font-size="14.00">Ellen Dansky</text>
+  <text text-anchor="start" x="5446" y="-734.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="5464,-728 5464,-749 5546,-749 5546,-728 5464,-728"/>
+  <text text-anchor="start" x="5467" y="-734.8" font-family="Times,serif" font-size="14.00">Steve Dansky</text>
+  </g>
+
+
+  <g id="edge108" class="edge">
+  <title>sylvia_davis:s&#45;&gt;ellen_dansky:ne</title>
+  <path fill="none" stroke="black" d="M5139,-811C5184.34,-765.66 5451.45,-794.14 5447.2,-758.6"/>
+  <polygon fill="black" stroke="black" points="5450.17,-756.75 5442,-750 5444.18,-760.37 5450.17,-756.75"/>
+  </g>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <g id="edge114" class="edge">
+  <title>sylvia_davis:s&#45;&gt;ned_davis:ne</title>
+  <path fill="none" stroke="black" d="M5139,-811C5199.73,-750.27 5930.24,-805.35 5958.75,-757.73"/>
+  <polygon fill="black" stroke="black" points="5962.09,-756.67 5956,-748 5955.35,-758.58 5962.09,-756.67"/>
+  </g>
+
+
+  <g id="node83" class="node">
+  <title>sharon</title>
+  <text text-anchor="start" x="4174" y="-590.8" font-family="Times,serif" font-size="10.00">1955</text>
+  <text text-anchor="start" x="4196" y="-590.8" font-family="Times,serif" font-size="14.00">      </text>
+  <text text-anchor="start" x="4245" y="-591" font-family="Times,serif" font-size="10.00">1954</text>
+  <polygon fill="none" stroke="black" points="4050,-561 4050,-582 4106,-582 4106,-561 4050,-561"/>
+  <text text-anchor="start" x="4053" y="-567.8" font-family="Times,serif" font-size="14.00">Gadi Gal</text>
+  <text text-anchor="start" x="4110" y="-568.8" font-family="Times,serif" font-size="14.00">___</text>
+  <text text-anchor="start" x="4131" y="-568.8" font-family="Times,serif" font-size="10.00">div.</text>
+  <text text-anchor="start" x="4147" y="-568.8" font-family="Times,serif" font-size="14.00">___</text>
+  <polygon fill="none" stroke="black" points="4172,-561 4172,-582 4221,-582 4221,-561 4172,-561"/>
+  <text text-anchor="start" x="4177" y="-567.8" font-family="Times,serif" font-size="14.00">Sharon</text>
+  <text text-anchor="start" x="4225" y="-567.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="4243,-561 4243,-582 4313,-582 4313,-561 4243,-561"/>
+  <text text-anchor="start" x="4246" y="-567.8" font-family="Times,serif" font-size="14.00">Moises Paz</text>
+  </g>
+
+
+  <g id="edge89" class="edge">
+  <title>charlotte_seloff:s&#45;&gt;sharon:ne</title>
+  <path fill="none" stroke="black" d="M4571,-721C4617.42,-674.58 4489.59,-706.73 4428,-684 4335.34,-649.8 4296.17,-654.96 4228.51,-590.35"/>
+  <polygon fill="black" stroke="black" points="4230.6,-587.49 4221,-583 4225.7,-592.49 4230.6,-587.49"/>
+  </g>
+
+
+  <g id="node92" class="node">
+  <title>eileen_seloff</title>
+  <text text-anchor="start" x="4441" y="-591" font-family="Times,serif" font-size="10.00">1957</text>
+  <polygon fill="none" stroke="black" points="4439,-563 4439,-584 4517,-584 4517,-563 4439,-563"/>
+  <text text-anchor="start" x="4442" y="-569.8" font-family="Times,serif" font-size="14.00">Eileen Seloff</text>
+  </g>
+
+
+  <g id="edge90" class="edge">
+  <title>charlotte_seloff:s&#45;&gt;eileen_seloff:ne</title>
+  <path fill="none" stroke="black" d="M4571,-721C4588.12,-703.88 4542.11,-705.52 4531,-684 4512.12,-647.45 4543.65,-620.44 4524.44,-591.74"/>
+  <polygon fill="black" stroke="black" points="4527.09,-589.45 4518,-584 4521.7,-593.93 4527.09,-589.45"/>
+  </g>
+
+
+  <g id="node93" class="node">
+  <title>herbert_seloff</title>
+  <text text-anchor="start" x="4541" y="-591" font-family="Times,serif" font-size="10.00">1961</text>
+  <text text-anchor="start" x="4648" y="-591" font-family="Times,serif" font-size="10.00">1962</text>
+  <polygon fill="none" stroke="black" points="4539,-563 4539,-584 4624,-584 4624,-563 4539,-563"/>
+  <text text-anchor="start" x="4542" y="-569.8" font-family="Times,serif" font-size="14.00">Herbert Seloff</text>
+  <text text-anchor="start" x="4628" y="-569.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="4646,-563 4646,-584 4728,-584 4728,-563 4646,-563"/>
+  <text text-anchor="start" x="4649" y="-569.8" font-family="Times,serif" font-size="14.00">Dianne Seloff</text>
+  </g>
+
+
+  <g id="edge92" class="edge">
+  <title>charlotte_seloff:s&#45;&gt;herbert_seloff:ne</title>
+  <path fill="none" stroke="black" d="M4571,-721C4614.36,-677.64 4664.1,-635.72 4630.66,-592.51"/>
+  <polygon fill="black" stroke="black" points="4633.25,-590.16 4624,-585 4628.01,-594.81 4633.25,-590.16"/>
+  </g>
+
+
+  <g id="node84" class="node">
+  <title>raanon_gal</title>
+  <text text-anchor="start" x="3574" y="-375" font-family="Times,serif" font-size="10.00">1976</text>
+  <text text-anchor="start" x="3667" y="-375" font-family="Times,serif" font-size="10.00">1980</text>
+  <polygon fill="none" stroke="black" points="3572,-347 3572,-368 3643,-368 3643,-347 3572,-347"/>
+  <text text-anchor="start" x="3575" y="-353.8" font-family="Times,serif" font-size="14.00">Raanon Gal</text>
+  <text text-anchor="start" x="3647" y="-353.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="3665,-347 3665,-368 3753,-368 3753,-347 3665,-347"/>
+  <text text-anchor="start" x="3668" y="-353.8" font-family="Times,serif" font-size="14.00">Erica Bodziner</text>
+  </g>
+
+
+  <g id="edge82" class="edge">
+  <title>sharon:s&#45;&gt;raanon_gal:ne</title>
+  <path fill="none" stroke="black" d="M4139,-560C4139,-473.67 4044.39,-505.77 3962,-480 3877.47,-453.57 3848.75,-475.58 3766,-444 3709.45,-422.42 3690.36,-415.08 3650.19,-376.09"/>
+  <polygon fill="black" stroke="black" points="3652.58,-373.53 3643,-369 3647.66,-378.51 3652.58,-373.53"/>
+  </g>
+
+
+  <g id="node86" class="node">
+  <title>sivan_krupnick</title>
+  <text text-anchor="start" x="3776" y="-375" font-family="Times,serif" font-size="10.00">1979</text>
+  <text text-anchor="start" x="3890" y="-375" font-family="Times,serif" font-size="10.00">1975</text>
+  <polygon fill="none" stroke="black" points="3774,-347 3774,-368 3866,-368 3866,-347 3774,-347"/>
+  <text text-anchor="start" x="3777" y="-353.8" font-family="Times,serif" font-size="14.00">Sivan Krupnick</text>
+  <text text-anchor="start" x="3870" y="-353.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="3888,-347 3888,-368 4003,-368 4003,-347 3888,-347"/>
+  <text text-anchor="start" x="3891" y="-353.8" font-family="Times,serif" font-size="14.00">Yehoshua Krupnick</text>
+  </g>
+
+
+  <g id="edge84" class="edge">
+  <title>sharon:s&#45;&gt;sivan_krupnick:ne</title>
+  <path fill="none" stroke="black" d="M4139,-560C4139,-489.14 3936.91,-426.92 3873.65,-375.82"/>
+  <polygon fill="black" stroke="black" points="3875.79,-373.04 3866,-369 3871.14,-378.27 3875.79,-373.04"/>
+  </g>
+
+
+  <g id="node88" class="node">
+  <title>tamar_gal</title>
+  <text text-anchor="start" x="4026" y="-375" font-family="Times,serif" font-size="10.00">1981</text>
+  <text text-anchor="start" x="4113" y="-375" font-family="Times,serif" font-size="10.00">1978</text>
+  <polygon fill="none" stroke="black" points="4024,-347 4024,-368 4089,-368 4089,-347 4024,-347"/>
+  <text text-anchor="start" x="4027" y="-353.8" font-family="Times,serif" font-size="14.00">Tamar Gal</text>
+  <text text-anchor="start" x="4093" y="-353.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="4111,-347 4111,-368 4198,-368 4198,-347 4111,-347"/>
+  <text text-anchor="start" x="4114" y="-353.8" font-family="Times,serif" font-size="14.00">Daniel Hyman</text>
+  </g>
+
+
+  <g id="edge86" class="edge">
+  <title>sharon:s&#45;&gt;tamar_gal:ne</title>
+  <path fill="none" stroke="black" d="M4139,-560C4139,-475.85 4150.08,-434.51 4096.27,-376.53"/>
+  <polygon fill="black" stroke="black" points="4098.46,-373.77 4089,-369 4093.42,-378.63 4098.46,-373.77"/>
+  </g>
+
+
+  <g id="node90" class="node">
+  <title>david_paz</title>
+  <text text-anchor="start" x="4221" y="-375" font-family="Times,serif" font-size="10.00">1980</text>
+  <text text-anchor="start" x="4306" y="-375" font-family="Times,serif" font-size="10.00">1985</text>
+  <polygon fill="none" stroke="black" points="4219,-347 4219,-368 4282,-368 4282,-347 4219,-347"/>
+  <text text-anchor="start" x="4222" y="-353.8" font-family="Times,serif" font-size="14.00">David Paz</text>
+  <text text-anchor="start" x="4286" y="-353.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="4304,-347 4304,-368 4391,-368 4391,-347 4304,-347"/>
+  <text text-anchor="start" x="4307" y="-353.8" font-family="Times,serif" font-size="14.00">Dani Levinson</text>
+  </g>
+
+
+  <g id="edge87" class="edge">
+  <title>sharon:s&#45;&gt;david_paz:ne</title>
+  <path fill="none" stroke="black" d="M4232,-560C4232,-475.85 4335.05,-434.51 4288.78,-376.53"/>
+  <polygon fill="black" stroke="black" points="4291.29,-374.09 4282,-369 4286.08,-378.78 4291.29,-374.09"/>
+  </g>
+
+
+  <g id="node91" class="node">
+  <title>aliza_paz</title>
+  <text text-anchor="start" x="4414" y="-375" font-family="Times,serif" font-size="10.00">1987</text>
+  <text text-anchor="start" x="4509" y="-375" font-family="Times,serif" font-size="10.00">1989</text>
+  <polygon fill="none" stroke="black" points="4412,-347 4412,-368 4471,-368 4471,-347 4412,-347"/>
+  <text text-anchor="start" x="4415" y="-353.8" font-family="Times,serif" font-size="14.00">Aliza Paz</text>
+  <text text-anchor="start" x="4475" y="-353.8" font-family="Times,serif" font-size="14.00">_ _ _</text>
+  <polygon fill="none" stroke="black" points="4507,-347 4507,-368 4590,-368 4590,-347 4507,-347"/>
+  <text text-anchor="start" x="4510" y="-353.8" font-family="Times,serif" font-size="14.00">Jackie Truong</text>
+  </g>
+
+
+  <g id="edge88" class="edge">
+  <title>sharon:s&#45;&gt;aliza_paz:ne</title>
+  <path fill="none" stroke="black" d="M4232,-560C4232,-427.74 4549.07,-463.03 4477.94,-376.59"/>
+  <polygon fill="black" stroke="black" points="4480.33,-374.02 4471,-369 4475.16,-378.74 4480.33,-374.02"/>
+  </g>
+
+
+  <g id="node85" class="node">
+  <title>erica_bodziner_children</title>
+  <text text-anchor="start" x="3652" y="-207" font-family="Times,serif" font-size="10.00">2008</text>
+  <polygon fill="none" stroke="black" points="3650,-179 3650,-200 3724,-200 3724,-179 3650,-179"/>
+  <text text-anchor="start" x="3659.5" y="-185.8" font-family="Times,serif" font-size="14.00">Judah Gal</text>
+  <text text-anchor="start" x="3652" y="-159" font-family="Times,serif" font-size="10.00">2010</text>
+  <polygon fill="none" stroke="black" points="3650,-131 3650,-152 3724,-152 3724,-131 3650,-131"/>
+  <text text-anchor="start" x="3653" y="-137.8" font-family="Times,serif" font-size="14.00">Maayan Gal</text>
+  <text text-anchor="start" x="3652" y="-111" font-family="Times,serif" font-size="10.00">2013</text>
+  <polygon fill="none" stroke="black" points="3650,-83 3650,-104 3724,-104 3724,-83 3650,-83"/>
+  <text text-anchor="start" x="3659.5" y="-89.8" font-family="Times,serif" font-size="14.00">Leora Gal</text>
+  <text text-anchor="start" x="3652" y="-63" font-family="Times,serif" font-size="10.00">2015</text>
+  <polygon fill="none" stroke="black" points="3650,-35 3650,-56 3724,-56 3724,-35 3650,-35"/>
+  <text text-anchor="start" x="3657.5" y="-41.8" font-family="Times,serif" font-size="14.00">Adena Gal</text>
+  <polygon fill="none" stroke="black" points="3643,-28 3643,-224 3731,-224 3731,-28 3643,-28"/>
+  </g>
+
+
+  <g id="edge81" class="edge">
+  <title>raanon_gal:secondary_joiner&#45;&gt;erica_bodziner_children</title>
+  <path fill="none" stroke="black" d="M3687,-340C3713.23,-313.77 3718.9,-275.39 3716.1,-238.41"/>
+  <polygon fill="black" stroke="black" points="3719.55,-237.64 3715.1,-228.02 3712.58,-238.31 3719.55,-237.64"/>
+  </g>
+
+
+  <g id="node87" class="node">
+  <title>yehoshua_krupnick_children</title>
+  <text text-anchor="start" x="3849" y="-231" font-family="Times,serif" font-size="10.00">2005</text>
+  <polygon fill="none" stroke="black" points="3847,-203 3847,-224 3980,-224 3980,-203 3847,-203"/>
+  <text text-anchor="start" x="3850" y="-209.8" font-family="Times,serif" font-size="14.00">Moshe Tovia Krupnick</text>
+  <text text-anchor="start" x="3849" y="-183" font-family="Times,serif" font-size="10.00">2007</text>
+  <polygon fill="none" stroke="black" points="3847,-155 3847,-176 3980,-176 3980,-155 3847,-155"/>
+  <text text-anchor="start" x="3863.5" y="-161.8" font-family="Times,serif" font-size="14.00">Tehillah Krupnick</text>
+  <text text-anchor="start" x="3849" y="-135" font-family="Times,serif" font-size="10.00">2009</text>
+  <polygon fill="none" stroke="black" points="3847,-107 3847,-128 3980,-128 3980,-107 3847,-107"/>
+  <text text-anchor="start" x="3872" y="-113.8" font-family="Times,serif" font-size="14.00">Rena Krupnick</text>
+  <text text-anchor="start" x="3849" y="-87" font-family="Times,serif" font-size="10.00">2016</text>
+  <polygon fill="none" stroke="black" points="3847,-59 3847,-80 3980,-80 3980,-59 3847,-59"/>
+  <text text-anchor="start" x="3873.5" y="-65.8" font-family="Times,serif" font-size="14.00">Liba Krupnick</text>
+  <text text-anchor="start" x="3849" y="-39" font-family="Times,serif" font-size="10.00">2020</text>
+  <polygon fill="none" stroke="black" points="3847,-11 3847,-32 3980,-32 3980,-11 3847,-11"/>
+  <text text-anchor="start" x="3873.5" y="-17.8" font-family="Times,serif" font-size="14.00">Levi Krupnick</text>
+  <polygon fill="none" stroke="black" points="3839.5,-4 3839.5,-248 3986.5,-248 3986.5,-4 3839.5,-4"/>
+  </g>
+
+
+  <g id="edge83" class="edge">
+  <title>sivan_krupnick:secondary_joiner&#45;&gt;yehoshua_krupnick_children</title>
+  <path fill="none" stroke="black" d="M3913,-340C3933.58,-319.42 3941.51,-291.35 3942.61,-262.35"/>
+  <polygon fill="black" stroke="black" points="3946.12,-262.11 3942.73,-252.07 3939.12,-262.03 3946.12,-262.11"/>
+  </g>
+
+
+  <g id="node89" class="node">
+  <title>daniel_hyman_children</title>
+  <text text-anchor="start" x="4090" y="-207" font-family="Times,serif" font-size="10.00">2010</text>
+  <polygon fill="none" stroke="black" points="4088,-179 4088,-200 4185,-200 4185,-179 4088,-179"/>
+  <text text-anchor="start" x="4100.5" y="-185.8" font-family="Times,serif" font-size="14.00">Meir Hyman</text>
+  <text text-anchor="start" x="4090" y="-159" font-family="Times,serif" font-size="10.00">2012</text>
+  <polygon fill="none" stroke="black" points="4088,-131 4088,-152 4185,-152 4185,-131 4088,-131"/>
+  <text text-anchor="start" x="4095.5" y="-137.8" font-family="Times,serif" font-size="14.00">Naftali Hyman</text>
+  <text text-anchor="start" x="4090" y="-111" font-family="Times,serif" font-size="10.00">2014</text>
+  <polygon fill="none" stroke="black" points="4088,-83 4088,-104 4185,-104 4185,-83 4088,-83"/>
+  <text text-anchor="start" x="4091" y="-89.8" font-family="Times,serif" font-size="14.00">Avigayil Hyman</text>
+  <text text-anchor="start" x="4090" y="-63" font-family="Times,serif" font-size="10.00">2017</text>
+  <polygon fill="none" stroke="black" points="4088,-35 4088,-56 4185,-56 4185,-35 4088,-35"/>
+  <text text-anchor="start" x="4092.5" y="-41.8" font-family="Times,serif" font-size="14.00">Shlomo Hyman</text>
+  <polygon fill="none" stroke="black" points="4080.5,-28 4080.5,-224 4191.5,-224 4191.5,-28 4080.5,-28"/>
+  </g>
+
+
+  <g id="edge85" class="edge">
+  <title>tamar_gal:secondary_joiner&#45;&gt;daniel_hyman_children</title>
+  <path fill="none" stroke="black" d="M4136,-340C4162.23,-313.77 4167.9,-275.39 4165.1,-238.41"/>
+  <polygon fill="black" stroke="black" points="4168.55,-237.64 4164.1,-228.02 4161.58,-238.31 4168.55,-237.64"/>
+  </g>
+
+
+  <g id="node94" class="node">
+  <title>dianne_seloff_children</title>
+  <text text-anchor="start" x="4619" y="-399" font-family="Times,serif" font-size="10.00">1995</text>
+  <polygon fill="none" stroke="black" points="4617,-371 4617,-392 4700,-392 4700,-371 4617,-371"/>
+  <text text-anchor="start" x="4624.5" y="-377.8" font-family="Times,serif" font-size="14.00">Jacob Seloff</text>
+  <text text-anchor="start" x="4619" y="-351" font-family="Times,serif" font-size="10.00">1997</text>
+  <polygon fill="none" stroke="black" points="4617,-323 4617,-344 4700,-344 4700,-323 4617,-323"/>
+  <text text-anchor="start" x="4620" y="-329.8" font-family="Times,serif" font-size="14.00">Jeremy Seloff</text>
+  <polygon fill="none" stroke="black" points="4609.5,-316 4609.5,-416 4706.5,-416 4706.5,-316 4609.5,-316"/>
+  </g>
+
+
+  <g id="edge91" class="edge">
+  <title>herbert_seloff:secondary_joiner&#45;&gt;dianne_seloff_children</title>
+  <path fill="none" stroke="black" d="M4658,-556C4690.01,-523.99 4687.52,-471.61 4678.42,-430.09"/>
+  <polygon fill="black" stroke="black" points="4681.82,-429.26 4676.12,-420.33 4675.01,-430.87 4681.82,-429.26"/>
+  </g>
+
+
+  <g id="node96" class="node">
+  <title>art_kirshner</title>
+  <text text-anchor="start" x="4901" y="-591" font-family="Times,serif" font-size="10.00">1957</text>
+  <polygon fill="none" stroke="black" points="4899,-563 4899,-584 4975,-584 4975,-563 4899,-563"/>
+  <text text-anchor="start" x="4902" y="-569.8" font-family="Times,serif" font-size="14.00">Art Kirshner</text>
+  <text text-anchor="start" x="4979" y="-569.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="4997,-563 4997,-584 5079,-584 5079,-563 4997,-563"/>
+  <text text-anchor="start" x="5000" y="-569.8" font-family="Times,serif" font-size="14.00">Annette Stern</text>
+  </g>
+
+
+  <g id="edge98" class="edge">
+  <title>barrie_davis:s&#45;&gt;art_kirshner:ne</title>
+  <path fill="none" stroke="black" d="M5182,-721C5212.29,-690.71 5129.61,-706.25 5093,-684 5037.47,-650.26 5024.66,-634.99 4982.1,-592.12"/>
+  <polygon fill="black" stroke="black" points="4984.54,-589.61 4975,-585 4979.58,-594.55 4984.54,-589.61"/>
+  </g>
+
+
+  <g id="node101" class="node">
+  <title>neil_kirshner</title>
+  <text text-anchor="start" x="5103" y="-591" font-family="Times,serif" font-size="10.00">1963</text>
+  <polygon fill="none" stroke="black" points="5101,-563 5101,-584 5182,-584 5182,-563 5101,-563"/>
+  <text text-anchor="start" x="5104" y="-569.8" font-family="Times,serif" font-size="14.00">Neil Kirshner</text>
+  </g>
+
+
+  <g id="edge101" class="edge">
+  <title>barrie_davis:s&#45;&gt;neil_kirshner:ne</title>
+  <path fill="none" stroke="black" d="M5182,-721C5191.33,-711.67 5193.33,-623.59 5186.67,-593.34"/>
+  <polygon fill="black" stroke="black" points="5189.92,-592.03 5183,-584 5183.4,-594.59 5189.92,-592.03"/>
+  </g>
+
+
+  <g id="node104" class="node">
+  <title>mike_kirshner</title>
+  <text text-anchor="start" x="5314" y="-591" font-family="Times,serif" font-size="10.00">1968</text>
+  <polygon fill="none" stroke="black" points="5203,-563 5203,-584 5290,-584 5290,-563 5203,-563"/>
+  <text text-anchor="start" x="5206" y="-569.8" font-family="Times,serif" font-size="14.00">Mike Kirshner</text>
+  <text text-anchor="start" x="5294" y="-569.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="5312,-563 5312,-584 5381,-584 5381,-563 5312,-563"/>
+  <text text-anchor="start" x="5315" y="-569.8" font-family="Times,serif" font-size="14.00">Bari Bettan</text>
+  </g>
+
+
+  <g id="edge103" class="edge">
+  <title>barrie_davis:s&#45;&gt;mike_kirshner:ne</title>
+  <path fill="none" stroke="black" d="M5182,-721C5234.02,-668.98 5334.57,-642.16 5296.63,-592.5"/>
+  <polygon fill="black" stroke="black" points="5299.24,-590.18 5290,-585 5294,-594.81 5299.24,-590.18"/>
+  </g>
+
+
+  <g id="node97" class="node">
+  <title>erica_kirshner</title>
+  <text text-anchor="start" x="4728" y="-375" font-family="Times,serif" font-size="10.00">1990</text>
+  <text text-anchor="start" x="4836" y="-375" font-family="Times,serif" font-size="10.00">1990</text>
+  <polygon fill="none" stroke="black" points="4726,-347 4726,-368 4812,-368 4812,-347 4726,-347"/>
+  <text text-anchor="start" x="4729" y="-353.8" font-family="Times,serif" font-size="14.00">Erica Kirshner</text>
+  <text text-anchor="start" x="4816" y="-353.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="4834,-347 4834,-368 4946,-368 4946,-347 4834,-347"/>
+  <text text-anchor="start" x="4837" y="-353.8" font-family="Times,serif" font-size="14.00">Peter Debenedictus</text>
+  </g>
+
+
+  <g id="edge95" class="edge">
+  <title>art_kirshner:s&#45;&gt;erica_kirshner:ne</title>
+  <path fill="none" stroke="black" d="M5014,-556C5098.14,-471.86 4909.34,-456.33 4819.35,-375.94"/>
+  <polygon fill="black" stroke="black" points="4821.67,-373.32 4812,-369 4816.87,-378.41 4821.67,-373.32"/>
+  </g>
+
+
+  <g id="node99" class="node">
+  <title>sara_jo_kirshner</title>
+  <text text-anchor="start" x="5089" y="-375" font-family="Times,serif" font-size="10.00">1986</text>
+  <polygon fill="none" stroke="black" points="4968,-347 4968,-368 5065,-368 5065,-347 4968,-347"/>
+  <text text-anchor="start" x="4971" y="-353.8" font-family="Times,serif" font-size="14.00">Sara Jo Kirshner</text>
+  <text text-anchor="start" x="5069" y="-353.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="5087,-347 5087,-368 5173,-368 5173,-347 5087,-347"/>
+  <text text-anchor="start" x="5090" y="-353.8" font-family="Times,serif" font-size="14.00">Stephen Helba</text>
+  </g>
+
+
+  <g id="edge97" class="edge">
+  <title>art_kirshner:s&#45;&gt;sara_jo_kirshner:ne</title>
+  <path fill="none" stroke="black" d="M5014,-556C5072.42,-497.58 5121.71,-435.25 5071.94,-376.52"/>
+  <polygon fill="black" stroke="black" points="5074.35,-373.97 5065,-369 5069.21,-378.72 5074.35,-373.97"/>
+  </g>
+
+
+  <g id="node98" class="node">
+  <title>peter_debenedictus_children</title>
+  <text text-anchor="start" x="4806" y="-135" font-family="Times,serif" font-size="10.00">2019</text>
+  <polygon fill="none" stroke="black" points="4804,-107 4804,-128 4919,-128 4919,-107 4804,-107"/>
+  <text text-anchor="start" x="4807" y="-113.8" font-family="Times,serif" font-size="14.00">Maya Debenedictus</text>
+  <polygon fill="none" stroke="black" points="4796.5,-100 4796.5,-152 4925.5,-152 4925.5,-100 4796.5,-100"/>
+  </g>
+
+
+  <g id="edge94" class="edge">
+  <title>erica_kirshner:secondary_joiner&#45;&gt;peter_debenedictus_children</title>
+  <path fill="none" stroke="black" d="M4861,-340C4906.04,-294.96 4890.47,-214.1 4875.46,-166.01"/>
+  <polygon fill="black" stroke="black" points="4878.71,-164.7 4872.29,-156.28 4872.06,-166.87 4878.71,-164.7"/>
+  </g>
+
+
+  <g id="node100" class="node">
+  <title>stephen_helba_children</title>
+  <text text-anchor="start" x="5065" y="-159" font-family="Times,serif" font-size="10.00">2019</text>
+  <polygon fill="none" stroke="black" points="5063,-131 5063,-152 5127,-152 5127,-131 5063,-131"/>
+  <text text-anchor="start" x="5067.5" y="-137.8" font-family="Times,serif" font-size="14.00">Tia Helba</text>
+  <text text-anchor="start" x="5065" y="-111" font-family="Times,serif" font-size="10.00">2022</text>
+  <polygon fill="none" stroke="black" points="5063,-83 5063,-104 5127,-104 5127,-83 5063,-83"/>
+  <text text-anchor="start" x="5066" y="-89.8" font-family="Times,serif" font-size="14.00">Tali Helba</text>
+  <polygon fill="none" stroke="black" points="5056,-76 5056,-176 5134,-176 5134,-76 5056,-76"/>
+  </g>
+
+
+  <g id="edge96" class="edge">
+  <title>sara_jo_kirshner:secondary_joiner&#45;&gt;stephen_helba_children</title>
+  <path fill="none" stroke="black" d="M5095,-340C5133.08,-301.92 5127.83,-238.23 5116.23,-190.39"/>
+  <polygon fill="black" stroke="black" points="5119.55,-189.25 5113.67,-180.44 5112.77,-191 5119.55,-189.25"/>
+  </g>
+
+
+  <g id="node102" class="node">
+  <title>leah_kirshner_creighton</title>
+  <text text-anchor="start" x="5196" y="-375" font-family="Times,serif" font-size="10.00">1990</text>
+  <text text-anchor="start" x="5360" y="-375" font-family="Times,serif" font-size="10.00">1990</text>
+  <polygon fill="none" stroke="black" points="5194,-347 5194,-368 5336,-368 5336,-347 5194,-347"/>
+  <text text-anchor="start" x="5197" y="-353.8" font-family="Times,serif" font-size="14.00">Leah Kirshner Creighton</text>
+  <text text-anchor="start" x="5340" y="-353.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="5358,-347 5358,-368 5458,-368 5458,-347 5358,-347"/>
+  <text text-anchor="start" x="5361" y="-353.8" font-family="Times,serif" font-size="14.00">Daniel Creighton</text>
+  </g>
+
+
+  <g id="edge100" class="edge">
+  <title>neil_kirshner:s&#45;&gt;leah_kirshner_creighton:ne</title>
+  <path fill="none" stroke="black" d="M5141,-556C5141,-514.56 5166.43,-510.01 5195,-480 5247.41,-424.94 5379.24,-425.23 5342.65,-376.55"/>
+  <polygon fill="black" stroke="black" points="5345.24,-374.19 5336,-369 5339.98,-378.82 5345.24,-374.19"/>
+  </g>
+
+
+  <g id="node103" class="node">
+  <title>daniel_creighton_children</title>
+  <text text-anchor="start" x="5305" y="-159" font-family="Times,serif" font-size="10.00">2016</text>
+  <polygon fill="none" stroke="black" points="5303,-131 5303,-152 5400,-152 5400,-131 5303,-131"/>
+  <text text-anchor="start" x="5317" y="-137.8" font-family="Times,serif" font-size="14.00">Brody Blum</text>
+  <text text-anchor="start" x="5305" y="-111" font-family="Times,serif" font-size="10.00">2020</text>
+  <polygon fill="none" stroke="black" points="5303,-83 5303,-104 5400,-104 5400,-83 5303,-83"/>
+  <text text-anchor="start" x="5306" y="-89.8" font-family="Times,serif" font-size="14.00">Violet Creighton</text>
+  <polygon fill="none" stroke="black" points="5295.5,-76 5295.5,-176 5406.5,-176 5406.5,-76 5295.5,-76"/>
+  </g>
+
+
+  <g id="edge99" class="edge">
+  <title>leah_kirshner_creighton:secondary_joiner&#45;&gt;daniel_creighton_children</title>
+  <path fill="none" stroke="black" d="M5351,-340C5389.08,-301.92 5383.83,-238.23 5372.23,-190.39"/>
+  <polygon fill="black" stroke="black" points="5375.55,-189.25 5369.67,-180.44 5368.77,-191 5375.55,-189.25"/>
+  </g>
+
+
+  <g id="node105" class="node">
+  <title>bari_bettan_children</title>
+  <text text-anchor="start" x="5486" y="-399" font-family="Times,serif" font-size="10.00">2000</text>
+  <polygon fill="none" stroke="black" points="5484,-371 5484,-392 5580,-392 5580,-371 5484,-371"/>
+  <text text-anchor="start" x="5489.5" y="-377.8" font-family="Times,serif" font-size="14.00">Marin Kirshner</text>
+  <text text-anchor="start" x="5486" y="-351" font-family="Times,serif" font-size="10.00">2003</text>
+  <polygon fill="none" stroke="black" points="5484,-323 5484,-344 5580,-344 5580,-323 5484,-323"/>
+  <text text-anchor="start" x="5487" y="-329.8" font-family="Times,serif" font-size="14.00">Carson Kirshner</text>
+  <polygon fill="none" stroke="black" points="5477,-316 5477,-416 5587,-416 5587,-316 5477,-316"/>
+  </g>
+
+
+  <g id="edge102" class="edge">
+  <title>mike_kirshner:secondary_joiner&#45;&gt;bari_bettan_children</title>
+  <path fill="none" stroke="black" d="M5317,-556C5351.23,-521.77 5355.71,-508.27 5395,-480 5423.4,-459.57 5437.47,-465.58 5465,-444 5471.28,-439.08 5477.42,-433.51 5483.27,-427.67"/>
+  <polygon fill="black" stroke="black" points="5486.1,-429.78 5490.53,-420.16 5481.06,-424.92 5486.1,-429.78"/>
+  </g>
+
+
+  <g id="node107" class="node">
+  <title>liza_dansky</title>
+  <text text-anchor="start" x="5405" y="-591" font-family="Times,serif" font-size="10.00">1989</text>
+  <text text-anchor="start" x="5503" y="-591" font-family="Times,serif" font-size="10.00">1987</text>
+  <polygon fill="none" stroke="black" points="5403,-563 5403,-584 5479,-584 5479,-563 5403,-563"/>
+  <text text-anchor="start" x="5406" y="-569.8" font-family="Times,serif" font-size="14.00">Liza Dansky</text>
+  <text text-anchor="start" x="5483" y="-569.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="5501,-563 5501,-584 5556,-584 5556,-563 5501,-563"/>
+  <text text-anchor="start" x="5504" y="-569.8" font-family="Times,serif" font-size="14.00">Lori Star</text>
+  </g>
+
+
+  <g id="edge106" class="edge">
+  <title>ellen_dansky:s&#45;&gt;liza_dansky:ne</title>
+  <path fill="none" stroke="black" d="M5479,-721C5519.32,-680.68 5521.6,-633.44 5485.85,-592.33"/>
+  <polygon fill="black" stroke="black" points="5488.38,-589.92 5479,-585 5483.27,-594.7 5488.38,-589.92"/>
+  </g>
+
+
+  <g id="node109" class="node">
+  <title>maxx_dansky</title>
+  <text text-anchor="start" x="5579" y="-591" font-family="Times,serif" font-size="10.00">1987</text>
+  <polygon fill="none" stroke="black" points="5577,-563 5577,-584 5661,-584 5661,-563 5577,-563"/>
+  <text text-anchor="start" x="5580" y="-569.8" font-family="Times,serif" font-size="14.00">Maxx Dansky</text>
+  </g>
+
+
+  <g id="edge107" class="edge">
+  <title>ellen_dansky:s&#45;&gt;maxx_dansky:ne</title>
+  <path fill="none" stroke="black" d="M5479,-721C5507.85,-692.15 5528.02,-704.99 5563,-684 5610.5,-655.5 5635.71,-656.28 5661,-607 5663.63,-601.88 5665.9,-597.53 5666.11,-593.42"/>
+  <polygon fill="black" stroke="black" points="5669.2,-591.77 5662,-584 5662.79,-594.57 5669.2,-591.77"/>
+  </g>
+
+
+  <g id="node108" class="node">
+  <title>lori_star_children</title>
+  <text text-anchor="start" x="5613" y="-399" font-family="Times,serif" font-size="10.00">2018</text>
+  <polygon fill="none" stroke="black" points="5611,-371 5611,-392 5679,-392 5679,-371 5611,-371"/>
+  <text text-anchor="start" x="5614" y="-377.8" font-family="Times,serif" font-size="14.00">Simon Star</text>
+  <text text-anchor="start" x="5613" y="-351" font-family="Times,serif" font-size="10.00">2018</text>
+  <polygon fill="none" stroke="black" points="5611,-323 5611,-344 5679,-344 5679,-323 5611,-323"/>
+  <text text-anchor="start" x="5621.5" y="-329.8" font-family="Times,serif" font-size="14.00">Lev Star</text>
+  <polygon fill="none" stroke="black" points="5604,-316 5604,-416 5686,-416 5686,-316 5604,-316"/>
+  </g>
+
+
+  <g id="edge105" class="edge">
+  <title>liza_dansky:secondary_joiner&#45;&gt;lori_star_children</title>
+  <path fill="none" stroke="black" d="M5504,-556C5548.76,-511.24 5554.48,-494.99 5592,-444 5595.66,-439.02 5599.41,-433.83 5603.13,-428.58"/>
+  <polygon fill="black" stroke="black" points="5606.04,-430.52 5608.94,-420.33 5600.32,-426.49 5606.04,-430.52"/>
+  </g>
+
+
+  <g id="node111" class="node">
+  <title>brody_davis</title>
+  <text text-anchor="start" x="5782" y="-591" font-family="Times,serif" font-size="10.00">1987</text>
+  <polygon fill="none" stroke="black" points="5682,-563 5682,-584 5758,-584 5758,-563 5682,-563"/>
+  <text text-anchor="start" x="5685" y="-569.8" font-family="Times,serif" font-size="14.00">Brody Davis</text>
+  <text text-anchor="start" x="5762" y="-569.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="5780,-563 5780,-584 5868,-584 5868,-563 5780,-563"/>
+  <text text-anchor="start" x="5783" y="-569.8" font-family="Times,serif" font-size="14.00">Caroline Davis</text>
+  </g>
+
+
+  <g id="edge110" class="edge">
+  <title>ned_davis:s&#45;&gt;brody_davis:ne</title>
+  <path fill="none" stroke="black" d="M5859,-725C5859,-651.72 5816.36,-640.2 5765.26,-592.05"/>
+  <polygon fill="black" stroke="black" points="5767.61,-589.45 5758,-585 5762.74,-594.48 5767.61,-589.45"/>
+  </g>
+
+
+  <g id="node113" class="node">
+  <title>evan_davis</title>
+  <text text-anchor="start" x="5983" y="-591" font-family="Times,serif" font-size="10.00">1982</text>
+  <polygon fill="none" stroke="black" points="5889,-563 5889,-584 5959,-584 5959,-563 5889,-563"/>
+  <text text-anchor="start" x="5892" y="-569.8" font-family="Times,serif" font-size="14.00">Evan Davis</text>
+  <text text-anchor="start" x="5963" y="-569.8" font-family="Times,serif" font-size="14.00">__</text>
+  <polygon fill="none" stroke="black" points="5981,-563 5981,-584 6057,-584 6057,-563 5981,-563"/>
+  <text text-anchor="start" x="5984" y="-569.8" font-family="Times,serif" font-size="14.00">Ben Morgan</text>
+  </g>
+
+
+  <g id="edge112" class="edge">
+  <title>ned_davis:s&#45;&gt;evan_davis:ne</title>
+  <path fill="none" stroke="black" d="M5859,-725C5859,-652.42 5997.82,-640.2 5965.67,-592.91"/>
+  <polygon fill="black" stroke="black" points="5968.13,-590.38 5959,-585 5962.78,-594.9 5968.13,-590.38"/>
+  </g>
+
+
+  <g id="node115" class="node">
+  <title>mickey_davis_children</title>
+  <text text-anchor="start" x="6085" y="-615" font-family="Times,serif" font-size="10.00">2001</text>
+  <polygon fill="none" stroke="black" points="6083,-587 6083,-608 6165,-608 6165,-587 6083,-587"/>
+  <text text-anchor="start" x="6089.5" y="-593.8" font-family="Times,serif" font-size="14.00">Dylan Davis</text>
+  <text text-anchor="start" x="6085" y="-567" font-family="Times,serif" font-size="10.00">2003</text>
+  <polygon fill="none" stroke="black" points="6083,-539 6083,-560 6165,-560 6165,-539 6083,-539"/>
+  <text text-anchor="start" x="6086" y="-545.8" font-family="Times,serif" font-size="14.00">Connor Davis</text>
+  <polygon fill="none" stroke="black" points="6076,-532 6076,-632 6172,-632 6172,-532 6076,-532"/>
+  </g>
+
+
+  <g id="edge113" class="edge">
+  <title>ned_davis:primary_joiner&#45;&gt;mickey_davis_children</title>
+  <path fill="none" stroke="black" d="M5967,-725C5967,-678.2 6028.73,-714.77 6064,-684 6076.41,-673.17 6086.96,-659.13 6095.59,-644.98"/>
+  <polygon fill="black" stroke="black" points="6098.71,-646.58 6100.71,-636.18 6092.66,-643.06 6098.71,-646.58"/>
+  </g>
+
+
+  <g id="node112" class="node">
+  <title>caroline_davis_children</title>
+  <text text-anchor="start" x="5763" y="-399" font-family="Times,serif" font-size="10.00">2017</text>
+  <polygon fill="none" stroke="black" points="5761,-371 5761,-392 5839,-392 5839,-371 5761,-371"/>
+  <text text-anchor="start" x="5764" y="-377.8" font-family="Times,serif" font-size="14.00">Russel Davis</text>
+  <text text-anchor="start" x="5763" y="-351" font-family="Times,serif" font-size="10.00">2020</text>
+  <polygon fill="none" stroke="black" points="5761,-323 5761,-344 5839,-344 5839,-323 5761,-323"/>
+  <text text-anchor="start" x="5770" y="-329.8" font-family="Times,serif" font-size="14.00">Lyle Davis</text>
+  <polygon fill="none" stroke="black" points="5754,-316 5754,-416 5846,-416 5846,-316 5754,-316"/>
+  </g>
+
+
+  <g id="edge109" class="edge">
+  <title>brody_davis:secondary_joiner&#45;&gt;caroline_davis_children</title>
+  <path fill="none" stroke="black" d="M5800,-556C5832.01,-523.99 5829.52,-471.61 5820.42,-430.09"/>
+  <polygon fill="black" stroke="black" points="5823.82,-429.26 5818.12,-420.33 5817.01,-430.87 5823.82,-429.26"/>
+  </g>
+
+
+  <g id="node114" class="node">
+  <title>ben_morgan_children</title>
+  <text text-anchor="start" x="5951" y="-423" font-family="Times,serif" font-size="10.00">2013</text>
+  <polygon fill="none" stroke="black" points="5949,-395 5949,-416 6047,-416 6047,-395 5949,-395"/>
+  <text text-anchor="start" x="5960.5" y="-401.8" font-family="Times,serif" font-size="14.00">Elise Morgan</text>
+  <text text-anchor="start" x="5951" y="-375" font-family="Times,serif" font-size="10.00">2015</text>
+  <polygon fill="none" stroke="black" points="5949,-347 5949,-368 6047,-368 6047,-347 5949,-347"/>
+  <text text-anchor="start" x="5952" y="-353.8" font-family="Times,serif" font-size="14.00">Graham Morgan</text>
+  <text text-anchor="start" x="5951" y="-327" font-family="Times,serif" font-size="10.00">2018</text>
+  <polygon fill="none" stroke="black" points="5949,-299 5949,-320 6047,-320 6047,-299 5949,-299"/>
+  <text text-anchor="start" x="5961" y="-305.8" font-family="Times,serif" font-size="14.00">Cora Morgan</text>
+  <polygon fill="none" stroke="black" points="5942,-292 5942,-440 6054,-440 6054,-292 5942,-292"/>
+  </g>
+
+
+  <g id="edge111" class="edge">
+  <title>evan_davis:secondary_joiner&#45;&gt;ben_morgan_children</title>
+  <path fill="none" stroke="black" d="M5998,-556C6023.98,-530.02 6027.23,-490.61 6022.67,-454.49"/>
+  <polygon fill="black" stroke="black" points="6026.1,-453.78 6021.19,-444.4 6019.18,-454.8 6026.1,-453.78"/>
+  </g>
+
+  </g>
+
+  </svg>
